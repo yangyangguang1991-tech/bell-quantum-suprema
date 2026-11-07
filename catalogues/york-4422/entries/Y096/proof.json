@@ -1,0 +1,17 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002"
+  ],
+  "sha256": "094eeebfc08150d35fbf8587adbe46b9ff4b647c6c9a2d6a8adfa23da4f640e3",
+  "commands": [
+    "run_fixed_acceptance.py"
+  ],
+  "table_binding": {
+    "file": "literal_target.json",
+    "path": [
+      "literal"
+    ]
+  }
+}

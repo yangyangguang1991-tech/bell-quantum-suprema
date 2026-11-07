@@ -1,0 +1,76 @@
+{
+  "schema": "combined-mathematical-provenance-v1",
+  "title": "Exact Quantum Suprema and Certificates for Selected Bell Scenarios",
+  "edition": "1.0.0",
+  "indexed_entry_count": 228,
+  "count_interpretation": "228 indexed entries across three catalogues; repeated bipartite representatives are deliberately retained and are not additional inequivalent classes.",
+  "components": [
+    {
+      "catalogue": "sliwa-46",
+      "indexed_entries": 46,
+      "record": "catalogues/sliwa-46/PROVENANCE.json",
+      "sha256": "e1f7a4c522f8a3fa72ed42a6cfa1d1c8b0b52da38da8069b2f660a5c7260cabc",
+      "explanation": "catalogues/sliwa-46/PROVENANCE.md",
+      "explanation_sha256": "4c34be10f2f81761a1165df94d34e5056b436c28b0409761a197a6985108ecd8",
+      "selected_mathematical_file_tree_sha256": "f8b1ba86aa2566a0286e3a0304e041fafacd2fcda37db88d615c6f1f027014bf"
+    },
+    {
+      "catalogue": "six-by-three",
+      "indexed_entries": 7,
+      "record": "catalogues/six-by-three/PROVENANCE.json",
+      "sha256": "d7ba702bf649bae03d63958532efa9a48b784ee57057d6669bd6c09b996fa79e",
+      "explanation": "catalogues/six-by-three/PROVENANCE.md",
+      "explanation_sha256": "01bb3c94f134d83efea6a74687fb1c37568b7ff06a395efb3002c0fbd42aeb70",
+      "selected_mathematical_file_tree_sha256": "4cd15a0c8180512d5644274a9cfea06fa61a5d8ffc27d9008e7df960ad6b37c9"
+    },
+    {
+      "catalogue": "york-4422",
+      "indexed_entries": 175,
+      "record": "catalogues/york-4422/PROVENANCE.json",
+      "sha256": "c6c8dd98d5f9b6dec529a25e9d09b920d36b73471b122709852c0d529b5af62e",
+      "explanation": "catalogues/york-4422/PROVENANCE.md",
+      "explanation_sha256": "80c02ba968522af1518b49617e6f550adf16ffb4350074401babf18a89e2c6e5",
+      "selected_mathematical_file_tree_sha256": "f42c90d781e1ecc8de218c187845dc739b8048765cba92d6686c818748d6cbb5"
+    }
+  ],
+  "integration_files": [
+    {
+      "file": "verify.py",
+      "sha256": "95cfbdeaa019af2fc08da00025008436beec1b1904bab66515dd154e0c4e8f4e",
+      "origin": "Project integration implementation/data prepared for this combined edition",
+      "role": "Offline dispatch of the constituent verifiers and catalogue definition checks",
+      "source_inputs": "The distributed constituent definitions and the explicitly listed local crosswalk data; no external code-copy source is asserted."
+    },
+    {
+      "file": "verify_crosswalk.py",
+      "sha256": "60c43beabc0d81c23182d15238b3b2f5e5528047ad836cecf2846f9c7ad47f19",
+      "origin": "Project integration implementation/data prepared for this combined edition",
+      "role": "Exact local relabeling and coefficient identity checks",
+      "source_inputs": "The distributed constituent definitions and the explicitly listed local crosswalk data; no external code-copy source is asserted."
+    },
+    {
+      "file": "verify_files.py",
+      "sha256": "b5d906d3d38552223aae8c8221dd4bdcb88609036d4f2a20f1f011b99e7d0d49",
+      "origin": "Project integration implementation/data prepared for this combined edition",
+      "role": "Distribution file integrity checks, not a mathematical upper-bound proof",
+      "source_inputs": "The distributed constituent definitions and the explicitly listed local crosswalk data; no external code-copy source is asserted."
+    },
+    {
+      "file": "CROSSWALK.json",
+      "sha256": "227582be56152f92d0be0e76afda0575cdd82a113484b0e0ef78a76fe733d01f",
+      "origin": "Project integration implementation/data prepared for this combined edition",
+      "role": "Project-derived exact mapping of repeated bipartite representatives",
+      "source_inputs": "The distributed constituent definitions and the explicitly listed local crosswalk data; no external code-copy source is asserted."
+    }
+  ],
+  "ownership_basis": "Yang-Guang Yang confirmed that the predecessor project artifacts were organized by him and that he can license the project-created code, text and certificates, with no undisclosed rights holders or restrictions. This records the contributor declaration; it does not relicense identified third-party material or adjudicate external ownership.",
+  "method_of_identification": "Component source maps bind current file groups and predecessor artifacts by SHA256. Published definitions, prior strict theorems, local implementation/certificate provenance and third-party runtimes are separate categories.",
+  "runtime_scope": "Third-party scientific runtimes and dependencies are documented in THIRD_PARTY.md and the runtime inventory. The project-authored native interval verifier and its bundled compiler-support notices are additionally identified in the York component source map.",
+  "unknown_entries": [
+    "Y83",
+    "Y92",
+    "Y125",
+    "Y128"
+  ],
+  "priority_scope": "No worldwide-first or independent-invention conclusion follows from repository authorship or matching hashes."
+}

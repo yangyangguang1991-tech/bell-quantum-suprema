@@ -1,0 +1,9 @@
+{
+  "parts": [
+    {
+      "file": "verification-runtime.zip.part001",
+      "sha256": "3a3fcc4252a01150a4905ee67fb4842c37b80a7b6d4b49b218b00ecdaa29f89e"
+    }
+  ],
+  "sha256": "3a3fcc4252a01150a4905ee67fb4842c37b80a7b6d4b49b218b00ecdaa29f89e"
+}

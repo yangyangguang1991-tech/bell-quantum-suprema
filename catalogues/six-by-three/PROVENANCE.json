@@ -1,0 +1,483 @@
+{
+  "schema": "mathematical-provenance-v1",
+  "component": "six-by-three",
+  "edition": "1.0.0",
+  "predecessor": {
+    "id": "six-by-three-pre-consolidation",
+    "edition": "1.0.0",
+    "selected_file_tree_sha256": "4cd15a0c8180512d5644274a9cfea06fa61a5d8ffc27d9008e7df960ad6b37c9",
+    "digest_encoding": "SHA256 of compact sorted-key ASCII JSON mapping each listed mathematical/entry path to its SHA256; excludes runtime and publication-wide metadata"
+  },
+  "ownership_basis": "Yang-Guang Yang confirmed that the predecessor project artifacts were organized by him and that he can license the project-created code, text and certificates, with no undisclosed rights holders or restrictions. This records the contributor declaration; it does not relicense identified third-party material or adjudicate external ownership.",
+  "scope_limit": "Hashes identify the exact supplied artifacts and transfer history. They do not establish mathematical priority, independent invention, or rights in cited publications.",
+  "lineage_builders": [
+    {
+      "id": "initial-certificate-extraction",
+      "sha256": "7dbc8e6446869ea88ad48fb9129593eb4b05204f4645349e4a05059f92b3b225",
+      "role": "initial certificate extraction"
+    },
+    {
+      "id": "literal-tables-gram-extraction-and-strategies",
+      "sha256": "1b8538790d695135fdebd451f5ee4d4bf2df5afec82d4e1f03647fad958b1b35",
+      "role": "literal tables gram extraction and strategies"
+    },
+    {
+      "id": "standalone-proof-exposition",
+      "sha256": "5bfd5c1695be5202078e4e0b35e148182b0d86ef79e20f7077fad82747a47108",
+      "role": "standalone proof exposition"
+    }
+  ],
+  "entries": [
+    {
+      "entry": "00-positivity",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [],
+      "files": [
+        {
+          "path": "entries/00-positivity/definition.json",
+          "sha256": "f69d51df59ab9faba2eed59463fb25b61d7fa1abb51ece2826da708031dc712b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/00-positivity/proof.json",
+          "sha256": "cf33e7e76c07f3bf5719e4809c06ad05fc1da49f407d3367b88dd11fa786459d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/00-positivity/PROOF.md",
+          "sha256": "abcb2b69d9938a0ea5d3ac59ce4615f919baf4240e35c497889b921789589dc9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/00-positivity/README.md",
+          "sha256": "ed67d0bd586ec5a254fca9db4edbc1a12918583c37e64a6f16bb0927d2f4477d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/00-positivity/strategy.json",
+          "sha256": "199becd1588e7b8b1d6f51490257f5461a4e31f066cd4e594491f759849ea1d0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/00-positivity/verify.py",
+          "sha256": "c1a001fbd39d53992be8ad045931b310e8056d964937107d2e378037e63cfae0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "01-CHSH",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "CHSH1969"
+      ],
+      "files": [
+        {
+          "path": "entries/01-CHSH/definition.json",
+          "sha256": "949db5fe057adcf9cec10e8b73bfe9dbb6edee10cfc40d5a5a4ce3a5a7fffb75",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/01-CHSH/proof.json",
+          "sha256": "736d64b7ac01297d45ad985492875a3ee86670c5c9b7c5d4407ddcf2cbea88d2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/01-CHSH/PROOF.md",
+          "sha256": "7c1c4389601617b56f0d4c3f8917f6b7353b8fca38f16ea61398a5bd46ee45c3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/01-CHSH/README.md",
+          "sha256": "0cb9c0e876f70252699c926374f5cb68c1122a08a6119789eba2cb0093b201b7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/01-CHSH/REFERENCES.md",
+          "sha256": "606cc0cd98ec73fda348572bb47d24a2ac28a83704a17833939008bb7fd09bd9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/01-CHSH/strategy.json",
+          "sha256": "588297419be57c16ba58cbd502be1fc18f7abd4bdf5ea84c330189b05879de4e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/01-CHSH/verify.py",
+          "sha256": "c1a001fbd39d53992be8ad045931b310e8056d964937107d2e378037e63cfae0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/01-CHSH/REFERENCES.md",
+        "sha256": "606cc0cd98ec73fda348572bb47d24a2ac28a83704a17833939008bb7fd09bd9"
+      }
+    },
+    {
+      "entry": "02-I3322",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "CollinsGisin2004"
+      ],
+      "files": [
+        {
+          "path": "entries/02-I3322/definition.json",
+          "sha256": "442f87586355c3fd539ea624cf2b8d5c07aaa3ccfaf4803b5a06e623b83736ef",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/example.json",
+          "sha256": "94b0141dd79af8eb0faf98a0d7b847caf06f7401717d6c868ff9e19b737a42ef",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/proof.json",
+          "sha256": "8f408ab225fb6d9d69fcdafa1ee81d1c17aeab3b1087f28e98041b4ebb87d109",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/PROOF.md",
+          "sha256": "85a4c97120bb0739a7befbc2db393d0dba2172fd76998b7fa08482def749b31b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/README.md",
+          "sha256": "65f89b27a3d2569c202ce37ba37153469594c4c2b15613116f1c241b02cf0603",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/REFERENCES.md",
+          "sha256": "9e837dba8b6264a5608e037793de8b39c6123b5d9c94d5936430c7541d5916a6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/sequence.py",
+          "sha256": "5b78e8643efc0d2ecbccd93b1237adf76787379995e98b3b2427cc21d2bdc711",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/02-I3322/verify.py",
+          "sha256": "a0751a12c56e55924691b8f2b327828ebd1111a671ce8ea80262cf7ef5ff2eac",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/02-I3322/REFERENCES.md",
+        "sha256": "9e837dba8b6264a5608e037793de8b39c6123b5d9c94d5936430c7541d5916a6"
+      },
+      "argument_attribution": [
+        "Coladangelo2026",
+        "Pauwels2026"
+      ]
+    },
+    {
+      "entry": "03-I4322-1",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "BrunnerGisin2008"
+      ],
+      "files": [
+        {
+          "path": "entries/03-I4322-1/definition.json",
+          "sha256": "c1cf0a75b45c58fc06d35ee97f74ed9d39f1abfb0202db3a9c7c546349ca6c7f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/03-I4322-1/gram.json",
+          "sha256": "9d28e22e812c6e7703482d150d8a694ff3984c534bf092ccea3c7131be62c188",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/03-I4322-1/proof.json",
+          "sha256": "781bd22dd400edb0487780476762e8fa0e263f0b7e2a5a03e62badd815cb6a19",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/03-I4322-1/PROOF.md",
+          "sha256": "ade6557bffa3a9a9d12ee3631e504d2ebf5d60e840a41981c9db7eb1e8ae9fb3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/03-I4322-1/README.md",
+          "sha256": "878f350425e62445b34420b785b5434a93733013583d2d26736b282d6b140694",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/03-I4322-1/strategy.json",
+          "sha256": "f116abf1b7fb5a93809825bcd46b2c59aa58fca39611d1c85c642d3834ab0130",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/03-I4322-1/verify.py",
+          "sha256": "c1a001fbd39d53992be8ad045931b310e8056d964937107d2e378037e63cfae0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "04-I4322-2",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "BrunnerGisin2008"
+      ],
+      "files": [
+        {
+          "path": "entries/04-I4322-2/definition.json",
+          "sha256": "3b5dd64f54b11b811c8e462ddf3699977cc0ab8ca725b3d19a0261b590ccddaa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/04-I4322-2/gram.json",
+          "sha256": "dc4b23252f845df197273323e82f2f4687a2003c3d7ce2b260607fb757c42dc1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/04-I4322-2/proof.json",
+          "sha256": "eaf1dc83096f2ae71cf26550f1aff357273be91b26ace0bac34e6a0e37123b59",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/04-I4322-2/PROOF.md",
+          "sha256": "5d30161a7dbd0a71c8be42b8f3d5f54688fde20f308aed737dcbcc9c34224363",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/04-I4322-2/README.md",
+          "sha256": "c6ee659623d03e7ae1db831fa189ced04ccb282c084abc42c158a8fe1d431566",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/04-I4322-2/strategy.json",
+          "sha256": "8a6757756bca5a63a68da3e67434abf5149a6022b5e6ed2f545cafd5fa32d79a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/04-I4322-2/verify.py",
+          "sha256": "c1a001fbd39d53992be8ad045931b310e8056d964937107d2e378037e63cfae0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "05-I4322-3",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "BrunnerGisin2008"
+      ],
+      "files": [
+        {
+          "path": "entries/05-I4322-3/definition.json",
+          "sha256": "222c32918e744dc6bd482bb9acf071bb35348fa7ecbc135bb5f7218df386c507",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/05-I4322-3/proof.json",
+          "sha256": "9a1e970d48406e1d53a3c47236140b12394d6a306699c021d81e02f39077f051",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/05-I4322-3/PROOF.md",
+          "sha256": "d5d14f006c5f23f896a9e8c593ea69211e1be3e8c52c687966927fd87eba3277",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/05-I4322-3/README.md",
+          "sha256": "27cf3d517b027d54162ec922c2aa45612ad763b7420c7fba0f95683228c749d5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/05-I4322-3/strategy.json",
+          "sha256": "65dfceb439c158913ab3f14190c8d10e4e4c6d4cac7c841d327dab258a4d484c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/05-I4322-3/verify.py",
+          "sha256": "c1a001fbd39d53992be8ad045931b310e8056d964937107d2e378037e63cfae0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "06-I5322",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "JesusCruzeiro2023"
+      ],
+      "files": [
+        {
+          "path": "entries/06-I5322/definition.json",
+          "sha256": "7bc9819bd9fba8e416781d71b094970b7247a4cbb4c20896431fb6c0d5a8a50b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/06-I5322/proof.json",
+          "sha256": "5830365fedacd5cccefeca824965a48a09ed312677dfb9b020d02bb4cb635fe3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/06-I5322/PROOF.md",
+          "sha256": "69d31b93d29af180edcb8fb816e0b497c67c4f53b97504e4429dfc26ce17eb60",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/06-I5322/README.md",
+          "sha256": "13a978c84d387a7ae981105e59657dad721ecfc32926381c4375f5fa156666c3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/06-I5322/strategy.json",
+          "sha256": "3641e8154ef01ae1e58e0fc75d14eb64efdc86631f73f83d66d414fa71f20cd8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/06-I5322/verify.py",
+          "sha256": "c1a001fbd39d53992be8ad045931b310e8056d964937107d2e378037e63cfae0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    }
+  ],
+  "shared_mathematical_files": [
+    {
+      "path": "common/algebra.py",
+      "sha256": "03556f39b1fd7957fc4ec40da9a2cb0f358280145c321d17e58465d9cc8acb71"
+    },
+    {
+      "path": "common/census.py",
+      "sha256": "29ebc6b4bd04d760a5a67e7cb353246d835242d90469b8fb8d5897219ebc7096"
+    },
+    {
+      "path": "common/check_entry.py",
+      "sha256": "b87de30d64e452a6ed27c1942e95a5fc6fbcf8407213b85fd5c505923d633340"
+    },
+    {
+      "path": "common/classification.py",
+      "sha256": "7e935f6fdb1e9c76596f6961874eedfeecdc4e39df840ba22d665ded1a72d8ba"
+    },
+    {
+      "path": "common/matrices.py",
+      "sha256": "d92b7474364136e26a95cd1fc642f55733bbc1495ed825fc76b6f99576ef6b24"
+    },
+    {
+      "path": "common/positive.py",
+      "sha256": "ca8e240ea3f3e6d0719576a573e58a6756d25b343fe3d73abe0f525eeff8ec92"
+    },
+    {
+      "path": "common/quadratic.py",
+      "sha256": "9358da1e534bac017a14402b32171063cc158251d45b81820ee8d1f148b18ad2"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "eb4dfebe9b63f94aabe6decb83a375538d2542379fddfc94328ecb2aaad0ec0d"
+    }
+  ],
+  "shared_file_origin": "User-organized predecessor project implementation and generated reference data; mathematical source references and third-party runtimes are distinct.",
+  "mathematical_sources": {
+    "BrunnerGisin2008": {
+      "authors": "Nicolas Brunner, Nicolas Gisin",
+      "title": "Partial list of bipartite Bell inequalities with four binary settings",
+      "version": "arXiv v3",
+      "url": "https://arxiv.org/abs/0711.3362v3",
+      "role": "Traditional I4322 representatives and labels; not asserted to supply the exact unrestricted proofs distributed here"
+    },
+    "JesusCruzeiro2023": {
+      "authors": "J. Jesus, E. Zambrini Cruzeiro",
+      "title": "Tight Bell inequalities from polytope slices",
+      "url": "https://doi.org/10.1103/PhysRevA.108.052220",
+      "role": "Complete (6,3,2,2) classical classification; local implementation also checks its circuit enumeration"
+    },
+    "CollinsGisin2004": {
+      "authors": "Daniel Collins, Nicolas Gisin",
+      "title": "A relevant two qubit Bell inequality inequivalent to the CHSH inequality",
+      "url": "https://arxiv.org/abs/quant-ph/0306129",
+      "role": "I3322 definition and early restricted-dimension study"
+    },
+    "CHSH1969": {
+      "authors": "J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt",
+      "title": "Proposed Experiment to Test Local Hidden-Variable Theories",
+      "url": "https://doi.org/10.1103/PhysRevLett.23.880",
+      "role": "CHSH inequality"
+    },
+    "Cirelson1980": {
+      "authors": "B. S. Cirel'son",
+      "title": "Quantum generalizations of Bell's inequality",
+      "url": "https://doi.org/10.1007/BF00417500",
+      "role": "Exact unrestricted CHSH value"
+    },
+    "Coladangelo2026": {
+      "authors": "Andrea Coladangelo",
+      "title": "The I3322 Bell inequality requires infinite dimensions",
+      "version": "arXiv v2",
+      "url": "https://arxiv.org/abs/2609.06038v2",
+      "role": "I3322 path/Bellman argument and attainment/nonattainment theorems; mathematical argument acknowledged in the local exposition"
+    },
+    "Pauwels2026": {
+      "authors": "Jef Pauwels",
+      "title": "The quantum supremum of the I3322 Bell inequality is not attained in finite dimension",
+      "version": "arXiv v1",
+      "url": "https://arxiv.org/abs/2608.29734v1",
+      "role": "I3322 finite-dimensional supremum and path comparison; no external Lean code is included as a verification dependency"
+    },
+    "NPA2008": {
+      "authors": "M. Navascues, S. Pironio, A. Acin",
+      "title": "A convergent hierarchy of semidefinite programs characterizing the set of quantum correlations",
+      "url": "https://arxiv.org/abs/0803.4290",
+      "role": "Moment/SOS method, not a claim that a finite numerical relaxation is exact"
+    },
+    "Krawczyk1969": {
+      "authors": "R. Krawczyk",
+      "title": "Newton-Algorithmen zur Bestimmung von Nullstellen mit Fehlerschranken",
+      "url": "https://doi.org/10.1007/BF02234767",
+      "role": "Certified root isolation method"
+    }
+  },
+  "publication_citation_policy": "The entry references identify prior strict exact-value theorems; classification papers, numerical studies, general methods and software credits remain in the component-wide history and notices. A missing prior-theorem reference is not a priority claim.",
+  "specific_code_and_certificate_derivations": [
+    {
+      "file": "common/positive.py",
+      "sha256": "ca8e240ea3f3e6d0719576a573e58a6756d25b343fe3d73abe0f525eeff8ec92",
+      "predecessor_artifact_id": "local-exact-arithmetic-core",
+      "predecessor_artifact_version": "19",
+      "predecessor_member": "code/interval_ldl.py",
+      "predecessor_sha256": "4add1c6cf5bcea1115a6ada0397ff102440733934cac3ce6edb01ca1f7e5f2ac",
+      "relation": "adapted project arithmetic implementation, including verification assertions and interface changes"
+    },
+    {
+      "file": "common/quadratic.py",
+      "sha256": "9358da1e534bac017a14402b32171063cc158251d45b81820ee8d1f148b18ad2",
+      "predecessor_artifact_id": "local-exact-arithmetic-core",
+      "predecessor_artifact_version": "19",
+      "predecessor_member": "code/exact_core.py",
+      "predecessor_sha256": "f714aeceb98e2be01f37b2e0f08452f9d69d2c8d2742317906863fc76979b2b7",
+      "relation": "adapted project arithmetic implementation, including verification assertions and interface changes"
+    },
+    {
+      "file": "entries/03-I4322-1/gram.json",
+      "sha256": "9d28e22e812c6e7703482d150d8a694ff3984c534bf092ccea3c7131be62c188",
+      "predecessor_artifact_id": "local-exact-gram-corpus",
+      "predecessor_member": "exact_sos_4322a.json",
+      "predecessor_sha256": "e947d1557cdc98f4e636ae589baf1fd07c8e0a159b08ed0ea3a460cb2eac10a4",
+      "relation": "exact subset of predecessor JSON fields; all retained values compared exactly"
+    },
+    {
+      "file": "entries/04-I4322-2/gram.json",
+      "sha256": "dc4b23252f845df197273323e82f2f4687a2003c3d7ce2b260607fb757c42dc1",
+      "predecessor_artifact_id": "local-exact-gram-corpus",
+      "predecessor_member": "exact_sos_Fc.json",
+      "predecessor_sha256": "e719f2a7174b933da0945c133671099a50d9562787a29c68ed366ab8ed8e0fbc",
+      "relation": "exact subset of predecessor JSON fields; all retained values compared exactly"
+    }
+  ]
+}

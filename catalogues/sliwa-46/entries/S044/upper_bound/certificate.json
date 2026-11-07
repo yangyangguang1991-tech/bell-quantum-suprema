@@ -1,0 +1,149 @@
+{
+  "rows": [
+    {
+      "id": 44,
+      "local_bound": 8,
+      "quantum_value": "12*sqrt(2)-4",
+      "literal": "2A + 2a + 2AB - 2aB + AC - aC - 2BC + 2ABC + 2aBC + 2bC - AbC - 3abC + Ac - ac - 2Bc + 2ABc + 2aBc - 2bc + 3Abc + abc",
+      "overlaps": [
+        "1",
+        "0",
+        "0"
+      ],
+      "q_field_d": 2,
+      "method": "spectral_cube",
+      "elementary_coefficients": {
+        "1": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            true,
+            true,
+            true
+          ],
+          "degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            1,
+            0,
+            1
+          ]
+        },
+        "3": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            1,
+            0,
+            1
+          ]
+        },
+        "4": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            2,
+            1,
+            2
+          ]
+        },
+        "5": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            2,
+            1,
+            2
+          ]
+        },
+        "6": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            3,
+            1,
+            3
+          ]
+        },
+        "7": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            3,
+            1,
+            3
+          ]
+        },
+        "8": {
+          "leaves": [
+            "00",
+            "0120",
+            "0121"
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            true,
+            false
+          ],
+          "degrees": [
+            4,
+            2,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

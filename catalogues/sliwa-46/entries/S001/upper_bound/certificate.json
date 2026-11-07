@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "local_bound": 1,
+      "quantum_value": "1",
+      "literal": "A + B - AB + C - AC - BC + ABC",
+      "overlaps": [
+        "1",
+        "1",
+        "1"
+      ],
+      "q_field_d": 0,
+      "method": "elementary_operator"
+    }
+  ]
+}

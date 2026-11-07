@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+exports/
+verification_runs/
+/catalogues/york-4422/entries/*/certificate.zip*
+/catalogues/york-4422/runtime/*.part*
+
+# Large proof and runtime data are distributed with the complete release.
+/catalogues/york-4422/entries/*/certificate.zip*
+/catalogues/york-4422/runtime/*.part*
+
+# Corresponding-source archives are supplied in the complete release.
+/third_party/runtime/sources/

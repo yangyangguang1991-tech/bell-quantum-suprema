@@ -1,0 +1,293 @@
+{
+  "lopez_values": {
+    "1": "1",
+    "2": "4",
+    "3": "2\\sqrt{2}",
+    "4": "4\\sqrt{2}-2",
+    "5": "8\\sqrt{5}-13",
+    "6": "4\\sqrt{2}-1",
+    "7": "20/3",
+    "8": "20/3",
+    "9": "4\\sqrt{2}",
+    "10": "4",
+    "11": "4\\sqrt{2}",
+    "12": "4\\sqrt{2}",
+    "13": "4\\sqrt{2}",
+    "14": "4\\sqrt{2}",
+    "15": "6",
+    "16": "6.12883",
+    "17": "4\\sqrt{2}",
+    "18": "2(7-\\sqrt{17})",
+    "19": "5.7829",
+    "20": "6\\sqrt{2}-2",
+    "21": "5.95539",
+    "22": "6.19794",
+    "23": "\\frac{3}{2}\\left(\\sqrt{17}-1\\right)",
+    "24": "7.94016",
+    "25": "6.82421",
+    "26": "1+4\\sqrt{3}",
+    "27": "6.95465",
+    "28": "9.90976",
+    "29": "8\\sqrt{2}-2",
+    "30": "8\\sqrt{2}-2",
+    "31": "7.80425",
+    "32": "8.15161",
+    "33": "9.78988",
+    "34": "8.25142",
+    "35": "7.85524",
+    "36": "9.46139",
+    "37": "8\\sqrt{2}-2",
+    "38": "8\\sqrt{2}-2",
+    "39": "9.32530",
+    "40": "8.12983",
+    "41": "10.3680",
+    "42": "13.0471",
+    "43": "8\\sqrt{2}",
+    "44": "12\\sqrt{2}-4",
+    "45": "12\\sqrt{2}-4",
+    "46": "12.9852"
+  },
+  "vallins_values": {
+    "1": "1",
+    "2": "4",
+    "3": "2.8284",
+    "4": "4*sqrt(2)-2",
+    "5": "4.8885",
+    "6": "4.6569",
+    "7": "20/3",
+    "8": "6.6667",
+    "9": "5.6569",
+    "10": "4",
+    "11": "5.6569",
+    "12": "5.6569",
+    "13": "5.6569",
+    "14": "5.6569",
+    "15": "6.0000",
+    "16": "6.1289",
+    "17": "5.6569",
+    "18": "5.7538",
+    "19": "5.7829",
+    "20": "6.4853",
+    "21": "5.9555",
+    "22": "6.1980",
+    "23": "4.6847",
+    "24": "7.9401",
+    "25": "6.8243",
+    "26": "7.9282",
+    "27": "6.9547",
+    "28": "9.9098",
+    "29": "9.3137",
+    "30": "9.3137",
+    "31": "7.8043",
+    "32": "8.1516",
+    "33": "9.7899",
+    "34": "8.2515",
+    "35": "7.8553",
+    "36": "9.4614",
+    "37": "9.3137",
+    "38": "9.3137",
+    "39": "9.3253",
+    "40": "8.1298",
+    "41": "10.3677",
+    "42": "13.0470",
+    "43": "11.3137",
+    "44": "12.9706",
+    "45": "12.9706",
+    "46": "12.9852"
+  },
+  "literals": {
+    "1": {
+      "local_bound": 1,
+      "expression": "A+B-AB+C-AC-BC+ABC"
+    },
+    "2": {
+      "local_bound": 2,
+      "expression": "ABC+abC+aBc-Abc"
+    },
+    "3": {
+      "local_bound": 2,
+      "expression": "ABC+aBC+Abc-abc"
+    },
+    "4": {
+      "local_bound": 2,
+      "expression": "2A+BC-ABC+bC-AbC+Bc-ABc-bc+Abc"
+    },
+    "5": {
+      "local_bound": 3,
+      "expression": "A+B+aB+Ab-ab+C+aC-ABC-aBC+bC-AbC+Ac-ac+Bc-ABc-bc+abc"
+    },
+    "6": {
+      "local_bound": 3,
+      "expression": "A+B+AB+C+aC-ABC-aBC+bC-AbC+Ac-ac-Bc+aBc+bc-Abc"
+    },
+    "7": {
+      "local_bound": 4,
+      "expression": "3ABC+aBC+AbC-abC+ABc-aBc-Abc+abc"
+    },
+    "8": {
+      "local_bound": 4,
+      "expression": "AB+aB+Ab+ab+2ABC-2abC+ABc-aBc-Abc+abc"
+    },
+    "9": {
+      "local_bound": 4,
+      "expression": "AB+aB+Ab+ab+2ABC-2AbC+ABc-aBc+Abc-abc"
+    },
+    "10": {
+      "local_bound": 4,
+      "expression": "AB+aB+Ab+ab+AC-aC+BC+ABC-bC-abC+Ac-ac-Bc+aBc+bc-Abc"
+    },
+    "11": {
+      "local_bound": 4,
+      "expression": "2AB+2ab+ABC+aBC-AbC-abC+ABc-aBc+Abc-abc"
+    },
+    "12": {
+      "local_bound": 4,
+      "expression": "2AB+2ab+AC+aC-BC+aBC-bC-AbC+Ac+ac-Bc-aBc-bc+Abc"
+    },
+    "13": {
+      "local_bound": 4,
+      "expression": "2AB+2aB+ABC-aBC+AbC-abC+ABc-aBc-Abc+abc"
+    },
+    "14": {
+      "local_bound": 4,
+      "expression": "2AB+2aB+AC-aC+AbC-abC+Ac-ac-Abc+abc"
+    },
+    "15": {
+      "local_bound": 4,
+      "expression": "2AB+2aB+AC+aC-2BC+AbC-abC+Ac+ac-2Bc-Abc+abc"
+    },
+    "16": {
+      "local_bound": 4,
+      "expression": "A+a+AB+aB+AC+aC-2aBC+AbC-abC+ABc-aBc-Abc+abc"
+    },
+    "17": {
+      "local_bound": 4,
+      "expression": "A+a+AB+aB+AC+aC-ABC-aBC+2Abc-2abc"
+    },
+    "18": {
+      "local_bound": 4,
+      "expression": "A+a+AB+aB+AC+aC-2BC+AbC-abC+ABc-aBc+2bc-Abc-abc"
+    },
+    "19": {
+      "local_bound": 4,
+      "expression": "A+a+AB+aB+AC+aC-2BC+2bC-AbC-abC+ABc-aBc+Abc-abc"
+    },
+    "20": {
+      "local_bound": 4,
+      "expression": "A+a+AB-aB+Ab-ab+AC-aC-BC+ABC+aBC-bC+AbC+abC+Bc-ABc-aBc-bc+Abc+abc"
+    },
+    "21": {
+      "local_bound": 4,
+      "expression": "A+a+B+AB+b-ab+AC+aC+BC-2ABC-aBC+bC-AbC+ABc-aBc-Abc+abc"
+    },
+    "22": {
+      "local_bound": 4,
+      "expression": "A+a+B+AB+b-ab+C+AC+BC-2ABC-aBC-AbC+abC+c-ac-ABc+aBc-bc+Abc"
+    },
+    "23": {
+      "local_bound": 4,
+      "expression": "A+a+B-AB-aB+b-Ab-ab+AC-aC-ABC+aBC-AbC+abC+Bc-ABc-aBc-bc+Abc+abc"
+    },
+    "24": {
+      "local_bound": 5,
+      "expression": "A+B+aB+Ab+ab+C+aC-BC+2ABC-aBC-2abC+Ac+ac-2aBc-Abc+abc"
+    },
+    "25": {
+      "local_bound": 5,
+      "expression": "A+B+aB+Ab+ab+C+aC-BC+2ABC-aBC-2abC+Ac+ac-2ABc+Abc-abc"
+    },
+    "26": {
+      "local_bound": 5,
+      "expression": "A+B+AB+2ab+C+AC+BC-ABC-2abC+2ac-2aBc-2bc+2Abc"
+    },
+    "27": {
+      "local_bound": 5,
+      "expression": "2A+a+B-AB+Ab+ab+C-AC+2ABC-2aBC+bC-AbC+Ac+ac+Bc-ABc+bc-2Abc-abc"
+    },
+    "28": {
+      "local_bound": 6,
+      "expression": "A+a+AB-aB+AC-aC-BC+2ABC+aBC+bC-AbC-2abC+Bc-ABc-2aBc+bc-3Abc"
+    },
+    "29": {
+      "local_bound": 6,
+      "expression": "A+a+AB-aB+AC-aC-BC+2ABC+aBC+bC-AbC-2abC+Bc-3ABc+bc-Abc-2abc"
+    },
+    "30": {
+      "local_bound": 6,
+      "expression": "A+a+2AB-2aB+Ab-ab+AC-aC-BC+2ABC+aBC-bC+AbC+2abC+Bc-2ABc-aBc-bc+2Abc+abc"
+    },
+    "31": {
+      "local_bound": 6,
+      "expression": "A+a+B-aB+b-Ab+AC-aC+2aBC-AbC+3abC+Bc-2ABc-aBc-bc+2Abc+abc"
+    },
+    "32": {
+      "local_bound": 6,
+      "expression": "A+a+B-aB+b-Ab+2AC-2aC+2aBC+2abC+Ac-ac-Bc+2ABc+aBc+bc-Abc-2abc"
+    },
+    "33": {
+      "local_bound": 6,
+      "expression": "A+a+B-aB+b-Ab+C-aC+2aBC-bC+2AbC+abC+c-Ac-Bc+2ABc+aBc+Abc-3abc"
+    },
+    "34": {
+      "local_bound": 6,
+      "expression": "A+a+B-aB+b-Ab+C-aC-BC-2ABC+aBC-2bC+2AbC+2abC+c-Ac-2Bc-bc+Abc-2abc"
+    },
+    "35": {
+      "local_bound": 6,
+      "expression": "A+a+B-AB-2aB+b-2Ab-ab+AC-aC-ABC+aBC-2AbC+2abC+Bc-2ABc-aBc-bc+2Abc+abc"
+    },
+    "36": {
+      "local_bound": 6,
+      "expression": "2A+AB+aB+Ab+ab+AC+aC+BC-2ABC+aBC-bC+AbC-2abC+Ac+ac-Bc+ABc-2aBc-bc+2Abc-abc"
+    },
+    "37": {
+      "local_bound": 6,
+      "expression": "2A+AB+aB+Ab+ab+AC+aC+BC-3ABC-bC+2AbC-abC+Ac+ac-Bc+2ABc-aBc-bc+Abc-2abc"
+    },
+    "38": {
+      "local_bound": 6,
+      "expression": "2A+2AB+2aB+AC+aC-BC+ABC-2aBC+bC-2AbC+abC+Ac+ac-Bc+ABc-2aBc-bc+2Abc-abc"
+    },
+    "39": {
+      "local_bound": 6,
+      "expression": "2A+2B-AB+aB+Ab+ab+2C-AC+aC-BC+2ABC-aBC+bC-AbC-2abC+Ac+ac+Bc-ABc-2aBc+bc-2Abc+abc"
+    },
+    "40": {
+      "local_bound": 6,
+      "expression": "2A+2a+2B-AB-aB+Ab+ab+AC+aC+2BC-ABC-aBC+2bC-2AbC-2abC+Ac-ac-2ABc+2aBc+Abc-abc"
+    },
+    "41": {
+      "local_bound": 7,
+      "expression": "A+B+AB+C+aC-3ABC-aBC+bC-AbC-2abC+Ac-ac+Bc-4ABc+aBc-bc+Abc+2abc"
+    },
+    "42": {
+      "local_bound": 8,
+      "expression": "A+a+B+AB+b-ab+AC-aC+BC-2ABC-aBC-bC-AbC+4abC+2ac-ABc-3aBc+2bc-3Abc-abc"
+    },
+    "43": {
+      "local_bound": 8,
+      "expression": "2A+2B-AB+aB+Ab-ab+AC+aC+BC-2ABC-3aBC-bC+AbC+2abC+Ac-ac+Bc-3ABc+bc-4Abc+abc"
+    },
+    "44": {
+      "local_bound": 8,
+      "expression": "2A+2a+2AB-2aB+AC-aC-2BC+2ABC+2aBC+2bC-AbC-3abC+Ac-ac-2Bc+2ABc+2aBc-2bc+3Abc+abc"
+    },
+    "45": {
+      "local_bound": 8,
+      "expression": "3A+a+2AB-2aB+Ab-ab+2AC-2aC-2BC+2ABC+2aBC-2bC+2AbC+2abC+Ac-ac-2Bc+2ABc+2aBc+2bc-3Abc-abc"
+    },
+    "46": {
+      "local_bound": 10,
+      "expression": "3A+a+3B-2AB-aB+b-Ab-2ab+2AC-2aC+BC-3ABC+4aBC+bC-AbC+2abC+Ac+ac+2Bc-3ABc-aBc-2bc+4Abc+2abc"
+    }
+  },
+  "sources": {
+    "lopez": "https://arxiv.org/html/1611.01699v4",
+    "lopez_ref": "turn64view0",
+    "lopez_literal_ref": "turn56view0",
+    "vallins": "https://arxiv.org/pdf/1608.05641v5",
+    "vallins_ref": "turn65view0",
+    "retrieved_on": "2026-10-19",
+    "note": "Values and integer literal coefficients transcribed from primary-source retrieval in this review; source dates come from arXiv versions, not HTML rendering dates."
+  }
+}

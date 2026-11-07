@@ -1,0 +1,50 @@
+# Catalogue of the 46 Śliwa inequalities
+
+All values use the literal normalization in the corresponding entry. Each link opens only that entry’s upper-bound and attainment materials.
+
+- [S001](entries/S001/README.md): `q = 1.00000000000000000000...`; local bound `1`.
+- [S002](entries/S002/README.md): `q = 4.00000000000000000000...`; local bound `2`.
+- [S003](entries/S003/README.md): `q = 2.82842712474619009760...`; local bound `2`.
+- [S004](entries/S004/README.md): `q = 3.65685424949238019520...`; local bound `2`.
+- [S005](entries/S005/README.md): `q = 4.88854381999831757127...`; local bound `3`.
+- [S006](entries/S006/README.md): `q = 4.65685424949238019520...`; local bound `3`.
+- [S007](entries/S007/README.md): `q = 6.66666666666666666666...`; local bound `4`.
+- [S008](entries/S008/README.md): `q = 6.66666666666666666666...`; local bound `4`.
+- [S009](entries/S009/README.md): `q = 5.65685424949238019520...`; local bound `4`.
+- [S010](entries/S010/README.md): `q = 4.00000000000000000000...`; local bound `4`.
+- [S011](entries/S011/README.md): `q = 5.65685424949238019520...`; local bound `4`.
+- [S012](entries/S012/README.md): `q = 5.65685424949238019520...`; local bound `4`.
+- [S013](entries/S013/README.md): `q = 5.65685424949238019520...`; local bound `4`.
+- [S014](entries/S014/README.md): `q = 5.65685424949238019520...`; local bound `4`.
+- [S015](entries/S015/README.md): `q = 6.00000000000000000000...`; local bound `4`.
+- [S016](entries/S016/README.md): `q = 6.12886937028088722024...`; local bound `4`.
+- [S017](entries/S017/README.md): `q = 5.65685424949238019520...`; local bound `4`.
+- [S018](entries/S018/README.md): `q = 5.75378874876467890035...`; local bound `4`.
+- [S019](entries/S019/README.md): `q = 5.78291175320368637083...`; local bound `4`.
+- [S020](entries/S020/README.md): `q = 6.48528137423857029281...`; local bound `4`.
+- [S021](entries/S021/README.md): `q = 5.95545691869592065195...`; local bound `4`.
+- [S022](entries/S022/README.md): `q = 6.19795877917530100593...`; local bound `4`.
+- [S023](entries/S023/README.md): `q = 4.68465843842649082473...`; local bound `4`.
+- [S024](entries/S024/README.md): `q = 7.94010980585804757576...`; local bound `5`.
+- [S025](entries/S025/README.md): `q = 6.82426158357906179450...`; local bound `5`.
+- [S026](entries/S026/README.md): `q = 7.92820323027550917410...`; local bound `5`.
+- [S027](entries/S027/README.md): `q = 6.95465583289283534991...`; local bound `5`.
+- [S028](entries/S028/README.md): `q = 9.90976157830370033816...`; local bound `6`.
+- [S029](entries/S029/README.md): `q = 9.31370849898476039041...`; local bound `6`.
+- [S030](entries/S030/README.md): `q = 9.31370849898476039041...`; local bound `6`.
+- [S031](entries/S031/README.md): `q = 7.80426586393199667998...`; local bound `6`.
+- [S032](entries/S032/README.md): `q = 8.15156176200153060491...`; local bound `6`.
+- [S033](entries/S033/README.md): `q = 9.78985331827267299239...`; local bound `6`.
+- [S034](entries/S034/README.md): `q = 8.25149777408344437658...`; local bound `6`.
+- [S035](entries/S035/README.md): `q = 7.85527773162122474858...`; local bound `6`.
+- [S036](entries/S036/README.md): `q = 9.46143115243401064265...`; local bound `6`.
+- [S037](entries/S037/README.md): `q = 9.31370849898476039041...`; local bound `6`.
+- [S038](entries/S038/README.md): `q = 9.31370849898476039041...`; local bound `6`.
+- [S039](entries/S039/README.md): `q = 9.32534016501399318529...`; local bound `6`.
+- [S040](entries/S040/README.md): `q = 8.12978724208810808485...`; local bound `6`.
+- [S041](entries/S041/README.md): `q = 10.3677467254958420373...`; local bound `7`.
+- [S042](entries/S042/README.md): `q = 13.0470460764995110572...`; local bound `8`.
+- [S043](entries/S043/README.md): `q = 11.3137084989847603904...`; local bound `8`.
+- [S044](entries/S044/README.md): `q = 12.9705627484771405856...`; local bound `8`.
+- [S045](entries/S045/README.md): `q = 12.9705627484771405856...`; local bound `8`.
+- [S046](entries/S046/README.md): `q = 12.9851734963173733002...`; local bound `10`.

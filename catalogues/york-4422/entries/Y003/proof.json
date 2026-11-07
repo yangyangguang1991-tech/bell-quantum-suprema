@@ -1,0 +1,14 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip"
+  ],
+  "sha256": "a3295daa8cc4899d6850f4b093f7e1fc0fc9857d9db20953331d385d634f0b7c",
+  "commands": [
+    "verify.py"
+  ],
+  "table_binding": {
+    "file": "row.json",
+    "path": []
+  }
+}

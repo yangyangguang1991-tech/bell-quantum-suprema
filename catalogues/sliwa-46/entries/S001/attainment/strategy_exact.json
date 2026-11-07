@@ -1,0 +1,532 @@
+{
+  "schema": "sliwa-exact-arithmetic-dag-v1",
+  "id": 1,
+  "parameters": {
+    "kind": "radicals",
+    "q": "1",
+    "overlaps": [
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "additional_parameters": {
+    "u": "nonnegative sqrt(1-x^2)",
+    "v": "nonnegative sqrt(1-y^2)",
+    "w": "nonnegative sqrt(1-z^2)"
+  },
+  "observables": {
+    "A": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "a": [
+      [
+        "x",
+        "u"
+      ],
+      [
+        "u",
+        "-x"
+      ]
+    ],
+    "B": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "b": [
+      [
+        "y",
+        "v"
+      ],
+      [
+        "v",
+        "-y"
+      ]
+    ],
+    "C": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "c": [
+      [
+        "z",
+        "w"
+      ],
+      [
+        "w",
+        "-z"
+      ]
+    ]
+  },
+  "bell_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-7"
+    ]
+  ],
+  "characteristic_polynomial": "q**8 - 28*q**6 + 112*q**5 - 210*q**4 + 224*q**3 - 140*q**2 + 48*q - 7",
+  "binding": {
+    "multiplicity": 7,
+    "complementary_factor_coefficients_descending": [
+      "1",
+      "7*q"
+    ],
+    "parameter_intervals": {
+      "q": [
+        "1",
+        "1"
+      ],
+      "x": [
+        "1",
+        "1"
+      ],
+      "y": [
+        "1",
+        "1"
+      ],
+      "z": [
+        "1",
+        "1"
+      ]
+    }
+  },
+  "column_index_zero_based": 0,
+  "nodes": [
+    {
+      "op": "rational",
+      "args": [
+        "1"
+      ]
+    },
+    {
+      "op": "rational",
+      "args": [
+        "0"
+      ]
+    },
+    {
+      "op": "rational",
+      "args": [
+        "-7"
+      ]
+    },
+    {
+      "op": "rational",
+      "args": [
+        "7"
+      ]
+    },
+    {
+      "op": "parameter",
+      "args": [
+        "q"
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        3,
+        4
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        1,
+        1
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        5
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        1,
+        0
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        0,
+        1
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        10,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        7,
+        10,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        7,
+        7,
+        10,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        7,
+        7,
+        7,
+        10,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        10,
+        7,
+        7
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        7,
+        10,
+        7
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        2,
+        1
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        17
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        8,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        11,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        12,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        13,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        14,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        15,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        16,
+        2
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        18,
+        2
+      ]
+    },
+    {
+      "op": "add",
+      "args": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "op": "sqrt",
+      "args": [
+        27
+      ]
+    },
+    {
+      "op": "integer_power",
+      "args": [
+        28,
+        -1
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        8,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        11,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        12,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        13,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        14,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        15,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        16,
+        29
+      ]
+    },
+    {
+      "op": "multiply",
+      "args": [
+        18,
+        29
+      ]
+    }
+  ],
+  "unnormalized_vector_nodes": [
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18
+  ],
+  "normalization_squared_node": 27,
+  "state_vector_nodes": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "normalization_squared_rational_interval": [
+    "64",
+    "64"
+  ],
+  "proof": "P(t)=(t-q)^m R(t); for a Hermitian M with characteristic polynomial P, (M-qI)R(M)=0 by the spectral theorem. The positive lower bound on the chosen column norm proves a nonzero state. Each listed node is a finite exact scalar arithmetic operation; the eight state_vector_nodes are explicit exact state coordinates."
+}

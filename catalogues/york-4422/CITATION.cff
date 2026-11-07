@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Constituent catalogue provenance. For this combined edition, use ../../CITATION.cff and cite the original mathematical results credited in the relevant entries."
+title: "Exact Quantum Suprema and Certificates for the York (4,4,2,2) Bell Catalogue"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Yang
+    given-names: Yang-Guang
+    email: yangyangguang1991@gmail.com
+    orcid: "https://orcid.org/0000-0001-9236-7544"
+license: MIT

@@ -1,0 +1,403 @@
+{
+  "convention": "4F = sum H[i,j] A_i B_j; A_0=B_0=I; effects=(I+A_i)/2 and (I+B_j)/2.",
+  "scope": "Setting permutations, local outcome flips, party exchange and removal of wholly unused settings; scale one and zero added scalar. No identification of tripartite and bipartite classes.",
+  "definition_sha256": {
+    "catalogues/six-by-three/entries/00-positivity/definition.json": "f69d51df59ab9faba2eed59463fb25b61d7fa1abb51ece2826da708031dc712b",
+    "catalogues/six-by-three/entries/01-CHSH/definition.json": "949db5fe057adcf9cec10e8b73bfe9dbb6edee10cfc40d5a5a4ce3a5a7fffb75",
+    "catalogues/six-by-three/entries/02-I3322/definition.json": "442f87586355c3fd539ea624cf2b8d5c07aaa3ccfaf4803b5a06e623b83736ef",
+    "catalogues/six-by-three/entries/03-I4322-1/definition.json": "c1cf0a75b45c58fc06d35ee97f74ed9d39f1abfb0202db3a9c7c546349ca6c7f",
+    "catalogues/six-by-three/entries/04-I4322-2/definition.json": "3b5dd64f54b11b811c8e462ddf3699977cc0ab8ca725b3d19a0261b590ccddaa",
+    "catalogues/six-by-three/entries/05-I4322-3/definition.json": "222c32918e744dc6bd482bb9acf071bb35348fa7ecbc135bb5f7218df386c507",
+    "catalogues/six-by-three/entries/06-I5322/definition.json": "7bc9819bd9fba8e416781d71b094970b7247a4cbb4c20896431fb6c0d5a8a50b",
+    "catalogues/york-4422/entries/Y001/definition.json": "19979789499de167e03d6ba329bb2f76c827aad047cb888d8a803e272ff78247",
+    "catalogues/york-4422/entries/Y002/definition.json": "445b1b9623b9eebcfec44629c8f707d27600e87d8dc0a708b7bb0b579ca9696a",
+    "catalogues/york-4422/entries/Y003/definition.json": "9d631df75803abc96fe6c463f964e9cd6a39462bd106d5638a2fd2c3c5414c6b",
+    "catalogues/york-4422/entries/Y004/definition.json": "0959e9a5c73589f17a51adbd4ceb30b84e829713ffc88c6852f13b57b522d948",
+    "catalogues/york-4422/entries/Y005/definition.json": "8a1006f11dd42963dcb20f397c34eb276173aafe0307643843f6b4c8f4d8910d",
+    "catalogues/york-4422/entries/Y006/definition.json": "9ae6d16ceaf9f6e7bdb09ac96329c387db9778f3c8322420ff7f7a58660b3dfb",
+    "catalogues/york-4422/entries/Y007/definition.json": "a72cefd8fc8ac467ed06b1454f81a0b2745cdd4c879d77eddaea673893e84ed3",
+    "catalogues/york-4422/entries/Y008/definition.json": "61f3386205eabee4bb53f9da34cb36685a30b13ddce57f4ee6edf423791c42c5",
+    "catalogues/york-4422/entries/Y009/definition.json": "7aa7a0b281f0ae8ef0467dcce53697ca8a3cc38c172bc1a35f49e980e04ace97",
+    "catalogues/york-4422/entries/Y010/definition.json": "d868b29f405d4c726c84217c25d28e55ededd1aafa82a22b6facd3df04038c90",
+    "catalogues/york-4422/entries/Y011/definition.json": "5b503af7636f036666ee1ff23ee40a37104de11eea99812433ba8abeb793a83e",
+    "catalogues/york-4422/entries/Y012/definition.json": "cce96e76417ad8ebcfbe8bc978e02d4995aee9346e47d463f844e9b2380a1bcc",
+    "catalogues/york-4422/entries/Y013/definition.json": "fe7e1144b7bd3aaddf0bae3a7f6abc2ae5485879c725b5d7892e53303c759b82",
+    "catalogues/york-4422/entries/Y014/definition.json": "f026cd0b1b4b78c9dd636d14dc6105f8e6e544bed52b9ea3d870d5ec77f5a30e",
+    "catalogues/york-4422/entries/Y015/definition.json": "9228dace2bddb7842fd4aedb05717e196ab4b0f553356da01f40722172c94748",
+    "catalogues/york-4422/entries/Y016/definition.json": "5643b34a4654367d6dc2b6974056704e36bbbade8fb1f98a3163424cdc35185b",
+    "catalogues/york-4422/entries/Y017/definition.json": "35bb8339cb4475bbb39a1faae0bc5981ac448259e78d8abab244435342ce9d03",
+    "catalogues/york-4422/entries/Y018/definition.json": "1ee3a33576049ceed0aad1b6be0c3c6c1f15d73a15af5517bbbf44292d745720",
+    "catalogues/york-4422/entries/Y019/definition.json": "4ee399a994af37a4192d29dd9711cac579e44c447f29245da315aab8dcd6fd8d",
+    "catalogues/york-4422/entries/Y020/definition.json": "019d6d0eeb26d61419770b5afd3d3acf17201c47a56d63ea2aeff2f895218f30",
+    "catalogues/york-4422/entries/Y021/definition.json": "bdd14925f443301c1f164ce939d077a6c88faea3d5ef04740fe42d0a908a22a9",
+    "catalogues/york-4422/entries/Y022/definition.json": "9ad72807898db351063445ccb598e77c2842a65e23f1d9d0576cbf1b80346d17",
+    "catalogues/york-4422/entries/Y023/definition.json": "6cc584f6efc5caf6a96f10ba36bdb326aedb943b9927a2ace72d32a7e2c9a430",
+    "catalogues/york-4422/entries/Y024/definition.json": "0878fdfea484a3ffc80bbeba7a3d33d82846e4d0ec1761409bf54a027aadc67c",
+    "catalogues/york-4422/entries/Y025/definition.json": "333bcf0037079def3667c94337f8bf12c1b628079dc55ce78757221b05ab9ca8",
+    "catalogues/york-4422/entries/Y026/definition.json": "85c7a6b1065b60c2dcc92bb4c5aca8dc63c2d995e6622b17ec2a239b2d7b82c1",
+    "catalogues/york-4422/entries/Y027/definition.json": "89b4e5783d4ca25147db02bd50f7b64ca8c072df59711c367fcd8f5e21418e6e",
+    "catalogues/york-4422/entries/Y028/definition.json": "cc9861aa137c22c9d0ab4c7bec5f08a50d7591c0b209eb2b45e7d95720ba59af",
+    "catalogues/york-4422/entries/Y029/definition.json": "35a1929dadf4d8b258043a9c04bf4b48a92ee3cd332e92685e2f0923a5d0c4be",
+    "catalogues/york-4422/entries/Y030/definition.json": "b9ea3f3c6a2225451c5440f8140375aa06985b0ad6295043d7a9fd6f620a7adc",
+    "catalogues/york-4422/entries/Y031/definition.json": "16bbf1a06317a72c2300c1e9ec3aa7ba30e8f41481a7e5686656f298b63de9f9",
+    "catalogues/york-4422/entries/Y032/definition.json": "3b5a9a810b95c51636c6cf1d04bbfbbfbdcfba2a5d104f0e597b2149b17f8f67",
+    "catalogues/york-4422/entries/Y033/definition.json": "ace24478c30a90af234fd9be217fbd6a6908762707b34bb7835bc8cfd6126adc",
+    "catalogues/york-4422/entries/Y034/definition.json": "363a1c06814efb6d4dbdc06b5a2e9b5b634c54cbeafefaaeadca780f12931a7b",
+    "catalogues/york-4422/entries/Y035/definition.json": "3d2d31613952e4cb2ec6d578695b047067de88430e005c8c9467526a84fac642",
+    "catalogues/york-4422/entries/Y036/definition.json": "40cd2ad72b7a5ca076f6dc04405e927ae581e6291d1a9508c9c0009b478e7c88",
+    "catalogues/york-4422/entries/Y037/definition.json": "8eb72ddc44e024e670ae0f53d1b99e9781e65251de1c5cc51bfbb7499c73db94",
+    "catalogues/york-4422/entries/Y038/definition.json": "f78c08f35b2f7c4d4d2a900ac4503d83736aaa866aa1e3b2cc277ea31514f5c2",
+    "catalogues/york-4422/entries/Y039/definition.json": "2da4ef2dc40ffc0d2f465459d7dfb56217a0777d7b9c67a5e75958f9b415f2ec",
+    "catalogues/york-4422/entries/Y040/definition.json": "9c61714cf28448aabaf418763f6c6f8eb042c2618fe65616b6f3a63caeeabc29",
+    "catalogues/york-4422/entries/Y041/definition.json": "a906f229118d105a971f295469d92c71e516069bb4d9cfd755b593664c5af36d",
+    "catalogues/york-4422/entries/Y042/definition.json": "731d86bcb826a683f0e1514219a4e9e1ecafbfc07b6de35551755334b4a61901",
+    "catalogues/york-4422/entries/Y043/definition.json": "23268f2e3adaff6a3e5999d2784dae63c93d541f4f1648bd06f19c0c60df02ae",
+    "catalogues/york-4422/entries/Y044/definition.json": "5355793a085e36c228dfc930cde789079b17445cc0fa96a237908e6497ee4a32",
+    "catalogues/york-4422/entries/Y045/definition.json": "1fabc787c2824bc4ff8cf7a77b7ad4231352e5b530e9615967f75594abd278a8",
+    "catalogues/york-4422/entries/Y046/definition.json": "74a12eda144cace242fa3eaf4002bffdd27c5cdb0a7a95a857c46748ae95b664",
+    "catalogues/york-4422/entries/Y047/definition.json": "84b10b6c6529c694ffed2d43d90a5a992eb0093ae152362bae4b877d724baa88",
+    "catalogues/york-4422/entries/Y048/definition.json": "d2065758b4cc9961b24e591408a37ddd6c4460139f99370361aeacee36c2450c",
+    "catalogues/york-4422/entries/Y049/definition.json": "4d9cac7cafca80b55dc7c7a98638f5a543d2fc9e3956706edf9db038f4cf2c99",
+    "catalogues/york-4422/entries/Y050/definition.json": "4f4526fb940dc16da9036da1023cf6c5feee8754e5f1ea63e4164d1f53367da2",
+    "catalogues/york-4422/entries/Y051/definition.json": "0ae985255d65953deeba86736eda1321b8d7f172414c7d9b1a02c89405e18b84",
+    "catalogues/york-4422/entries/Y052/definition.json": "ee41010b9ea125df9922433c2f733a6e21137f892e5720c7bdd9a5728be8da11",
+    "catalogues/york-4422/entries/Y053/definition.json": "1928cabfa3048732e90e5a0c269ad48a83990393ca8716d2631c180054b2f85b",
+    "catalogues/york-4422/entries/Y054/definition.json": "c1e603db559610510028123ab57319d3215edbce6fb0edc041ffbd8b34016f85",
+    "catalogues/york-4422/entries/Y055/definition.json": "337edaea8d0bb40d60762bdbac85c7ae0a1604ee4545a1f2dd6dddb5d2f800cb",
+    "catalogues/york-4422/entries/Y056/definition.json": "e188f0b30e50e7aa22e5904979778c08339fe70bd8e055e35b0fe66c8341e78f",
+    "catalogues/york-4422/entries/Y057/definition.json": "282e9253920c2f35d6c75333233f7118035c1786df1471addb91438f8770b920",
+    "catalogues/york-4422/entries/Y058/definition.json": "835af9b1f40463ca05c1dac62124be66a70c50ce46fd64a5dba3e3bd12cda72e",
+    "catalogues/york-4422/entries/Y059/definition.json": "5beb07b03aa3e3326461e85c67fe94227a886119b6f7f612d556ac3a270f2f34",
+    "catalogues/york-4422/entries/Y060/definition.json": "221d37a12c7934f0cbf83f1f9b3520a7dee49baf27bd3c05dd1a68fa50dd0085",
+    "catalogues/york-4422/entries/Y061/definition.json": "b04fe4afd9e947cef3752d280fad29721dd36b8a9438ce08123c18ef072a7645",
+    "catalogues/york-4422/entries/Y062/definition.json": "eb00d9850db2edc8b0a7d136cc99a2fd7fa4c8ff472fa60ea0a2e9b8e4d6618f",
+    "catalogues/york-4422/entries/Y063/definition.json": "b1de235c81f6574acb80282086d6984729c2fa171854ab99ba0a8fdaabc00da9",
+    "catalogues/york-4422/entries/Y064/definition.json": "12f3b6c3e59006a1885c0cecf61fd5476ba5cf1476eb95dea4dc93c9bc569a9d",
+    "catalogues/york-4422/entries/Y065/definition.json": "9e7ef669dc0d064da25a5e3d40d8e155388c238e8073b8c227dde33b886077e1",
+    "catalogues/york-4422/entries/Y066/definition.json": "1fd890bba52efea618b0f971ef5859fe15911d7e2c1b3dc2651480334d5bb2a4",
+    "catalogues/york-4422/entries/Y067/definition.json": "c0db7db9c86515ac23c1a49b97b8e70061aa31be8b6789a36110db4985eca800",
+    "catalogues/york-4422/entries/Y068/definition.json": "5a8870cd6dbb55fa615744e6b3cb7568c07fdbab9943bc5d47b8e1e94c546ae8",
+    "catalogues/york-4422/entries/Y069/definition.json": "bd8415cbf2e89fac6f416f3fe83e2b85e7f25aef105bb8cf61c57950de444f7b",
+    "catalogues/york-4422/entries/Y070/definition.json": "32be2c33843510ee63aaeb0674d6d63588bbb42b162166e06304153793ea62ce",
+    "catalogues/york-4422/entries/Y071/definition.json": "e81426a2d613cdb472e759750ad84b235a9301b3f6819847cc97ab2cf4f714dd",
+    "catalogues/york-4422/entries/Y072/definition.json": "846e9c50ba1a40e05a09cfd51beb79779f58d6cb571cc5391c4f4979c93a169c",
+    "catalogues/york-4422/entries/Y073/definition.json": "0ab8e18e41d1f36954aba72cd5ee14216b55a8e9fbd3d1164d7d8abf738617ad",
+    "catalogues/york-4422/entries/Y074/definition.json": "9688342d288571d207805709faec71c70b0d210df1f000b0a3f6f239cf6a310f",
+    "catalogues/york-4422/entries/Y075/definition.json": "c367abc1aff8881c30b68c617e0bb8e9ce929168faf50ecff794f97464538298",
+    "catalogues/york-4422/entries/Y076/definition.json": "0171f2e3421eb6c8632006f13d3273f63575dbdbeb32f7262acda7a790058745",
+    "catalogues/york-4422/entries/Y077/definition.json": "9d4802e15f33c48e09990f895017cdb2c5c0da37e9f52cd0cc25fb9661db830f",
+    "catalogues/york-4422/entries/Y078/definition.json": "f47be452e53031340d105884f44ea6840897237b45739c973b10d8516411e303",
+    "catalogues/york-4422/entries/Y079/definition.json": "1b1c3071cac9d53034438e16e4e29e4d95a7947846340f14372cdea3bbad643e",
+    "catalogues/york-4422/entries/Y080/definition.json": "1fcd59d3cbc3d34688e1098e10d47596bbaac3531b9ce9588aca85696fec124c",
+    "catalogues/york-4422/entries/Y081/definition.json": "53b008cba58c0a86bdb68e4f08cc6dd714910a9093355f04bf6600942a59270f",
+    "catalogues/york-4422/entries/Y082/definition.json": "7274ad61594e37e714702cc1641b79851002eb0e251c2e65d660fd1024d8e80d",
+    "catalogues/york-4422/entries/Y083/definition.json": "e621b5a48a43348748537ac51afa535e336a88fc80eb92851273c16c23fc0a61",
+    "catalogues/york-4422/entries/Y084/definition.json": "6172cffb2521139f540cdb425e8cfc2d8f72004151b3ea383d6c2dbf8f298015",
+    "catalogues/york-4422/entries/Y085/definition.json": "65d48e06dae6cc936334f6eeb0e9d94d804a35dbfef5f254505abdad36394785",
+    "catalogues/york-4422/entries/Y086/definition.json": "4af480dc7365b09da5e6db3eb7bd02058f0d9af35c3b78358b0e6553cfd3be4c",
+    "catalogues/york-4422/entries/Y087/definition.json": "30956107236ab3462b3603ebe4391167906680746f442edd6def5b85229dd7d4",
+    "catalogues/york-4422/entries/Y088/definition.json": "9b70f71039d21e3276b40a71b67721de5a375c3a2854ac0c8b8370b9cb1f30ea",
+    "catalogues/york-4422/entries/Y089/definition.json": "733fbb56222db6138fbdba3a686f840d7e85b28be617f95acc7963d063bcf04d",
+    "catalogues/york-4422/entries/Y090/definition.json": "2032df3a4ae6f2c7ba0e2594a6ea3af1ac19360a8145fb7f7646d9cf1e82133c",
+    "catalogues/york-4422/entries/Y091/definition.json": "f72bc0dc0265c8243377541f934099010c3c11b66faea5efc7bb6e4e218d87af",
+    "catalogues/york-4422/entries/Y092/definition.json": "9405a94578bc67fcc2fb844ed1af225b2e996d755cd8f31b3d57cdd4015d03f5",
+    "catalogues/york-4422/entries/Y093/definition.json": "afe8a60f10b6c31479c5e42c9884ebda3158c0133717a09c848513e9ff688282",
+    "catalogues/york-4422/entries/Y094/definition.json": "0910d2df910460f91284b76aea78e308c6e7b17184a80ab1b14f6bd350676b15",
+    "catalogues/york-4422/entries/Y095/definition.json": "efeefbbe40812cdc679db7036546004fc8fec9f651e96682441b0186b8931e70",
+    "catalogues/york-4422/entries/Y096/definition.json": "00d84d0cd8ffa886167b273e456ac979dd6dbfd9b6847844241c1bef739483c7",
+    "catalogues/york-4422/entries/Y097/definition.json": "579f2a6fbf0288638d53f9182d94654b64cd713360518b5f65bd5696336d154a",
+    "catalogues/york-4422/entries/Y098/definition.json": "3993e0556423bdd5bc9a321cb5ce09b806601fd3e68d73143d784475542a5ef2",
+    "catalogues/york-4422/entries/Y099/definition.json": "321589d44c770c84a1ce0931bc92b751ce698c5704c599e97859a845f78c9034",
+    "catalogues/york-4422/entries/Y100/definition.json": "1e67b8416d4d0786ae18d45eed7af2909356e764f9472d8879608489d95017e5",
+    "catalogues/york-4422/entries/Y101/definition.json": "f38bbb9ba36784183f68d6d896fe77fa26088ae2c3763d67ae6adc6da4951bc4",
+    "catalogues/york-4422/entries/Y102/definition.json": "588e9aa8b57da5bf617c46239b879a972e1eb091be69276d43f2d9ff6693438b",
+    "catalogues/york-4422/entries/Y103/definition.json": "73ea64c94bec5a150dae84c2c4032229bdccf672a930828362c34611877c6485",
+    "catalogues/york-4422/entries/Y104/definition.json": "ab352243a35636d687a50b68148e99f67c7a1e7b7b7a8512b53545388b0d3705",
+    "catalogues/york-4422/entries/Y105/definition.json": "07c593cd45262bb31ee488ace4b7cdf4c65c69c55eeca613567f3d75385ed9d4",
+    "catalogues/york-4422/entries/Y106/definition.json": "8246ad710e77821e48af1da29ab41329c303bb0a236f8c09858d648c6b81d0d6",
+    "catalogues/york-4422/entries/Y107/definition.json": "e286372ac02e7fa0d45efa25b9386782a006684f574e7294ce6bc944e5aadd4b",
+    "catalogues/york-4422/entries/Y108/definition.json": "9836f0096e039b85b64f6c52075792217fb0e53fd5625b866fa26203c62e1fa9",
+    "catalogues/york-4422/entries/Y109/definition.json": "d85bc736995e04f58bee6f548e503e31c84729152cf6109b937f019e180be090",
+    "catalogues/york-4422/entries/Y110/definition.json": "e18058001f57980a7e14d50187c4b2cf54a083fa1c22dd9431b7a80c92e760fa",
+    "catalogues/york-4422/entries/Y111/definition.json": "79dc61321955e979dc4d31104f0cedc36b0cc4b636e848d97130ffee3a98af5e",
+    "catalogues/york-4422/entries/Y112/definition.json": "e10823e13f4af163dd7e544c049b03ed1d8eb3ef3dd79c27f618dc6714750e19",
+    "catalogues/york-4422/entries/Y113/definition.json": "7a42197924f0eb28ca7cc38dcd6277e2d312b75ece3016f42082155ca658a4a3",
+    "catalogues/york-4422/entries/Y114/definition.json": "a032bf82742d8f9a5f87a83178faccc2708bb08c5c32fe7f73e89807f556701c",
+    "catalogues/york-4422/entries/Y115/definition.json": "e2ccd55b123cde7a2c70de1a9910d4b63af18019e0b08b6820dddef391ff284d",
+    "catalogues/york-4422/entries/Y116/definition.json": "05b1cd96e28ef30a4d45c5ec441b4994fbf2e7ee5097ab12da5c67fe833219a3",
+    "catalogues/york-4422/entries/Y117/definition.json": "4c2adbeb1da6f3b5918f96a88080534ed19da3e8bb76bcd775e83ccd257b9f16",
+    "catalogues/york-4422/entries/Y118/definition.json": "28bad776675f4393b3ca352d04295f960c2265aea8e5563d6538210cc8d46e85",
+    "catalogues/york-4422/entries/Y119/definition.json": "e67c73b4b2553a2ceadd50b3f18ec1fef665b6e20d049604fdd8ff24dad18e0c",
+    "catalogues/york-4422/entries/Y120/definition.json": "c06e8b0e91d50f5c8f498e232527e0e0839bd6182ee8336c0f39c1c68b4f8377",
+    "catalogues/york-4422/entries/Y121/definition.json": "a6f20c16cca2853dac62cae2d23debdec9339382835018448e05cd65d3e46945",
+    "catalogues/york-4422/entries/Y122/definition.json": "49221915c6dae2695b89cb53ccb3b266920ae7756478faf7986f00ff0ee267b4",
+    "catalogues/york-4422/entries/Y123/definition.json": "77c7f0957b0bdc40263c447db26a0abf3aa6324e24c63e34e917ddfa17556a1c",
+    "catalogues/york-4422/entries/Y124/definition.json": "0536e40a1eec41d4042f2d310e0ef5b1787184e73a0dc02617ff835ea99bafc9",
+    "catalogues/york-4422/entries/Y125/definition.json": "beb63505e0ebcbbb7c935e2aab62f2ad1511a563ba8b79d892dc171d7046f935",
+    "catalogues/york-4422/entries/Y126/definition.json": "2089fe1adf16ce934a6be63fc580b98ed4d2ea669b8e516e377136ff5a5187f5",
+    "catalogues/york-4422/entries/Y127/definition.json": "e3add956754df81b96eaa0e124d09b0f0a39ff210abebfeac43f84fdc264d56a",
+    "catalogues/york-4422/entries/Y128/definition.json": "335f5ff800737a758fd05e452c2faa5fe622ad1e8d4cd69b9be32ba11f7456a1",
+    "catalogues/york-4422/entries/Y129/definition.json": "a64ddbdd6e342232d60646865245308751c29a44e36adc4acc4a4941c023bb5d",
+    "catalogues/york-4422/entries/Y130/definition.json": "0a9194976148d74994f1ce4793ece492b41994fbbca49d21cb46cc899ee6d647",
+    "catalogues/york-4422/entries/Y131/definition.json": "5e0b58cb114a726b5b8f2ca5c07b379a2fa03ff16121d24a1f480946be5fa7d4",
+    "catalogues/york-4422/entries/Y132/definition.json": "0e4161d740d06f46d2d521edc4ba8ea1ded788e839e0d02e2fe20562f4aa3a55",
+    "catalogues/york-4422/entries/Y133/definition.json": "56e0ad633fad532936937ecfb4c6fbe151ecf4bc34fc8867f2ccd9cfdbe7f0b1",
+    "catalogues/york-4422/entries/Y134/definition.json": "42e64edc89fda45d45f125edac5bf130892f0ac3f1815367762e539b5bf2bb6d",
+    "catalogues/york-4422/entries/Y135/definition.json": "1ba57d7c2eb952832281dd813f83873b9b890fd0c3edb94d19c4a6c443b9902c",
+    "catalogues/york-4422/entries/Y136/definition.json": "da27a17bb9e39c3d928dce189cb8085ce2d8377057a6d9139f97072a7cebc52a",
+    "catalogues/york-4422/entries/Y137/definition.json": "17ea1de98ee4f9faa984ab93a6d61cc36f966c73109a419ce320502e72cfbef4",
+    "catalogues/york-4422/entries/Y138/definition.json": "b6109b394c19c16d87d7307988079b19de87d2e1fe906e93bc2fccd97630523c",
+    "catalogues/york-4422/entries/Y139/definition.json": "c1163be3ee1c3c11e7036d846865917fc32f7f0a85b133ab0eda48a0514be740",
+    "catalogues/york-4422/entries/Y140/definition.json": "e5d4100e1bfbed5dddaf84858c082aaea0e8203abb937b590b8572fef3054553",
+    "catalogues/york-4422/entries/Y141/definition.json": "034ef40d54503d70db6c105cda7200ef3c47891f95b62d119dd929aa6eb35c47",
+    "catalogues/york-4422/entries/Y142/definition.json": "541e701b51d282e9fee9c2b377b18be59876a53c91b4072eba744c44443dfd48",
+    "catalogues/york-4422/entries/Y143/definition.json": "193e24c3a3a5a8326b9eb24b3c39624f7f22e9785be6d950e6b91523f2d16c1c",
+    "catalogues/york-4422/entries/Y144/definition.json": "6b32b333688cc5878883a0258bbf8a93aeec1c7fa54a327ad267f0a76a15ffed",
+    "catalogues/york-4422/entries/Y145/definition.json": "0a0ce758470b047059a8bd50e776faed7c0d298c534f10c1645c65370c886c32",
+    "catalogues/york-4422/entries/Y146/definition.json": "928c10d7b962745f57fb15498d8b01317276764e230809f2671faa4337c69583",
+    "catalogues/york-4422/entries/Y147/definition.json": "595818842b40010e1d7cbdcca91d916b7acb470b3101079b17f0ffeee715430c",
+    "catalogues/york-4422/entries/Y148/definition.json": "141d2d2140aa797199bf811a759e2255e79ce42a0b15335d4a790eb5dca267a0",
+    "catalogues/york-4422/entries/Y149/definition.json": "d6fb13c464c4f082474e42e3dbe14155b495fdf85f149deb9442a78a8db3fc2a",
+    "catalogues/york-4422/entries/Y150/definition.json": "d3528320c08b3eba3c94eb9f47da15fb3e029143ce73fa3fa3a2789391cd7cca",
+    "catalogues/york-4422/entries/Y151/definition.json": "b742eb2f16aa1c1c02e6b3404d97395c1da7d1716ea409ff522cf314538ce157",
+    "catalogues/york-4422/entries/Y152/definition.json": "05877ebfe159d3f47d736afffcce1cbdd33b7a0579b6b0fcf8bcbb6e8b04592e",
+    "catalogues/york-4422/entries/Y153/definition.json": "75948471d0cfb1f21ac0d1858c2db998beb55b4cd1e4006f666ba02791c1346f",
+    "catalogues/york-4422/entries/Y154/definition.json": "57c91fdf08edd2f9d11903dc5e05d23ab235000ed98c2a0e1529865823f0b49f",
+    "catalogues/york-4422/entries/Y155/definition.json": "5235950b74a5bd01f2bc50c4880029bba7de1deaaa3d6c98e21c16b797488742",
+    "catalogues/york-4422/entries/Y156/definition.json": "e5c0ee46201ef6d94d2b6992246e063d3b4265fce20ea8231be025dd107d2b13",
+    "catalogues/york-4422/entries/Y157/definition.json": "65c991ae08de1f7b440e82eeee2d9f815b00f8838c6a5d57607e59379355d696",
+    "catalogues/york-4422/entries/Y158/definition.json": "70f3111e290ed7034a4004da665a7600241dc21e7d436e50d5f8bb85f364ae36",
+    "catalogues/york-4422/entries/Y159/definition.json": "7241d30715ec31cdd9b7eaca6332b3732dc732491733ea410c88acc63d0c4e31",
+    "catalogues/york-4422/entries/Y160/definition.json": "04a8afd85302e91bb7770df3c70299b73c4b9b9948cfe16814b4121be9968fce",
+    "catalogues/york-4422/entries/Y161/definition.json": "599cd75b434912717c8060966ccfb8433516db5df3a8f0ed1ff4b5ada8d169f6",
+    "catalogues/york-4422/entries/Y162/definition.json": "683bec636a59b5657663c54397bd72e37d15dcdd69f9002d1ffa8997151bad78",
+    "catalogues/york-4422/entries/Y163/definition.json": "887bd2d647b234dcb3d30dbcae692f8180244344b558a9488ccfa881d116df9c",
+    "catalogues/york-4422/entries/Y164/definition.json": "9b109b7872cdd6cd17a4517ed150e3633a462f24d7406e3ef1ae868c3c822207",
+    "catalogues/york-4422/entries/Y165/definition.json": "7617cba8fe3442662209ce1d409424b5b22ec297bf4f79e5bb6662e77ead9cda",
+    "catalogues/york-4422/entries/Y166/definition.json": "b3e4b3926c2f99132697acdcf1b8d2a233c5e82ba168514a8b23224f06d7f586",
+    "catalogues/york-4422/entries/Y167/definition.json": "bc022c02c40176a4930fc710678b244bbfddc0499e069a35a19de6def5e021fa",
+    "catalogues/york-4422/entries/Y168/definition.json": "0032725f3655a6025aa54cd203ba7f2a5be17e5ea39f29e86018f9cab16dbb69",
+    "catalogues/york-4422/entries/Y169/definition.json": "24ad08b8b75d7504d440b829df993c552cab9e832c96fec7b3b8e7e2f9155a5c",
+    "catalogues/york-4422/entries/Y170/definition.json": "09ef62824d651c6ae434ac2cbe8d30692ce087cd72a57a02bbf6f3ebcaa65eba",
+    "catalogues/york-4422/entries/Y171/definition.json": "44d9a0d6e6f4d6145244ec7965bd550b24814ca8fa5c1ff6bc4e1b862b2df0a4",
+    "catalogues/york-4422/entries/Y172/definition.json": "1f82fcc3aa9750dd4fe03243974ae821ef3acfdacc91b98b90c5e52fca1b24ac",
+    "catalogues/york-4422/entries/Y173/definition.json": "951c12aae639a9c90e5389e5636ef2bf6982aec608b4464acfeae330d4c8815d",
+    "catalogues/york-4422/entries/Y174/definition.json": "10855ee9cda091f8543f5148f369d754dae4baf7fdfa72d193e845bee40f8959",
+    "catalogues/york-4422/entries/Y175/definition.json": "00a13bda48c8606ad258a8ef29c6f7d60dc3d6580d6db5dbba02cbb0920af1c9"
+  },
+  "matches": [
+    {
+      "six_by_three_entry": "00-positivity",
+      "york_number": 1,
+      "map": {
+        "party_exchange": false,
+        "target_active_alice": [
+          1
+        ],
+        "target_active_bob": [
+          1
+        ],
+        "source_alice_indices": [
+          1
+        ],
+        "alice_signs": [
+          1
+        ],
+        "source_bob_indices": [
+          1
+        ],
+        "bob_signs": [
+          1
+        ]
+      }
+    },
+    {
+      "six_by_three_entry": "01-CHSH",
+      "york_number": 2,
+      "map": {
+        "party_exchange": false,
+        "target_active_alice": [
+          1,
+          2
+        ],
+        "target_active_bob": [
+          1,
+          2
+        ],
+        "source_alice_indices": [
+          1,
+          2
+        ],
+        "alice_signs": [
+          1,
+          1
+        ],
+        "source_bob_indices": [
+          1,
+          2
+        ],
+        "bob_signs": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "six_by_three_entry": "02-I3322",
+      "york_number": 3,
+      "map": {
+        "party_exchange": false,
+        "target_active_alice": [
+          1,
+          2,
+          3
+        ],
+        "target_active_bob": [
+          1,
+          2,
+          3
+        ],
+        "source_alice_indices": [
+          1,
+          3,
+          2
+        ],
+        "alice_signs": [
+          1,
+          1,
+          1
+        ],
+        "source_bob_indices": [
+          1,
+          2,
+          3
+        ],
+        "bob_signs": [
+          1,
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "six_by_three_entry": "03-I4322-1",
+      "york_number": 5,
+      "map": {
+        "party_exchange": true,
+        "target_active_alice": [
+          1,
+          2,
+          3
+        ],
+        "target_active_bob": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source_alice_indices": [
+          3,
+          1,
+          2
+        ],
+        "alice_signs": [
+          -1,
+          1,
+          1
+        ],
+        "source_bob_indices": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "bob_signs": [
+          1,
+          -1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "six_by_three_entry": "04-I4322-2",
+      "york_number": 6,
+      "map": {
+        "party_exchange": true,
+        "target_active_alice": [
+          1,
+          2,
+          3
+        ],
+        "target_active_bob": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source_alice_indices": [
+          1,
+          2,
+          3
+        ],
+        "alice_signs": [
+          -1,
+          1,
+          -1
+        ],
+        "source_bob_indices": [
+          2,
+          4,
+          1,
+          3
+        ],
+        "bob_signs": [
+          -1,
+          1,
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "six_by_three_entry": "05-I4322-3",
+      "york_number": 4,
+      "map": {
+        "party_exchange": true,
+        "target_active_alice": [
+          1,
+          2,
+          3
+        ],
+        "target_active_bob": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source_alice_indices": [
+          1,
+          2,
+          3
+        ],
+        "alice_signs": [
+          1,
+          1,
+          -1
+        ],
+        "source_bob_indices": [
+          2,
+          1,
+          3,
+          4
+        ],
+        "bob_signs": [
+          1,
+          1,
+          -1,
+          -1
+        ]
+      }
+    }
+  ]
+}

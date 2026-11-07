@@ -1,0 +1,8 @@
+{
+  "id": 39,
+  "engine": "individual",
+  "characteristic_file": "S39_charpoly.txt",
+  "commands": [
+    "verify_39_independent.py"
+  ]
+}

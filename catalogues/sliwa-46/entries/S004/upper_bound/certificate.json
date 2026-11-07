@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "id": 4,
+      "local_bound": 2,
+      "quantum_value": "4*sqrt(2)-2",
+      "literal": "2A + BC - ABC + bC - AbC + Bc - ABc - bc + Abc",
+      "overlaps": [
+        "1",
+        "0",
+        "0"
+      ],
+      "q_field_d": 2,
+      "method": "elementary_operator"
+    }
+  ]
+}

@@ -1,0 +1,1596 @@
+{
+  "schema": "sliwa-prior-work-and-contributions-v1",
+  "checked_on": "2026-10-20",
+  "scope": "Benchmark-specific literature comparison, distinguishing reported formulas, numerical values, explicit exact SOS and the present certificate corpus.",
+  "sources": {
+    "Sliwa2003": {
+      "url": "https://arxiv.org/abs/quant-ph/0305190",
+      "location": "arXiv appendix, PDF pages 7-12; the journal version omits this table"
+    },
+    "LopezRosa2016": {
+      "url": "https://arxiv.org/abs/1611.01699v4",
+      "location": "Section II A, Tables I and IV"
+    },
+    "Vallins2017": {
+      "url": "https://arxiv.org/abs/1608.05641v5",
+      "location": "Corrected Table I, quantum column, arXiv version 5, physical PDF page 5 (18 July 2018)"
+    },
+    "IoannouRosset2021": {
+      "url": "https://arxiv.org/abs/2112.10803v2",
+      "location": "Section IX; class SOS for 3, 10, 11 and 14"
+    },
+    "WernerWolf2001": {
+      "url": "https://arxiv.org/abs/quant-ph/0102024",
+      "location": "Appendix, Eq. (A2) and the three-party numerical table; Phys. Rev. A 64, 032112 (2001)"
+    },
+    "RossetBancalGisin2014": {
+      "url": "https://arxiv.org/abs/1404.1306v1",
+      "doi": "10.1088/1751-8113/47/42/424022",
+      "location": "Section II.4; Appendix C.2, Proposition 4, Eqs. (51)-(54)"
+    }
+  },
+  "records": [
+    {
+      "id": 1,
+      "literal_definition": "entries/S001/functional.json",
+      "local_bound": 1,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 1",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "1",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "1",
+        "comparison": "exact"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S001/strategy_spec.json",
+      "archive_value_display": "1.0000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "certified_value_interval": [
+        "1",
+        "1"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 7,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim",
+      "classical_context": "Positivity; no quantum violation"
+    },
+    {
+      "id": 2,
+      "literal_definition": "entries/S002/functional.json",
+      "local_bound": 2,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 2",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "4",
+        "comparison": "exact"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S002/strategy_spec.json",
+      "archive_value_display": "4.0000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "certified_value_interval": [
+        "4",
+        "4"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim",
+      "classical_context": "Mermin inequality; algebraic upper value 4 and GHZ attainment"
+    },
+    {
+      "id": 3,
+      "literal_definition": "entries/S003/functional.json",
+      "local_bound": 2,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 3",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "2*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "2.8284",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [
+        "IoannouRosset2021, Section IX"
+      ],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S003/strategy_spec.json",
+      "archive_value_display": "2.8284271247461900976033774484193961571393437507538961463533594759814649569242141",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/127314748520905380391777855525586135065716774604121015664758778084648831235208544136462336"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 2,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim",
+      "classical_context": "CHSH/Tsirelson reductions; this identifies a mathematical reduction, not an earliest class-specific publication"
+    },
+    {
+      "id": 4,
+      "literal_definition": "entries/S004/functional.json",
+      "local_bound": 2,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 4",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)-2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "4*sqrt(2)-2",
+        "comparison": "exact"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S004/strategy_spec.json",
+      "archive_value_display": "3.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "1862285916606906265368225744452788485733304041812633471234736104817133390960497318214797143/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "232785739575863283171028218056598560716663005226579183904342013102141673870062164776849643/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 4,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim",
+      "classical_context": "CHSH/Tsirelson reductions; this identifies a mathematical reduction, not an earliest class-specific publication",
+      "earlier_general_exact_proof": {
+        "source": "RossetBancalGisin2014",
+        "location": "Section II.4; Appendix C.2, Proposition 4",
+        "identity": "S4 = 2I + (I-A)(H-2I), H = BC+bC+Bc-bc",
+        "scope": "Tight quantum composition bound, specialized to the literal S004 representative; not an explicit S004 label in that paper",
+        "exact_value": "4*sqrt(2)-2",
+        "attainment": "Choose A=-1 on an independent Alice state and a CHSH-maximizing Bob-Charlie pair",
+        "later_party_lifting_reference": "Jebarathinam et al. (2019), Section III.C, Observation 1",
+        "priority_statement": "Earlier applicable general theorem; no claim of earliest worldwide class-specific publication"
+      }
+    },
+    {
+      "id": 5,
+      "literal_definition": "entries/S005/functional.json",
+      "local_bound": 3,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 5",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "8*sqrt(5)-13",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "4.8885",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S005/strategy_spec.json",
+      "archive_value_display": "4.8885438199983175712733893498502098835249468768922057941671779632841674051024392",
+      "certified_value_interval": [
+        "622383727076511940128742032448703086374373355015762106311685524517458168256539616732714301/127314748520905380391777855525586135065716774604121015664758778084648831235208544136462336",
+        "1244767454153023880257484064897406172748746710031524212623371049034916336513079233465428603/254629497041810760783555711051172270131433549208242031329517556169297662470417088272924672"
+      ],
+      "upper_verifiers": [
+        "@radical"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 6,
+      "literal_definition": "entries/S006/functional.json",
+      "local_bound": 3,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 6",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)-1",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "4.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S006/strategy_spec.json",
+      "archive_value_display": "4.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2371544910690527786935337166555133025996171140229117533893771217155728715901331494760646487/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "296443113836315973366917145819391628249521392528639691736721402144466089487666436845080811/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 2,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 7,
+      "literal_definition": "entries/S007/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 7",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "20/3",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "20/3",
+        "comparison": "exact"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S007/strategy_spec.json",
+      "archive_value_display": "6.6666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "certified_value_interval": [
+        "20/3",
+        "20/3"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 3,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim",
+      "earlier_full_correlation_context": {
+        "source": "WernerWolf2001",
+        "reported_normalized_value": "5/3",
+        "literal_value_after_relabeling": "20/3",
+        "scale": 4,
+        "substitution": {
+          "a1": "-A",
+          "a2": "a",
+          "b1": "-B",
+          "b2": "b",
+          "c1": "-C",
+          "c2": "c"
+        },
+        "scope": "Earlier numerically reported value in the full-correlation classification; the numerical table is not claimed to be an exact certificate."
+      }
+    },
+    {
+      "id": 8,
+      "literal_definition": "entries/S008/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 8",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "20/3",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.6667",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S008/strategy_spec.json",
+      "archive_value_display": "6.6666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "certified_value_interval": [
+        "20/3",
+        "20/3"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 3,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 9,
+      "literal_definition": "entries/S009/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 9",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S009/strategy_spec.json",
+      "archive_value_display": "5.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 3,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 10,
+      "literal_definition": "entries/S010/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 10",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "4",
+        "comparison": "exact"
+      },
+      "explicit_class_sos_in_audited_literature": [
+        "IoannouRosset2021, Section IX"
+      ],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S010/strategy_spec.json",
+      "archive_value_display": "4.0000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "certified_value_interval": [
+        "4",
+        "4"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 4,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim",
+      "classical_context": "Guess-your-neighbor-input family and earlier exact class SOS; no quantum advantage"
+    },
+    {
+      "id": 11,
+      "literal_definition": "entries/S011/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 11",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [
+        "IoannouRosset2021, Section IX"
+      ],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S011/strategy_spec.json",
+      "archive_value_display": "5.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 2,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 12,
+      "literal_definition": "entries/S012/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 12",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S012/strategy_spec.json",
+      "archive_value_display": "5.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 2,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 13,
+      "literal_definition": "entries/S013/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 13",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S013/strategy_spec.json",
+      "archive_value_display": "5.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 2,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 14,
+      "literal_definition": "entries/S014/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 14",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [
+        "IoannouRosset2021, Section IX"
+      ],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S014/strategy_spec.json",
+      "archive_value_display": "5.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 2,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 15,
+      "literal_definition": "entries/S015/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 15",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "6",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.0000",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S015/strategy_spec.json",
+      "archive_value_display": "6.0000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "certified_value_interval": [
+        "6",
+        "6"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 1,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 16,
+      "literal_definition": "entries/S016/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 16",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "6.12883",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.1289",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S016/strategy_spec.json",
+      "archive_value_display": "6.1288693702808872202423760135993411335651645367992877859982543373206632822966470",
+      "certified_value_interval": [
+        "12484727401516654021748162623603820258316620570637854089703889009718864563215916062066272465/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376",
+        "12484727401516654021748162623603820258316620570637854089703889009718864563215916062066272507/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376"
+      ],
+      "upper_verifiers": [
+        "verify_16_algebra.py",
+        "verify_16_field_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 17,
+      "literal_definition": "entries/S017/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 17",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "4*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.6569",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S017/strategy_spec.json",
+      "archive_value_display": "5.6568542494923801952067548968387923142786875015077922927067189519629299138484282",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 1,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 18,
+      "literal_definition": "entries/S018/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 18",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "2*(7-sqrt(17))",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.7538",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S018/strategy_spec.json",
+      "archive_value_display": "5.7537887487646789003571802880518459497056015492527591312027328538100913073247568",
+      "certified_value_interval": [
+        "2930168670365559689476352514682794805965097930970770430395390631759625948456199946038659095/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "5860337340731119378952705029365589611930195861941540860790781263519251896912399892077318191/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+      ],
+      "upper_verifiers": [
+        "@radical"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 19,
+      "literal_definition": "entries/S019/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 19",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "5.7829",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.7829",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S019/strategy_spec.json",
+      "archive_value_display": "5.7829117532036863708357812249360009679999966689372063221471519795461201177103416",
+      "certified_value_interval": [
+        "3796474074057199358615602189702427941877686518264016924754498283888109449577071/656498704472532095380083188188504673355761420612796571906418910499541604106240",
+        "4745592592571499198269502737128034927347108147830021155943122854860136811971339/820623380590665119225103985235630841694701775765995714883023638124427005132800"
+      ],
+      "upper_verifiers": [
+        "verify_19_independent.py"
+      ],
+      "attaining_state_column": 2,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 20,
+      "literal_definition": "entries/S020/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 20",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "6*sqrt(2)-2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.4853",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S020/strategy_spec.json",
+      "archive_value_display": "6.4852813742385702928101323452581884714180312522616884390600784279443948707726422",
+      "certified_value_interval": [
+        "6605375737987961839238900077563054537725646322270868539022278539128590822763160307736090117/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+        "825671967248495229904862509695381817215705790283858567377784817391073852845395038467011265/127314748520905380391777855525586135065716774604121015664758778084648831235208544136462336"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 21,
+      "literal_definition": "entries/S021/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 21",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "5.95539",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "5.9555",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S021/strategy_spec.json",
+      "archive_value_display": "5.9554569186959206519525393738959897602866559884803332268443758338631243131432317",
+      "certified_value_interval": [
+        "5516758391829041488173803738642409398640067046793527576412580518411858925281949/926336713898529563388567880069503262826159877325124512315660672063305037119488",
+        "11033516783658082976347607477284818797280134093587055152825161036823717850563899/1852673427797059126777135760139006525652319754650249024631321344126610074238976"
+      ],
+      "upper_verifiers": [
+        "verify_21_global_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 22,
+      "literal_definition": "entries/S022/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 22",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "6.19794",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.1980",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S022/strategy_spec.json",
+      "archive_value_display": "6.1979587791753010059357828996695158685903903555328873478822554568074711900542590",
+      "certified_value_interval": [
+        "4487749732481816463160910098695750418736083773681785026642062019386807490161905/724068986641268922423692147991885760104981138643905445615914170108496675078144",
+        "5983666309975755284214546798261000558314778364909046702189416025849076653549207/965425315521691896564922863989181013473308184858540594154552226811328900104192"
+      ],
+      "upper_verifiers": [
+        "verify_22_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 23,
+      "literal_definition": "entries/S023/functional.json",
+      "local_bound": 4,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 23",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "3*(sqrt(17)-1)/2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "4.6847",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S023/strategy_spec.json",
+      "archive_value_display": "4.6846584384264908247321147839611155377207988380604306515979503596424315195064324",
+      "certified_value_interval": [
+        "9542817775913695707986953651636019031567921750081114964539092148910553852501430517534599097/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376",
+        "9542817775913695707986953651636019031567921750081114964539092148910553852501430517534599099/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376"
+      ],
+      "upper_verifiers": [
+        "@radical"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 2,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 24,
+      "literal_definition": "entries/S024/functional.json",
+      "local_bound": 5,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 24",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "7.94016",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "7.9401",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S024/strategy_spec.json",
+      "archive_value_display": "7.9401098058580475757600308253258615750597234702439552944772427122628622182588935",
+      "certified_value_interval": [
+        "158802196117160951515200616506517231501194469404879105889544834245257244365177869224253049191561517406107354067290819683448763473736038394549314744557449054205026333519900738195401/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "158802196117160951515200616506517231501194469404879105889544874245257244365177869224253049191561517406107354067290819683448763473736038394549314744557449054205026333519900738195401/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_24_independent.py"
+      ],
+      "attaining_state_column": 3,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 25,
+      "literal_definition": "entries/S025/functional.json",
+      "local_bound": 5,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 25",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "6.82421",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.8243",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S025/strategy_spec.json",
+      "archive_value_display": "6.8242615835790617945001245259984526493216419568893341638584988137299341111706755",
+      "certified_value_interval": [
+        "3412130791789530897250062262998726324660820978444667081929249406864967055585337748062528850590753831/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "3412130791789530897250062262999726324660820978444667081929249406864967055585337748062528850590753831/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_25_independent.py"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 26,
+      "literal_definition": "entries/S026/functional.json",
+      "local_bound": 5,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 26",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "1+4*sqrt(3)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "7.9282",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S026/strategy_spec.json",
+      "archive_value_display": "7.9282032302755091741097853660234894677712210152415225122232279178077320676352001",
+      "certified_value_interval": [
+        "4037508801940624562253846075883503874233764148925203021181225786115927321382123475746788847/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "252344300121289035140865379742718992139610259307825188823826611632245457586382717234174303/31828687130226345097944463881396533766429193651030253916189694521162207808802136034115584"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 27,
+      "literal_definition": "entries/S027/functional.json",
+      "local_bound": 5,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 27",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "6.95465",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "6.9547",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S027/strategy_spec.json",
+      "archive_value_display": "6.9546558328928353499164320335402208171762268391790800168245532724274061305510212",
+      "certified_value_interval": [
+        "310188015345635779409205649985390294451760270642178635763575427472031112868691747773373173/44601490397061246283071436545296723011960832000000000000000000000000000000000000000000000",
+        "620376030691271558818411299970780588903520541284357271527150854944062225737383526064324471/89202980794122492566142873090593446023921664000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_s27_global_independent.py"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 28,
+      "literal_definition": "entries/S028/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 28",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "9.90976",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.9098",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S028/strategy_spec.json",
+      "archive_value_display": "9.9097615783037003381606037822070940168195796468933228422178130846708978223428019",
+      "certified_value_interval": [
+        "9909761578303700338160603782206094016819579647/1000000000000000000000000000000000000000000000",
+        "9909761578303700338160603782208094016819579647/1000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_s28_root_independent.py",
+        "verify_s28_global_independent.py"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 29,
+      "literal_definition": "entries/S029/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 29",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "8*sqrt(2)-2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.3137",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S029/strategy_spec.json",
+      "archive_value_display": "9.3137084989847603904135097936775846285573750030155845854134379039258598276968563",
+      "certified_value_interval": [
+        "2371544910690527786935337166555133025996171140229117533893771217155728715901331494760646487/254629497041810760783555711051172270131433549208242031329517556169297662470417088272924672",
+        "296443113836315973366917145819391628249521392528639691736721402144466089487666436845080811/31828687130226345097944463881396533766429193651030253916189694521162207808802136034115584"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 30,
+      "literal_definition": "entries/S030/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 30",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "8*sqrt(2)-2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.3137",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S030/strategy_spec.json",
+      "archive_value_display": "9.3137084989847603904135097936775846285573750030155845854134379039258598276968563",
+      "certified_value_interval": [
+        "2371544910690527786935337166555133025996171140229117533893771217155728715901331494760646487/254629497041810760783555711051172270131433549208242031329517556169297662470417088272924672",
+        "296443113836315973366917145819391628249521392528639691736721402144466089487666436845080811/31828687130226345097944463881396533766429193651030253916189694521162207808802136034115584"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 6,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 31,
+      "literal_definition": "entries/S031/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 31",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "7.80425",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "7.8043",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S031/strategy_spec.json",
+      "archive_value_display": "7.8042658639319966799860198119338597319659483441972787865436982774979914614067761",
+      "certified_value_interval": [
+        "195106646598299916999650495298346493299148708604931969663592431937449786535169403337969417058069285293132087103662023232275395727373684473467019221090581787663179225993938061679989/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "195106646598299916999650495298346493299148708604931969663592481937449786535169403337969417058069285293132087103662023232275395727373684473467019221090581787663179225993938061679989/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_31_independent.py"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 32,
+      "literal_definition": "entries/S032/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 32",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "8.15161",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "8.1516",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S032/strategy_spec.json",
+      "archive_value_display": "8.1515617620015306049128807734605751036218126007465738917303756010983877249218447",
+      "certified_value_interval": [
+        "815156176200153060491288077346057510362181260074657389173037460109838772492184467981806715506070565594426901340910723158722839585846689857239623949958956593038687547466088878374213/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "815156176200153060491288077346057510362181260074657389173037660109838772492184467981806715506070565594426901340910723158722839585846689857239623949958956593038687547466088878374213/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_32_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 33,
+      "literal_definition": "entries/S033/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 33",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "9.78988",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.7899",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S033/strategy_spec.json",
+      "archive_value_display": "9.7898533182726729923930292692790284254600975449844152846001543339147808524421687",
+      "certified_value_interval": [
+        "174656819505430720490119087801906453455698440010448569791476707141728744620603062750352351/17840596158824498513228574618118689204784332800000000000000000000000000000000000000000000",
+        "21832102438178840061264885975238306681962305001306071223934588392716093077575383606733497/2230074519853062314153571827264836150598041600000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_s33_global_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 34,
+      "literal_definition": "entries/S034/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 34",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "8.25142",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "8.2515",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S034/strategy_spec.json",
+      "archive_value_display": "8.2514977740834443765856943242437522249366360026230244799346483752970010722943840",
+      "certified_value_interval": [
+        "2062874443520861094146423581060938056234159000655756119983661843824250268073596010024140434228230556673987620427623731954221529801556025279964821736567284696809146875059155439405300649318367/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "2062874443520861094146423581060938056234159000655756119983662343824250268073596010024140434228230556673987620427623731954221529801556025279964821736567284696809146875059155439405300649318367/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_34_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 35,
+      "literal_definition": "entries/S035/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 35",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "7.85524",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "7.8553",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S035/strategy_spec.json",
+      "archive_value_display": "7.8552777316212247485848828679149726173495161619760046674479424919051460469789080",
+      "certified_value_interval": [
+        "3927638865810612374292441433957486308674758080988002333723970745952573023489454024561357853554833831377559732852278897868927413592612549499491482977562678008645127690250603461564203698618767/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "3927638865810612374292441433957486308674758080988002333723971745952573023489454024561357853554833831377559732852278897868927413592612549499491482977562678008645127690250603461564203698618767/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_35_independent.py"
+      ],
+      "attaining_state_column": 4,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 36,
+      "literal_definition": "entries/S036/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 36",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "9.46139",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.4614",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S036/strategy_spec.json",
+      "archive_value_display": "9.4614311524340106426523620598230630069410081919857144287999570438440318455765951",
+      "certified_value_interval": [
+        "946143115243401064265236205982306300694100819198571442879995604384403184557659511621141836969574890342141750978441324496411864714593599820019031619357853446906084014969884226902333/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "946143115243401064265236205982306300694100819198571442879995804384403184557659511621141836969574890342141750978441324496411864714593599820019031619357853446906084014969884226902333/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_36_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 37,
+      "literal_definition": "entries/S037/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 37",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "8*sqrt(2)-2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.3137",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S037/strategy_spec.json",
+      "archive_value_display": "9.3137084989847603904135097936775846285573750030155845854134379039258598276968563",
+      "certified_value_interval": [
+        "2371544910690527786935337166555133025996171140229117533893771217155728715901331494760646487/254629497041810760783555711051172270131433549208242031329517556169297662470417088272924672",
+        "296443113836315973366917145819391628249521392528639691736721402144466089487666436845080811/31828687130226345097944463881396533766429193651030253916189694521162207808802136034115584"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 4,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 38,
+      "literal_definition": "entries/S038/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 38",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "8*sqrt(2)-2",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.3137",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S038/strategy_spec.json",
+      "archive_value_display": "9.3137084989847603904135097936775846285573750030155845854134379039258598276968563",
+      "certified_value_interval": [
+        "2371544910690527786935337166555133025996171140229117533893771217155728715901331494760646487/254629497041810760783555711051172270131433549208242031329517556169297662470417088272924672",
+        "296443113836315973366917145819391628249521392528639691736721402144466089487666436845080811/31828687130226345097944463881396533766429193651030253916189694521162207808802136034115584"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 39,
+      "literal_definition": "entries/S039/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 39",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "9.32530",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "9.3253",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S039/strategy_spec.json",
+      "archive_value_display": "9.3253401650139931852919738505404059901492074248611165280851748386583180683808945",
+      "certified_value_interval": [
+        "4617684788090782919666247265352786080742453506674846718675545420765865029651289/495176015714152109959649689600000000000000000000000000000000000000000000000000",
+        "18470739152363131678664989061411144322969814026699386874702181683063460118605157/1980704062856608439838598758400000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_39_independent.py"
+      ],
+      "attaining_state_column": 3,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 40,
+      "literal_definition": "entries/S040/functional.json",
+      "local_bound": 6,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 40",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "8.12983",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "8.1298",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S040/strategy_spec.json",
+      "archive_value_display": "8.1297872420881080848592792807707013847125182197410724779660831647761251387330801",
+      "certified_value_interval": [
+        "15061840797060174961585293991115560854434473356805906603929518610131317714788067/1852673427797059126777135760139006525652319754650249024631321344126610074238976",
+        "3765460199265043740396323497778890213608618339201476650982379652532829428697017/463168356949264781694283940034751631413079938662562256157830336031652518559744"
+      ],
+      "upper_verifiers": [
+        "verify_40_independent.py",
+        "verify_40_single_field.py"
+      ],
+      "attaining_state_column": 0,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 41,
+      "literal_definition": "entries/S041/functional.json",
+      "local_bound": 7,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 41",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "10.3680",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "10.3677",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S041/strategy_spec.json",
+      "archive_value_display": "10.367746725495842037307622531131490799558938585522958472672980398078084982411788",
+      "certified_value_interval": [
+        "1036774672549584203730762253113149079955893858552295847267297939807808498241178763845543506218994799593686924817955082283058887821637465437246668063347543029021070419724457092958144683931501/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "1036774672549584203730762253113149079955893858552295847267298139807808498241178763845543506218994799593686924817955082283058887821637465437246668063347543029021070419724457092958144683931501/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_41_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 42,
+      "literal_definition": "entries/S042/functional.json",
+      "local_bound": 8,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 42",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "13.0471",
+        "comparison": "outside_rounding_cell"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "13.0470",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "system",
+      "archive_value_definition": "entries/S042/strategy_spec.json",
+      "archive_value_display": "13.047046076499511057209621278478231598107634186642032071378114159831518766014865",
+      "certified_value_interval": [
+        "81544037978121944107560132990488947488172713666512700446113207248946992287592905863020946579283462883115209988633176084314015725082770636878455426909391751334509788400594822531914443530399/6250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "81544037978121944107560132990488947488172713666512700446113219748946992287592905863020946579283462883115209988633176084314015725082770636878455426909391751334509788400594822531914443530399/6250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_42_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 43,
+      "literal_definition": "entries/S043/functional.json",
+      "local_bound": 8,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 43",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "8*sqrt(2)",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "11.3137",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S043/strategy_spec.json",
+      "archive_value_display": "11.313708498984760390413509793677584628557375003015584585413437903925859827696856",
+      "certified_value_interval": [
+        "2880803904774149308502448588657477566259038238645601596552806329494324040842165671306495831/254629497041810760783555711051172270131433549208242031329517556169297662470417088272924672",
+        "360100488096768663562806073582184695782379779830700199569100791186790505105270708913311979/31828687130226345097944463881396533766429193651030253916189694521162207808802136034115584"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 1,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 44,
+      "literal_definition": "entries/S044/functional.json",
+      "local_bound": 8,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 44",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "12*sqrt(2)-4",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "12.9706",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S044/strategy_spec.json",
+      "archive_value_display": "12.970562748477140585620264690516376942836062504523376878120156855888789741545284",
+      "certified_value_interval": [
+        "6605375737987961839238900077563054537725646322270868539022278539128590822763160307736090117/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "825671967248495229904862509695381817215705790283858567377784817391073852845395038467011265/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 6,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 45,
+      "literal_definition": "entries/S045/functional.json",
+      "local_bound": 8,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 45",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "analytic_expression",
+        "value": "12*sqrt(2)-4",
+        "comparison": "symbolic_equality_verified"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "12.9706",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "radicals",
+      "archive_value_definition": "entries/S045/strategy_spec.json",
+      "archive_value_display": "12.970562748477140585620264690516376942836062504523376878120156855888789741545284",
+      "certified_value_interval": [
+        "6605375737987961839238900077563054537725646322270868539022278539128590822763160307736090117/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+        "825671967248495229904862509695381817215705790283858567377784817391073852845395038467011265/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+      ],
+      "upper_verifiers": [
+        "@analytic"
+      ],
+      "attaining_state_column": 5,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact global certificate and explicit arithmetic attaining strategy for a previously reported analytic value",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    },
+    {
+      "id": 46,
+      "literal_definition": "entries/S046/functional.json",
+      "local_bound": 10,
+      "catalogue_source": "Sliwa2003, arXiv appendix, representative 46",
+      "normalization_source": "LopezRosa2016, Table I; identical literal correlator convention",
+      "lopez_rosa_2016": {
+        "location": "Section II A and Table IV (arXiv v4, PDF page 6)",
+        "report_type": "decimal_display",
+        "value": "12.9852",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "vallins_2017_corrected_2018": {
+        "location": "Table I, quantum column (arXiv v5, physical PDF page 5)",
+        "value": "12.9852",
+        "comparison": "agrees_at_printed_precision"
+      },
+      "explicit_class_sos_in_audited_literature": [],
+      "archive_value_kind": "univariate",
+      "archive_value_definition": "entries/S046/strategy_spec.json",
+      "archive_value_display": "12.985173496317373300203056007388254090234326872115076742715018242988463116660844",
+      "certified_value_interval": [
+        "42734324331593553338403928922335951096748023624005053741112275929884735571231711/3291009114642412084309938365114701009965471731267159726697218048000000000000000",
+        "1335447635362298541825122778822998471773375738250157929409758622808897986600991/102844034832575377634685573909834406561420991602098741459288064000000000000000"
+      ],
+      "upper_verifiers": [
+        "verify_46_plus.py",
+        "verify_46_reduced.py",
+        "verify_boundary.py",
+        "verify_sliwa46_bernstein_independent.py"
+      ],
+      "attaining_state_column": 7,
+      "eigenvalue_multiplicity": 1,
+      "contribution": "exact algebraic specification, global certificate and explicit arithmetic attaining strategy for a decimal entry of the 2016 benchmark",
+      "priority_scope": "Contribution relative to the stated benchmark; no worldwide-first claim"
+    }
+  ]
+}

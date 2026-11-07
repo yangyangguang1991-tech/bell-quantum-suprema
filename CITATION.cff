@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Cite this repository edition for its supplied mathematical proof and certificate materials, exposition and implementation, and cite the original mathematical sources separately. MIT covers project-authored material; bundled components retain their own licenses."
+title: "Exact Quantum Suprema and Certificates for Selected Bell Scenarios"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Yang"
+    given-names: "Yang-Guang"
+    email: "yangyangguang1991@gmail.com"
+    orcid: "https://orcid.org/0000-0001-9236-7544"
+    website: "https://github.com/yangyangguang1991-tech"
+license: MIT
+abstract: "Exact upper-bound and attainment or approximation materials for the Sliwa catalogue, the (6,3,2,2) facets, and the York (4,4,2,2) catalogue. Four York representatives retain unknown exact suprema. The complete distribution includes offline verification inputs and runtime libraries."
+keywords:
+  - Bell inequalities
+  - quantum supremum
+  - noncommutative positivity
+  - exact certificates
+  - attaining strategies

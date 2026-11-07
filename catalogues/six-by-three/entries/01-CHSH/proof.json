@@ -1,0 +1,19 @@
+{
+  "entry": "01-CHSH",
+  "label": "CHSH",
+  "command": [
+    "python",
+    "-B",
+    "verify.py"
+  ],
+  "model": "All finite-dimensional tensor-product, spatial tensor-product and commuting-operator suprema have the displayed value.",
+  "upper_bound_method": "CHSH square identity",
+  "reverse_inequality": "Explicit attaining two-qubit strategy",
+  "materials": [
+    "definition.json",
+    "PROOF.md",
+    "verify.py",
+    "strategy.json",
+    "REFERENCES.md"
+  ]
+}

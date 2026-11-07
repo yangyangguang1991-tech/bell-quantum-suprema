@@ -1,0 +1,839 @@
+{
+  "schema_version": 1,
+  "scope": "Origins of copied runtime licenses, notices and associated package metadata. Paths below are relative to this licenses directory. Container references are provenance, not extra verification dependencies.",
+  "upstream_document_links": "Unmodified upstream documents retain their original links, including upstream-relative links. Such links are not represented as relocated repository links.",
+  "records": [
+    {
+      "file": "mpmath/LICENSE",
+      "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/symbolic.json",
+          "container_sha256": "41f2d4aa11bca8a62352c2789b643ae740f0aac138bf4d2f6bdd50a9d89c363b",
+          "container_parts": [
+            "catalogues/york-4422/runtime/verification-runtime.zip.part001",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part002",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part003",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part004"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "licenses/mpmath/LICENSE"
+        }
+      ]
+    },
+    {
+      "file": "python-flint/DELVEWHEEL",
+      "sha256": "7bbef0aeb67065b95df888d004b19ae889e915cef5baad82de703c40a44c1ac8",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/DELVEWHEEL",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/DELVEWHEEL"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/LICENSE",
+      "sha256": "a887c9adb6aa9906eb9b89a98516fb64e611a4c3fd656123bc4f3860e639749c",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/LICENSE",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/LICENSE"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/METADATA",
+      "sha256": "5916181439cbc4d71a2e033aa50f8809cff66a641879da630023500eaef34901",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/METADATA",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/METADATA"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/WHEEL",
+      "sha256": "5ebf1141048e68b657ab667bad3c5dfc6921982bbc95781337d55af8f33d29ed",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/WHEEL",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/WHEEL"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/flint-3.6.0/COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/flint-3.6.0/COPYING",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/flint-3.6.0/COPYING"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/flint-3.6.0/COPYING.LESSER",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/flint-3.6.0/COPYING.LESSER",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/flint-3.6.0/COPYING.LESSER"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/gcc/COPYING.LIB",
+      "sha256": "362aa1af296393556b4c77891986cc62ef2b55caf5b9dfd2ab9102e742d880b7",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gcc/COPYING.LIB",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gcc/COPYING.LIB"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/gcc/COPYING.RUNTIME",
+      "sha256": "90077ba306ee9d8ed966cab1b4abd69b6e728acf08777283cc50283cd9503fa6",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gcc/COPYING.RUNTIME",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gcc/COPYING.RUNTIME"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/gcc/COPYING3",
+      "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gcc/COPYING3",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gcc/COPYING3"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/gmp-6.3.0/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gmp-6.3.0/COPYING",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gmp-6.3.0/COPYING"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/gmp-6.3.0/COPYING.LESSERv3",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gmp-6.3.0/COPYING.LESSERv3",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/gmp-6.3.0/COPYING.LESSERv3"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/mpfr-4.2.2/COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/mpfr-4.2.2/COPYING",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/mpfr-4.2.2/COPYING"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/mpfr-4.2.2/COPYING.LESSER",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/mpfr-4.2.2/COPYING.LESSER",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/mpfr-4.2.2/COPYING.LESSER"
+          }
+        }
+      ]
+    },
+    {
+      "file": "python-flint/winpthreads/COPYING",
+      "sha256": "1c8d23063c3772b9435831410b31b51fef3d9cf2138a442dc367ef5d72239f67",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/flint.json",
+          "container_sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727",
+          "container_parts": [
+            "catalogues/york-4422/runtime/flint.part001"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/winpthreads/COPYING",
+          "upstream_wheel_confirmation": {
+            "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+            "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+            "member": "python_flint-0.9.0.dist-info/licenses/python-flint.libs/winpthreads/COPYING"
+          }
+        }
+      ]
+    },
+    {
+      "file": "scipy/LICENSE.txt",
+      "sha256": "f0f5c56b298ec9795df1199edc328a987242716d14a1bde6813112e22dc15f99",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "ito-imai-avis-quantum-suprema",
+          "manifest": "runtime/manifest.json",
+          "container_sha256": "09fb1c5cf624035299aa169515daf054d11078aad6be35bd443f8721a0758ab8",
+          "container_parts": [
+            "runtime/verification-runtime.zip.part001",
+            "runtime/verification-runtime.zip.part002",
+            "runtime/verification-runtime.zip.part003",
+            "runtime/verification-runtime.zip.part004",
+            "runtime/verification-runtime.zip.part005",
+            "runtime/verification-runtime.zip.part006",
+            "runtime/verification-runtime.zip.part007",
+            "runtime/verification-runtime.zip.part008",
+            "runtime/verification-runtime.zip.part009"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "scipy-1.18.1.dist-info/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "file": "scipy/_lib/_uarray/LICENSE",
+      "sha256": "e4c4acc31e8287066d7c995d26e3ef902ca1977ee187b260b11c278366503811",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/scientific.json",
+          "container_sha256": "3bc6b1bc73f634bab1d13d7b3f1cde6fb18c11e608abbebac676179ee306ab20",
+          "container_parts": [
+            "catalogues/york-4422/runtime/scientific.part001",
+            "catalogues/york-4422/runtime/scientific.part002"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "scipy/_lib/_uarray/LICENSE"
+        }
+      ]
+    },
+    {
+      "file": "scipy/fft/_duccfft/LICENSE.md",
+      "sha256": "c04661685cff9d8035fe1c4c3ab357e7f7633cafc06a73e9d90c3c5fede8a86a",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/scientific.json",
+          "container_sha256": "3bc6b1bc73f634bab1d13d7b3f1cde6fb18c11e608abbebac676179ee306ab20",
+          "container_parts": [
+            "catalogues/york-4422/runtime/scientific.part001",
+            "catalogues/york-4422/runtime/scientific.part002"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "scipy/fft/_duccfft/LICENSE.md"
+        }
+      ]
+    },
+    {
+      "file": "scipy/integrate/LICENSE_DOP",
+      "sha256": "6cc2ed6e35b8f376ff3d8f86aeef4e0c34c2309bd6f4a0565936d577839ba023",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/scientific.json",
+          "container_sha256": "3bc6b1bc73f634bab1d13d7b3f1cde6fb18c11e608abbebac676179ee306ab20",
+          "container_parts": [
+            "catalogues/york-4422/runtime/scientific.part001",
+            "catalogues/york-4422/runtime/scientific.part002"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "scipy/integrate/LICENSE_DOP"
+        }
+      ]
+    },
+    {
+      "file": "scipy/spatial/qhull_src/COPYING_QHULL.txt",
+      "sha256": "2a6ebb495e26dd5f88cbc40c593733da6edb27b64936f70409cd5a1acafb1c32",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/scientific.json",
+          "container_sha256": "3bc6b1bc73f634bab1d13d7b3f1cde6fb18c11e608abbebac676179ee306ab20",
+          "container_parts": [
+            "catalogues/york-4422/runtime/scientific.part001",
+            "catalogues/york-4422/runtime/scientific.part002"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "scipy/spatial/qhull_src/COPYING_QHULL.txt"
+        }
+      ]
+    },
+    {
+      "file": "sympy/LICENSE",
+      "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/symbolic.json",
+          "container_sha256": "41f2d4aa11bca8a62352c2789b643ae740f0aac138bf4d2f6bdd50a9d89c363b",
+          "container_parts": [
+            "catalogues/york-4422/runtime/verification-runtime.zip.part001",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part002",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part003",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part004"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "licenses/sympy/LICENSE"
+        }
+      ]
+    },
+    {
+      "file": "sympy/parsing/latex/LICENSE.txt",
+      "sha256": "007bc30a58fa40a996e772047120de4eaf31f5110e4f9c3b5f93fcdfbe2eaca1",
+      "origins": [
+        {
+          "kind": "extracted_from_local_runtime_archive",
+          "repository": "bell-quantum-suprema",
+          "manifest": "catalogues/york-4422/runtime/symbolic.json",
+          "container_sha256": "41f2d4aa11bca8a62352c2789b643ae740f0aac138bf4d2f6bdd50a9d89c363b",
+          "container_parts": [
+            "catalogues/york-4422/runtime/verification-runtime.zip.part001",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part002",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part003",
+            "catalogues/york-4422/runtime/verification-runtime.zip.part004"
+          ],
+          "direct_download_url": null,
+          "note": "The copied notice came from this existing local runtime archive; no direct download of that original runtime archive is asserted.",
+          "member": "sympy/parsing/latex/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "file": "numpy/LICENSE.txt",
+      "sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/LICENSE.txt",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/LICENSES_bundled.txt",
+      "sha256": "7fe52683ce840a3103e9cc82fe92252b2c533061ca4f9b8d6f3d4d835f7c32f9",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/LICENSES_bundled.txt",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/LLVM-LICENSE.txt",
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container_url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-x86_64.zip",
+          "container_sha256": "552191b5754c49a5a20723276a6fc56541ea1922c4c50b7b669022333fc1b40f",
+          "member": "llvm-mingw-20261104-ucrt-x86_64/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "file": "numpy/complex-math-notice.txt",
+      "sha256": "d4be9e7e378f92dc053ae48d33fa534f2dfdf9d16749aedaef91cfcdb23f44fd",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/npymath/npy_math_complex.c.src",
+          "transformation": "First C comment, preserving full copyright, permission and disclaimer."
+        }
+      ]
+    },
+    {
+      "file": "numpy/dragon4-notice.txt",
+      "sha256": "314d37e839e58a966839d94cba51c35a880c7824190d87aa88210b75761e61c4",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/multiarray/dragon4.c",
+          "transformation": "First C comment, preserving full copyright, permission and disclaimer."
+        }
+      ]
+    },
+    {
+      "file": "numpy/mingw/COPYING",
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container_url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-x86_64.zip",
+          "container_sha256": "552191b5754c49a5a20723276a6fc56541ea1922c4c50b7b669022333fc1b40f",
+          "member": "llvm-mingw-20261104-ucrt-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING"
+        }
+      ]
+    },
+    {
+      "file": "numpy/mingw/COPYING.MinGW-w64-runtime.txt",
+      "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container_url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-x86_64.zip",
+          "container_sha256": "552191b5754c49a5a20723276a6fc56541ea1922c4c50b7b669022333fc1b40f",
+          "member": "llvm-mingw-20261104-ucrt-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING.MinGW-w64-runtime.txt"
+        }
+      ]
+    },
+    {
+      "file": "numpy/mingw/COPYING.MinGW-w64.txt",
+      "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container_url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-x86_64.zip",
+          "container_sha256": "552191b5754c49a5a20723276a6fc56541ea1922c4c50b7b669022333fc1b40f",
+          "member": "llvm-mingw-20261104-ucrt-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING.MinGW-w64.txt"
+        }
+      ]
+    },
+    {
+      "file": "numpy/mingw/COPYING.winpthreads.txt",
+      "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container_url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-x86_64.zip",
+          "container_sha256": "552191b5754c49a5a20723276a6fc56541ea1922c4c50b7b669022333fc1b40f",
+          "member": "llvm-mingw-20261104-ucrt-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING.winpthreads.txt"
+        }
+      ]
+    },
+    {
+      "file": "numpy/mingw/COPYING.winstorecompat.txt",
+      "sha256": "fa7368d1f93d890c173177475d8ec7aff265a7d08f1f364d66f74d138978ce36",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container_url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-x86_64.zip",
+          "container_sha256": "552191b5754c49a5a20723276a6fc56541ea1922c4c50b7b669022333fc1b40f",
+          "member": "llvm-mingw-20261104-ucrt-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING.winstorecompat.txt"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_build_utils/tempita/LICENSE.txt",
+      "sha256": "743b0f4a0087fe3607167113fffab6f2ca069c8da321763697ab5d0d8411634a",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_build_utils/tempita/LICENSE.txt",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_core/include/numpy/libdivide/LICENSE.txt",
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_core/src/common/pythoncapi-compat/COPYING",
+      "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_core/src/highway/LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/highway/LICENSE",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_core/src/highway/LICENSE-BSD3",
+      "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/highway/LICENSE-BSD3",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/_core/src/umath/svml/LICENSE",
+      "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/_core/src/umath/svml/LICENSE",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/fft/pocketfft/LICENSE.md",
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/fft/pocketfft/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/linalg/lapack_lite/LICENSE.txt",
+      "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/linalg/lapack_lite/LICENSE.txt",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/ma/LICENSE",
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/ma/LICENSE",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/LICENSE.md",
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/src/distributions/LICENSE.md",
+      "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/src/distributions/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/src/mt19937/LICENSE.md",
+      "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/src/mt19937/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/src/pcg64/LICENSE.md",
+      "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/src/pcg64/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/src/philox/LICENSE.md",
+      "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/src/philox/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/src/sfc64/LICENSE.md",
+      "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/src/sfc64/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    },
+    {
+      "file": "numpy/source/random/src/splitmix64/LICENSE.md",
+      "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "origins": [
+        {
+          "kind": "archive_member",
+          "container": "../sources/numpy-2.3.5.tar.gz",
+          "container_sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0",
+          "member": "numpy-2.3.5/numpy/random/src/splitmix64/LICENSE.md",
+          "transformation": "none"
+        }
+      ]
+    }
+  ]
+}

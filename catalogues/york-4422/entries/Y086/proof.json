@@ -1,0 +1,20 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002"
+  ],
+  "sha256": "59af25e8e55f312d357a6632644a3b1a7a59c4af4e2719e845a7549cce7ede9e",
+  "commands": [
+    "run_fixed_acceptance.py",
+    "independent_root.py",
+    "independent_gram.py",
+    "independent_compatibility.py"
+  ],
+  "table_binding": {
+    "file": "fixed_inputs.json",
+    "path": [
+      "literal_target_coefficients"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip"
+  ],
+  "sha256": "47d86d55a49e94368834eb15bdc212578fc86d55c53357e2cdff143adadb194f",
+  "commands": [
+    "replay_all.py"
+  ],
+  "table_binding": {
+    "file": "literal_target.json",
+    "path": [
+      "literal"
+    ]
+  }
+}

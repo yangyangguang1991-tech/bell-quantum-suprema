@@ -1,0 +1,9 @@
+{
+  "id": 16,
+  "engine": "individual",
+  "characteristic_file": "charpoly_16_full.txt",
+  "commands": [
+    "verify_16_algebra.py",
+    "verify_16_field_independent.py"
+  ]
+}

@@ -1,0 +1,140 @@
+--- a/numpy/_core/include/numpy/npy_math.h
++++ b/numpy/_core/include/numpy/npy_math.h
+@@ -321,6 +321,61 @@
+ #define npy_copysignl copysignl
+ #define npy_nextafterl nextafterl
+ 
++/* Match the binary64 Windows ABI without calling MinGW binary80 functions. */
++#if defined(__MINGW32__) && NPY_SIZEOF_LONGDOUBLE == NPY_SIZEOF_DOUBLE
++#undef npy_sinhl
++#define npy_sinhl sinh
++#undef npy_coshl
++#define npy_coshl cosh
++#undef npy_tanhl
++#define npy_tanhl tanh
++#undef npy_fabsl
++#define npy_fabsl fabs
++#undef npy_floorl
++#define npy_floorl floor
++#undef npy_ceill
++#define npy_ceill ceil
++#undef npy_rintl
++#define npy_rintl rint
++#undef npy_truncl
++#define npy_truncl trunc
++#undef npy_cbrtl
++#define npy_cbrtl cbrt
++#undef npy_log10l
++#define npy_log10l log10
++#undef npy_logl
++#define npy_logl log
++#undef npy_expm1l
++#define npy_expm1l expm1
++#undef npy_asinl
++#define npy_asinl asin
++#undef npy_acosl
++#define npy_acosl acos
++#undef npy_atanl
++#define npy_atanl atan
++#undef npy_asinhl
++#define npy_asinhl asinh
++#undef npy_acoshl
++#define npy_acoshl acosh
++#undef npy_atanhl
++#define npy_atanhl atanh
++#undef npy_log1pl
++#define npy_log1pl log1p
++#undef npy_exp2l
++#define npy_exp2l exp2
++#undef npy_fmodl
++#define npy_fmodl fmod
++#undef npy_frexpl
++#define npy_frexpl frexp
++#undef npy_ldexpl
++#define npy_ldexpl ldexp
++#undef npy_copysignl
++#define npy_copysignl copysign
++#undef npy_nextafterl
++#define npy_nextafterl nextafter
++#endif
++
++
+ npy_longdouble npy_spacingl(npy_longdouble x);
+ 
+ /*
+@@ -421,7 +476,11 @@
+ #if defined(__cplusplus)
+     return (npy_longdouble)z._Val[0];
+ #else
++#if defined(__MINGW32__) && NPY_SIZEOF_LONGDOUBLE == NPY_SIZEOF_DOUBLE
++    return creal(z);
++#else
+     return creall(z);
++#endif
+ #endif
+ }
+ 
+@@ -435,7 +494,11 @@
+ #if defined(__cplusplus)
+     return (npy_longdouble)z._Val[1];
+ #else
++#if defined(__MINGW32__) && NPY_SIZEOF_LONGDOUBLE == NPY_SIZEOF_DOUBLE
++    return cimag(z);
++#else
+     return cimagl(z);
++#endif
+ #endif
+ }
+ 
+--- a/numpy/_core/src/npymath/npy_math_complex.c.src
++++ b/numpy/_core/src/npymath/npy_math_complex.c.src
+@@ -34,6 +34,29 @@
+ #include "npy_math_common.h"
+ #include "npy_math_private.h"
+ #include <numpy/utils.h>
++
++/* MinGW long-double library entry points retain the binary80 ABI. */
++#if defined(__MINGW32__) && NPY_SIZEOF_LONGDOUBLE == NPY_SIZEOF_DOUBLE
++#define cabsl cabs
++#define cacosl cacos
++#define cacoshl cacosh
++#define cargl carg
++#define casinl casin
++#define casinhl casinh
++#define catanl catan
++#define catanhl catanh
++#define cexpl cexp
++#define clogl clog
++#define cpowl cpow
++#define csqrtl csqrt
++#define csinl csin
++#define csinhl csinh
++#define ccosl ccos
++#define ccoshl ccosh
++#define ctanl ctan
++#define ctanhl ctanh
++#endif
++
+ 
+ /*
+  * Hack inherited from BSD, the intent is to set the FPU inexact
+--- a/numpy/_core/src/common/numpyos.c
++++ b/numpy/_core/src/common/numpyos.c
+@@ -534,6 +534,9 @@
+ NPY_NO_EXPORT long double
+ NumPyOS_ascii_strtold(const char *s, char** endptr)
+ {
++#if defined(__MINGW32__) && NPY_SIZEOF_LONGDOUBLE == NPY_SIZEOF_DOUBLE
++    return (long double)NumPyOS_ascii_strtod(s, endptr);
++#else
+     const char *p;
+     long double result;
+ #ifdef HAVE_STRTOLD_L
+@@ -602,6 +605,7 @@
+     return result;
+ #else
+     return NumPyOS_ascii_strtod(s, endptr);
++#endif
+ #endif
+ }
+ 

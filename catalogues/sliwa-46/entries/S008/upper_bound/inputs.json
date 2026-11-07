@@ -1,0 +1,8 @@
+{
+  "id": 8,
+  "engine": "analytic",
+  "characteristic_file": "S08_charpoly.txt",
+  "commands": [
+    "@analytic"
+  ]
+}

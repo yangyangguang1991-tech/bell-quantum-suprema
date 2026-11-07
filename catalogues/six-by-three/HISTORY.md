@@ -1,0 +1,28 @@
+# Historical scope and references
+
+The [annotated I3322 history](I3322_HISTORY.md) covers early facet discovery, restricted optimizations, the path conjecture, current exact theorems, and the computational contributions reported by the original authors.
+
+**Which results were previously proved?** Probability positivity is a defining constraint. The sharp unrestricted CHSH bound is due to Cirel'son. For $I_{3322}$ the path variational value, nonattainment in finite dimension and attainment in the spatial model have explicit recent proofs. For the $I_{4322}$ and $I_{5322}$ entries, no separate prior complete strict analytic proof has been identified in the sources reviewed here. These entries distinguish the historical classification and numerical research from the exact proofs distributed here. No worldwide priority claim is made for the latter.
+
+1. J. F. Clauser, M. A. Horne, A. Shimony and R. A. Holt, *Proposed Experiment to Test Local Hidden-Variable Theories*, Phys. Rev. Lett. **23**, 880–884 (1969). [Article](https://doi.org/10.1103/PhysRevLett.23.880).
+2. B. S. Cirel'son, *Quantum generalizations of Bell's inequality*, Lett. Math. Phys. **4**, 93–100 (1980). [Article](https://doi.org/10.1007/BF00417500).
+3. D. Collins and N. Gisin, *A relevant two qubit Bell inequality inequivalent to the CHSH inequality*, J. Phys. A **37**, 1775–1787 (2004). [Preprint](https://arxiv.org/abs/quant-ph/0306129).
+4. S. Pironio, *Lifting Bell inequalities*, J. Math. Phys. **46**, 062112 (2005). Extra inputs can lift facets. Here unused settings have zero payoff and do not change the quantum value. [Article](https://doi.org/10.1063/1.1928727).
+5. N. Brunner and N. Gisin, *Partial list of bipartite Bell inequalities with four binary settings*, Phys. Lett. A **372**, 3162–3167 (2008). The three conventional $I_{4322}$ labels in this release use their classification. [Preprint](https://arxiv.org/abs/0711.3362).
+6. K. F. Pál and T. Vértesi, *Quantum bounds on Bell inequalities*, Phys. Rev. A **79**, 022120 (2009). Numerical lower and hierarchy bounds for many tight inequalities. [Preprint](https://arxiv.org/abs/0810.1615).
+7. K. F. Pál and T. Vértesi, *Maximal violation of the I3322 inequality using infinite-dimensional quantum systems*, Phys. Rev. A **82**, 022116 (2010). The higher-dimensional path family motivated the conjecture studied in entry 02. [Article](https://doi.org/10.1103/PhysRevA.82.022116).
+8. J. Jesus and E. Zambrini Cruzeiro, *Tight Bell inequalities from polytope slices*, Phys. Rev. A **108**, 052220 (2023), Source of the complete (6,3,2,2) scenario classification. Their tabulated local constants can differ from this release's representatives. [Article](https://doi.org/10.1103/PhysRevA.108.052220).
+9. J. Pauwels, *The quantum supremum of the I3322 Bell inequality is not attained in finite dimension*, arXiv:2608.29734 (2026). Establishes the finite-dimensional comparison with the path family. The author credits OpenAI Codex for the first proof draft and describes subsequent work with Claude and a Lean formalization. [Preprint, acknowledgments and Appendix D](https://arxiv.org/html/2608.29734v1).
+10. A. Coladangelo, *The I3322 Bell inequality requires infinite dimensions*, arXiv:2609.06038v2 (2026). Provides the Jacobi characterization and normal infinite-dimensional attainment. Entry 02 derives the corresponding commuting upper from positive path pivots. [Preprint](https://arxiv.org/html/2609.06038v2).
+11. A. Krohn-Grimberghe, *Certified exact identification of the I3322 quantum value*, arXiv:2609.29693v1 (2026). Reports a stable-curve characterization, computational verification and automated review. Its separate isolation computation is not invoked in the proof of entry 02. [Preprint and contribution statement](https://arxiv.org/html/2609.29693v1).
+
+The exact reduced Gram factors in entries 03 and 04 are supplied in full and expanded with directed words. Their mathematical role and positivity checks are documented in each entry. The present release does not treat an agreement between numerical bounds as a proof. The history above records the sources examined; the discovery history of further equivalent expressions is not claimed to be exhaustive.
+
+
+The detailed I3322 entry bibliography also records V. Connor's written measure-variational proof as an alternative to the supplied Jacobi argument. This reference is not a computational dependency. See [the exact-value references](entries/02-I3322/REFERENCES.md).
+
+## Additional sources for the five-setting facet
+
+M. T. Quintino, T. Vértesi and N. Brunner, *Joint Measurability, Einstein-Podolsky-Rosen Steering, and Bell Nonlocality*, Phys. Rev. Lett. **113**, 160402 (2014), Appendix A, Eq. (A2), gives this facet in the party-reversed notation $I_{3522}$. The corrected arXiv version 4 is related to entry 06 by local relabeling and $I_{3522}-6=4F$, where $F$ is the entry's probability functional. Its fixed-measurement optimization is distinct from the unrestricted quantum supremum proved in entry 06. [Version 4](https://arxiv.org/abs/1406.6976v4) · [Article](https://doi.org/10.1103/PhysRevLett.113.160402).
+
+C. Qian, Y.-G. Yang, Q. Wang and C.-F. Qiao, *Class of Bell-Clauser-Horne inequalities for testing quantum nonlocality*, Phys. Rev. A **103**, 062203 (2021), Eq. (34), gives the literal $I_{5322}$ probability polynomial used here; Eq. (35) supplies a classical inequality proof. Section IV studies quantum violations for selected states. These results are credited separately from the unrestricted exact-value proof. [Version 2](https://arxiv.org/abs/2101.02426v2) · [Article](https://doi.org/10.1103/PhysRevA.103.062203).

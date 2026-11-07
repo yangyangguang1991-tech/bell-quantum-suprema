@@ -1,0 +1,13 @@
+name: full-proof-verification
+on: [workflow_dispatch]
+jobs:
+  proofs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -S run.py verify --all
+      - run: python -S run.py manifest

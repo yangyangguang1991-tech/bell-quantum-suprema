@@ -1,0 +1,3593 @@
+{
+  "schema": "mathematical-provenance-v1",
+  "component": "sliwa-46",
+  "edition": "1.0.0",
+  "predecessor": {
+    "id": "sliwa-46-pre-consolidation",
+    "edition": "1.0.0",
+    "selected_file_tree_sha256": "d8984def4f876b9340e38250ee44cbd31d51b57145aa071e884856db594cdde2",
+    "digest_encoding": "SHA256 of compact sorted-key ASCII JSON mapping each listed mathematical/entry path to its SHA256; excludes runtime and publication-wide metadata"
+  },
+  "ownership_basis": "Yang-Guang Yang confirmed that the predecessor project artifacts were organized by him and that he can license the project-created code, text and certificates, with no undisclosed rights holders or restrictions. This records the contributor declaration; it does not relicense identified third-party material or adjudicate external ownership.",
+  "scope_limit": "Hashes identify the exact supplied artifacts and transfer history. They do not establish mathematical priority, independent invention, or rights in cited publications.",
+  "lineage_builders": [
+    {
+      "id": "initial-certificate-extraction",
+      "sha256": "7dbc8e6446869ea88ad48fb9129593eb4b05204f4645349e4a05059f92b3b225",
+      "role": "initial certificate extraction"
+    },
+    {
+      "id": "explicit-strategy-assembly",
+      "sha256": "9321cfb3f68d230e2398cab66f3104ff7aaf86516be785f86900c79740c72da2",
+      "role": "explicit strategy assembly"
+    },
+    {
+      "id": "single-entry-proof-adaptation",
+      "sha256": "51b5ed356e0a42db18f699118948b118ead49cac74c6d87cefae375471fabd14",
+      "role": "single entry proof adaptation"
+    },
+    {
+      "id": "scientific-reference-tables",
+      "sha256": "afa3780e75e53ce466a08b4165c9f9591caef573abc5c3f29a42766a21ae852c",
+      "role": "scientific reference tables"
+    },
+    {
+      "id": "publication-exposition",
+      "sha256": "cedbdd2372fac65efe2d78b8aef1db8a6ae1479c9d62afcc61edaab2cd799dee",
+      "role": "publication exposition"
+    }
+  ],
+  "entries": [
+    {
+      "entry": "S001",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S001/attainment/measurements.csv",
+          "sha256": "257d2124cb79652788c09208d31fcaa6f6e75d531b0f1bf46e38e1ae08c3c4da",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/attainment/state_vector.csv",
+          "sha256": "ba19ac4519b6795be01da70d03ffb6296d5cc1486769ac717dea4e6ac3886a9f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/attainment/strategy_exact.json",
+          "sha256": "3daf1b3b2a1c4b72a7ad965f35f8108b4e3f0d03be14a3ba418a8a5409881853",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/attainment/strategy_numeric.json",
+          "sha256": "f33214a45590020af4d693a53fed128a9dce296bd4fc31adf5f844422114fe72",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/functional.json",
+          "sha256": "e1c810da504a6f3e96811c0e3a2e4a27f6be14b9d9d34c81357732ced6fadf96",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/README.md",
+          "sha256": "6ef288ea2cc1143429172f8b44625cf60151aef36917f851e988cd52abada32f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/strategy_spec.json",
+          "sha256": "3f0f14d2569e11539b117c9acc275d1e1f841a7a80263f26b138658d9ae765a2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/upper_bound/certificate.json",
+          "sha256": "8ec24daabb42a9ba02d3f38a7ae8c081669f05a5089e8ed1cb0279b7af21810c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/upper_bound/inputs.json",
+          "sha256": "70fdc82857a828caee56a15338163f17df43a08e7ca82c8aa250d7f6fb885f1d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/upper_bound/S01_charpoly.txt",
+          "sha256": "9ef0ff75d48233fe806fd359674a02fb0b71b6259b612457caa8df7c2a5873c7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S001/verify.py",
+          "sha256": "949c7ce7341b3c0ea44571e7868a8f2a861c42db287f3712bcfaf9f07b8b7f18",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S002",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S002/attainment/measurements.csv",
+          "sha256": "a054e8dcaede75f92e260800caf51a1cbb1abc00da766a66d5ca6e36359ea48e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/attainment/state_vector.csv",
+          "sha256": "ab61ff25e9b308c697778808d70a28f658a4bfd6636a9ba594d80d2bde3b7f32",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/attainment/strategy_exact.json",
+          "sha256": "394b48e9959bcfd919173a55bbe5c0a5091d3bc2c7ecc4c00034d7c44cf3bb4b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/attainment/strategy_numeric.json",
+          "sha256": "7e306d2e10c037201dc972e86a6bcc6d4774a298a39204a6dcaa60d8c59df6bd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/functional.json",
+          "sha256": "7cc7df2a83cd66a4c6e1f24b9f920991bdd6fef6484448f4f8030489828c3a8f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/README.md",
+          "sha256": "255ccf65e3bae288d71b509debaeaec75a89c2781a4ec8143cf162548406e79e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/strategy_spec.json",
+          "sha256": "3c8cb5ea0d78083c38984137650dec02cd43ed6293f031eedae58a86ba6998bf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/upper_bound/certificate.json",
+          "sha256": "c80e87d417baab629b52a4f9da52ca4ec49b46b50bd0a0d07d88efa7db1e4e04",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/upper_bound/inputs.json",
+          "sha256": "977fd87d628534b94237d18df21eef67f26f72a2c356241f56f9ed7a2c4f7f89",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/upper_bound/S02_charpoly.txt",
+          "sha256": "d650e81c60baec075395c6b6319d19e67c0c6741c76c0d0c030dc269a87ea89a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S002/verify.py",
+          "sha256": "ed03e5f6de1c6299d592a561cdf78f59b35deaaec519f32bc669e9c0609fa3ac",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S002/README.md",
+        "sha256": "255ccf65e3bae288d71b509debaeaec75a89c2781a4ec8143cf162548406e79e",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S003",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S003/attainment/measurements.csv",
+          "sha256": "5789fcbfecbbd1340acaa37d532eff4c9ed74c25ad65a3ae093441595138fefc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/attainment/state_vector.csv",
+          "sha256": "61b85fc65616f6879f9b8e69120e6f547738a60da5ecc26a91309e607ad8829b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/attainment/strategy_exact.json",
+          "sha256": "3d5190a537ba198f49c3ec3ba85a0ab66c6358a1ee12b7cccf722de73c13f33b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/attainment/strategy_numeric.json",
+          "sha256": "33abcae32d2a7747bf44727c1435e13f5b52ed0d05bc52d551e1bd54aa3c93a7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/functional.json",
+          "sha256": "a99b4051766146c11a4b264a840f2e7351434b01ffaeeefba7d40f1a8010afe6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/README.md",
+          "sha256": "ec3ae7cbb3ce93ce9fa651b3e7f88c453c8e05716b57938ce1dcfe2c0f3d6acc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/strategy_spec.json",
+          "sha256": "62114fb5bbbc4c5f7ffef0cb7a39b25e810a9d8b2fc15c3fd1abea27df9deabb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/upper_bound/certificate.json",
+          "sha256": "c81526a82d7d0ad68c31428689243947fbe82e987ff94b8f6f408f050f560306",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/upper_bound/inputs.json",
+          "sha256": "f7d6eed10c2f499474e3c4f1721ec2f0afaf0e887f71d36a34c70475508dceec",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/upper_bound/S03_charpoly.txt",
+          "sha256": "d250f0f06679b902d9d77c6ad588f6e4a273dde013c2aa5822745bc09d1e8046",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S003/verify.py",
+          "sha256": "e4106df82496b039a4dda1b1a28ddf65951ce4efd3973b5ac7c19e5e2c4a271c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S003/README.md",
+        "sha256": "ec3ae7cbb3ce93ce9fa651b3e7f88c453c8e05716b57938ce1dcfe2c0f3d6acc",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S004",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S004/attainment/measurements.csv",
+          "sha256": "b8901024a4f3f7d6ec44fbf55b924bd2c0b9b3dbcd346d8f94927e0bdf9a95b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/attainment/state_vector.csv",
+          "sha256": "964a6eb21f9df3e6af0cce900d1fc1d279b29b88aa90667563f89363323157f4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/attainment/strategy_exact.json",
+          "sha256": "1446d09b3a2d92bbb6e7774c2e047fec6cf6c2c78723cbff6a68f68487fed5ba",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/attainment/strategy_numeric.json",
+          "sha256": "ddd4a0fe76d06442afac38aa004a6d65e7fe406bd8a6bcc55350d73018715994",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/functional.json",
+          "sha256": "afd299ac608fa49c508dca8bd1b59f244495e5756b845dff3966aba6f6aa5c56",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/README.md",
+          "sha256": "e5ce1d4f1d5407cc8b1a1170656a793d2c420b343510ad594362d8d12096bd9d",
+          "immediate_source_relation": "Project-authored historical-reference supplement to the predecessor exposition",
+          "predecessor_sha256": "28563354b701e95c307792ca6e8b499d50454551d6374c364bddfaf2fa2d00f6"
+        },
+        {
+          "path": "entries/S004/strategy_spec.json",
+          "sha256": "8b85cc1b1931b290f6cf5ceab0771fddcd0d38fd640f028d402894cf599a60bc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/upper_bound/certificate.json",
+          "sha256": "eb8da7fd87736cd24a80c917a590d9f5427229d9aeb62d8d715d3e444a57b3ff",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/upper_bound/inputs.json",
+          "sha256": "489e6d6cdd002d442da93bb40e07324fd178c4be9071dc9ca34237b375e3bd68",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/upper_bound/S04_charpoly.txt",
+          "sha256": "f1d3eca946c84f936918c262e52eabacdf3d7076bed47ab5a0e643cd3b04b3e5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S004/verify.py",
+          "sha256": "d5514089fbe5e0b9e9e605a1e7863dfe5265c283fcce24ea65b9566b069dca6b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S004/README.md",
+        "sha256": "e5ce1d4f1d5407cc8b1a1170656a793d2c420b343510ad594362d8d12096bd9d",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S005",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S005/attainment/measurements.csv",
+          "sha256": "f8b0f0c07bc78151d1c77248c28ad0ff369ccabcff669019fc2b17a3723cf057",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/attainment/state_vector.csv",
+          "sha256": "bb8d1dd7c952b0c347f36a6cde62033e20e0ba121866cc4c5a445e7488fe6d74",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/attainment/strategy_exact.json",
+          "sha256": "fc1a9897c12f456e8d034d396bbda92b5f878552d9a33a2afef16d8cb9a7b3f9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/attainment/strategy_numeric.json",
+          "sha256": "37a0598687e685d0f46015ca1bbbd24a561f4df8e926873d7231be4f379de9e8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/functional.json",
+          "sha256": "eb1b2ab9b287ba709abd7e8db6a9fe6a7b5c89fb744e14fea20ec48fc97b8384",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/README.md",
+          "sha256": "1bc9114c09679ccadf345ad6f725dfbb9cdb0ce7e4b9a3d5f34d09bbdf896987",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/strategy_spec.json",
+          "sha256": "dfb2805f8a6e6c189c0fb1cedd64b1fb00c613a4f3a09c9929299fcb6f2db74a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/upper_bound/inputs.json",
+          "sha256": "c364251bb87b59ccde8b80c65f7a241ef8ee19b6cf0a80b7f6d24e7b2b245647",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/upper_bound/S5_charpoly.txt",
+          "sha256": "adf10f0e62a1852beb91566c0343629deea595468a8346211ef3a3f6f954a4db",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/upper_bound/S5_full_certificate.json",
+          "sha256": "563b6b0e6c4046243a7111078b36893196c98e53ba709de56c521e3d25276b41",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S005/verify.py",
+          "sha256": "05463ad9aff4b73223fbf6a5366fc190b26acb7c445341faf4b039a51bb70efa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S006",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S006/attainment/measurements.csv",
+          "sha256": "9ac26e938ffcee53da008b61f5e7dbdb5304f6e907071a32b821e2e346961a2c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/attainment/state_vector.csv",
+          "sha256": "5d510e45d52ae499f8d1d7a92fab96d2ebd9930f0fd489c972f884df7a3fafd8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/attainment/strategy_exact.json",
+          "sha256": "f65f0a41ec935a93149bf08bba7ff00a28735eb42ea0dd8f69bc97b35f7000ee",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/attainment/strategy_numeric.json",
+          "sha256": "c218e9db38fa4372fc1c0e61b7b6e7458335f3f6e4dede8af5eac3f60f633644",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/functional.json",
+          "sha256": "74bbc5c7a50ea0c3f94c6b93104a0c2f85f27c3bfc92297303593b093a9bb886",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/README.md",
+          "sha256": "74b766935316ecd62ac00db7dd6d0168b9b6ce25c6cafd299b86ce7aa09d9367",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/strategy_spec.json",
+          "sha256": "629e6b8d87f0392b716c95af74e98372ac711ea3030fb10cf3329f3f925b8fdd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/upper_bound/certificate.json",
+          "sha256": "a571d1d303b9030bca7dde12b004500fb41be18f86483fbac68d766584e3495e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/upper_bound/inputs.json",
+          "sha256": "403138a31f01632640615ce91edc086c6160e1884b11768b759c1c28b285e7a1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/upper_bound/S06_charpoly.txt",
+          "sha256": "ee3928b3432cbbb95384b84d5e50fcbc241a953119fffa3c5c564160a96018dc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S006/verify.py",
+          "sha256": "d8fb74ac799185cec49a0890a48f5e225b7c8490e74d7f88f183bccaf2ac3230",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S007",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S007/attainment/measurements.csv",
+          "sha256": "7cc2bf4428eb6b4ced9040ec4abdeabafded42e082763c3343e9f49fac00d198",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/attainment/state_vector.csv",
+          "sha256": "bccab5c096e35d4e2decd3510b6eae04a38f895b2c9ae744bdcd01e6dd663240",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/attainment/strategy_exact.json",
+          "sha256": "54cad74679e6190abafdd25d7a0d186cc3cf00b60bf28311b257caa4b78da6a2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/attainment/strategy_numeric.json",
+          "sha256": "fe7414d4ddf54fe32e37fb859ffa70562119a29997a795f7d9a9be0ff330af85",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/functional.json",
+          "sha256": "1b1543fbff0e5a34258283d80b01c3b5148f0580908e8cafec35c99d3137f08e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/README.md",
+          "sha256": "58b14543ab31719ba0d6d31406a7409e44c0317959537360c41e29a3262d31f8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/strategy_spec.json",
+          "sha256": "6f20ee3ab594c4bd316499218c9abfca32003f8ac6bd300cec0e5d61a0d734ac",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/upper_bound/certificate.json",
+          "sha256": "146423af6f5632dbffead44988b9893680985e61a8e00878d05178e0283b5f80",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/upper_bound/inputs.json",
+          "sha256": "b509da1fb341de01df5164eef8b204eb08aea5f1e97c9d1af6a8e83fcb98d25c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/upper_bound/S07_charpoly.txt",
+          "sha256": "26ae78527338b22dcdaa8d624757e7430b619424795f0658d4be3f33658fd0e3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S007/verify.py",
+          "sha256": "75dc1ed75aed75d74be1f9857f51816845a0a2226e9dbab6d44d4026fabfed14",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S007/README.md",
+        "sha256": "58b14543ab31719ba0d6d31406a7409e44c0317959537360c41e29a3262d31f8",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S008",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S008/attainment/measurements.csv",
+          "sha256": "ca185dac6c65701bb22f6556ed541652a3d1efe7e5374bce3c14ebe19b8e22f0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/attainment/state_vector.csv",
+          "sha256": "908d83670dcb682b254842120d14bb12509d7d84da7f384ccd0eb7384fc63f0d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/attainment/strategy_exact.json",
+          "sha256": "8f914b24ecbdbbf0c4efd169cbe4f3ecc08ef947ab822d16e60d6a4a066842af",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/attainment/strategy_numeric.json",
+          "sha256": "9f864b955c8a3591a81f838e1f49e9e028a2f356ae9c70306ffab73b2f7de780",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/functional.json",
+          "sha256": "e0d989e4628311b041997cce9a0e2f4c95bea274482364e0e30eab9246f7babf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/README.md",
+          "sha256": "c2653187cb00d9581d9c51749151cb6901a252bdb89b855e75d77de24b0ce709",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/strategy_spec.json",
+          "sha256": "9e57947bad0a2a98d4a86bbde6351320374ae63fe2662a3112ee7abcb8a66a9c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/upper_bound/certificate.json",
+          "sha256": "5f44586b6f784fd195225f55a5ce72faf012594fbc0e3d2975750bf6d09b0cd2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/upper_bound/inputs.json",
+          "sha256": "7108804f649e597ce07f1dfe8c99533222a11a46d3aefba08d26dd7dd8aaee3b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/upper_bound/S08_charpoly.txt",
+          "sha256": "434d592d6c5e5671e4e2b0bbb75adc4ab1eba0f4dda32b6486caf2311487009d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S008/verify.py",
+          "sha256": "80bbebe3a7793ad6a85c50ed3c71838278f1a0ba8f619b296fcc0eec3416ace8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S009",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S009/attainment/measurements.csv",
+          "sha256": "5789fcbfecbbd1340acaa37d532eff4c9ed74c25ad65a3ae093441595138fefc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/attainment/state_vector.csv",
+          "sha256": "364cbd0ee1fcfe63f5f47ae0e9c469b90460f12c2abd4123479b0fa9968e31cd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/attainment/strategy_exact.json",
+          "sha256": "bfc663d4f659d87252dac32c723d901790be300bcdc25402a8f8411144896a85",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/attainment/strategy_numeric.json",
+          "sha256": "503f685e9f1dd323bb8388e2961e5c0072fe9b1b3c820a6a0777075f76f72a11",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/functional.json",
+          "sha256": "293727fac03d02288b3f1ae087fb18015ccc8e1f6fefcdd4b6c3a3f00150a694",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/README.md",
+          "sha256": "fc9bf7c62106131f74e40806915f47ce829504b12bb2654b9c4ea37098f6d9fa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/strategy_spec.json",
+          "sha256": "9626720b402aa1b7fa8987e18111785e950524b19dc130fca6e46abed9c2b3f8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/upper_bound/certificate.json",
+          "sha256": "cc1ca862a78c1db6db8c0e241be4fd974e7d2b61cc75a6a29d9c5654f51e24ba",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/upper_bound/inputs.json",
+          "sha256": "6e669bef7720bf243273318ed6a1baaa9c836f1b24c3a5fa8083ac95a40e073b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/upper_bound/S09_charpoly.txt",
+          "sha256": "39f19c7be52f8fadda86216baef9b28bfbbd46a0aa81be1f19b6bb9ce5452fb8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S009/verify.py",
+          "sha256": "082004b4e3cf95a907338be99689eccb5e2ad6d6e59b801bcbca06ba6ed0c592",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S010",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S010/attainment/measurements.csv",
+          "sha256": "257d2124cb79652788c09208d31fcaa6f6e75d531b0f1bf46e38e1ae08c3c4da",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/attainment/state_vector.csv",
+          "sha256": "ba19ac4519b6795be01da70d03ffb6296d5cc1486769ac717dea4e6ac3886a9f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/attainment/strategy_exact.json",
+          "sha256": "4b2fa95c08df683c5eb427050ad8a6de47b637683190304101c1c5799a2e503f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/attainment/strategy_numeric.json",
+          "sha256": "0dcafadaf2203f58b5299693fe77fea25c38ef5c59df887eeeaf961efc776217",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/functional.json",
+          "sha256": "0d2537fc17743648032e544c6cbf23a85d1395a84317ec604899ec11f5943e1b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/README.md",
+          "sha256": "e394e680774f5041aa3a2c05bf7c35145f80b04e2bd5ceb0be87e1a379264612",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/strategy_spec.json",
+          "sha256": "c13b111212185f56ec89bab3da839577afb286cb927c9023ec0e6d49e3d81fb9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/upper_bound/certificate.json",
+          "sha256": "f269a8d688dbe6637dea50608f46fc0c547055f0f3b96cffe5ee879a48f1dd0d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/upper_bound/inputs.json",
+          "sha256": "d2b3bee7af8e3238e0df094d992b02f9c28513f8d09dfd6a519c68fb42ab5657",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/upper_bound/S10_charpoly.txt",
+          "sha256": "a1f6d5590373e992fc3d7af1584eb928112603cbc405582d12e689f9683fc1ca",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S010/verify.py",
+          "sha256": "3827280b6db2e39141ed50cb41acb7ba9f864b66d29272470ba0362f89c4ec13",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S010/README.md",
+        "sha256": "e394e680774f5041aa3a2c05bf7c35145f80b04e2bd5ceb0be87e1a379264612",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S011",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S011/attainment/measurements.csv",
+          "sha256": "bbce412cc2968ff550b7cf1f8bd0fb9ff882eb57eb054b0aae227c33f8963d0c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/attainment/state_vector.csv",
+          "sha256": "7f64f44c91751dc9b3dc4be17b057770c16fefcfa55e3b2aefd0f3894e4cb941",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/attainment/strategy_exact.json",
+          "sha256": "efb334b008fe844347192171428f16bcaa2155e20b0f4ad7d8073a802159420a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/attainment/strategy_numeric.json",
+          "sha256": "f4ad19978a0a608887b43e80ee58fd9c06776069d070d88dc5976cf8869462a0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/functional.json",
+          "sha256": "a6f76d9b2254c789e733430aa6ebce72dd0fd1e01605c1b485937cb0a7c38086",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/README.md",
+          "sha256": "26ca56c87295522be0279f16def16fe3e7b17ae6b7e0c83795da837f335eacaa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/strategy_spec.json",
+          "sha256": "0f065fe51df84bfba9da9de302aeefe8b3625a4960a240a5aedd014a0b6957cb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/upper_bound/certificate.json",
+          "sha256": "6023e46382cb1f9ae61a15a909ff1f05db9396ee6ba72f522b56a28d6e7b282a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/upper_bound/inputs.json",
+          "sha256": "bed05bab93453420ec1b06ad8976d6c9d1da4e94c2e8b082840ea6c1eaa7c43b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/upper_bound/S11_charpoly.txt",
+          "sha256": "0d14e7d9000d63807c70d2e44e07e8c1fd9cd458e0bc45ddb8a9e13a77a64610",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S011/verify.py",
+          "sha256": "21a7255476c8ff9dc1720596b079ef817fd6eb63c9b001fe42f351396f827b94",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S011/README.md",
+        "sha256": "26ca56c87295522be0279f16def16fe3e7b17ae6b7e0c83795da837f335eacaa",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S012",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S012/attainment/measurements.csv",
+          "sha256": "bbce412cc2968ff550b7cf1f8bd0fb9ff882eb57eb054b0aae227c33f8963d0c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/attainment/state_vector.csv",
+          "sha256": "7f64f44c91751dc9b3dc4be17b057770c16fefcfa55e3b2aefd0f3894e4cb941",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/attainment/strategy_exact.json",
+          "sha256": "2ac89ea0c175d36b56ce7cd2416f4ceee642e908287b678d9f480e823777a45f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/attainment/strategy_numeric.json",
+          "sha256": "084bc9092073113b64742d60c827d66eba2c2175287ad5a98f3525b904deef2b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/functional.json",
+          "sha256": "0a82e0e05e1329ea33981f2dab4b89a3d96a37e4ab304cfb43c9877aa3163e05",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/README.md",
+          "sha256": "f301b903014612ce7252dc98048cc71f133eee672a5d3fe2f1a470f693587171",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/strategy_spec.json",
+          "sha256": "0f065fe51df84bfba9da9de302aeefe8b3625a4960a240a5aedd014a0b6957cb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/upper_bound/certificate.json",
+          "sha256": "d1079c05338781371d1e5134bc0a8872923b7eb54ed173698bad63e17926dbe9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/upper_bound/inputs.json",
+          "sha256": "4c4a7b98e55faefec9513acf37bfb040c2758f82274492bce1115f02e6eb024d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/upper_bound/S12_charpoly.txt",
+          "sha256": "a456c2897c0d86fa55e67b9e44d03c0bd889965ac5525120044f127219dac7cd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S012/verify.py",
+          "sha256": "45808d48b2876c1d664dab6159a68fd0a528d9ee807340733d5bde62916ebfa9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S013",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S013/attainment/measurements.csv",
+          "sha256": "bbce412cc2968ff550b7cf1f8bd0fb9ff882eb57eb054b0aae227c33f8963d0c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/attainment/state_vector.csv",
+          "sha256": "61b85fc65616f6879f9b8e69120e6f547738a60da5ecc26a91309e607ad8829b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/attainment/strategy_exact.json",
+          "sha256": "5a932136388ef9342afde21a2251ec3ac70debd9666564ef1a3306dad6258817",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/attainment/strategy_numeric.json",
+          "sha256": "d6d8dac367017d4e65ced4f94bbaf590af103aaa2bd5c1eb2f16cb30993b814c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/functional.json",
+          "sha256": "4ea72ab38825dbcd8c9c4546624c197ca1399c0091e5bf0b9dffc5a36ed70a6e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/README.md",
+          "sha256": "c2108223658d52c43fc0d13627b371fd90fb9ef74fda6dae50b5fad81cccb582",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/strategy_spec.json",
+          "sha256": "0f065fe51df84bfba9da9de302aeefe8b3625a4960a240a5aedd014a0b6957cb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/upper_bound/certificate.json",
+          "sha256": "2a8ddb4a9f1c43a5039442481313a7430457190dcf26690d558f1297a95a267c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/upper_bound/inputs.json",
+          "sha256": "7644e29e58be993e9dab6a66cfba84bdbb4f143353a8ea700a9cdabdff85776e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/upper_bound/S13_charpoly.txt",
+          "sha256": "18d630bc9de11e3f9b6d8e410f21000b0a4b02fecb1f284586d5b6a1f535a3aa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S013/verify.py",
+          "sha256": "fc20496e5f1e6f922242e8bd9227470c2293627a8e5df7fd86c254baf1881148",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S014",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S014/attainment/measurements.csv",
+          "sha256": "bbce412cc2968ff550b7cf1f8bd0fb9ff882eb57eb054b0aae227c33f8963d0c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/attainment/state_vector.csv",
+          "sha256": "61b85fc65616f6879f9b8e69120e6f547738a60da5ecc26a91309e607ad8829b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/attainment/strategy_exact.json",
+          "sha256": "7f0b61a916500fd494a67c59f6e14b55e4fb40a7dc606a429efa4b9dd6052605",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/attainment/strategy_numeric.json",
+          "sha256": "a71fe59da43f3374ab0a23783b4f00f0c011ce7e4f1dd3b7119106749d707526",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/functional.json",
+          "sha256": "2ec3cfb07333b021de49517938221cd0a77a4e858b27e6fcca9ea992d507bf2f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/README.md",
+          "sha256": "3073506286133d1ea4d2b314b93bd09dd3692b963b6b043f8b0ef5cd1809c2ad",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/strategy_spec.json",
+          "sha256": "0f065fe51df84bfba9da9de302aeefe8b3625a4960a240a5aedd014a0b6957cb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/upper_bound/certificate.json",
+          "sha256": "14bfd0841c32806e5d6f308d0353112c783ae241933c4ec953508b04ce5907db",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/upper_bound/inputs.json",
+          "sha256": "4e0974000d174362cbb558a3e89a7043f065854b191d94279b105ae536d642b6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/upper_bound/S14_charpoly.txt",
+          "sha256": "dd5ba449c1a973e2bfa66d8bbc588726690d34d17a88fdafdb5349c648db855a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S014/verify.py",
+          "sha256": "f41c0f53385377ba7bade646f2d1f5220a476603b7c32aa35e67fee246e48dbe",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": {
+        "file": "entries/S014/README.md",
+        "sha256": "3073506286133d1ea4d2b314b93bd09dd3692b963b6b043f8b0ef5cd1809c2ad",
+        "section": "Earlier exact proof"
+      }
+    },
+    {
+      "entry": "S015",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S015/attainment/measurements.csv",
+          "sha256": "577908ddd96893cb99877de8a24f186e4bab8c53a50ef94ac7644463cd2021f3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/attainment/state_vector.csv",
+          "sha256": "cb2799a8d008007753cb0dbdc9611823bc25b270c92e1f51f8105e1be24be35a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/attainment/strategy_exact.json",
+          "sha256": "48ccb2a15ba14771edd58e267baf12bf76ee793121aed317720e2e7eb8893101",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/attainment/strategy_numeric.json",
+          "sha256": "bd16e445e6a00bd04c86ee7f125d91a11e0c2f67a6d4df66b94674258c69b9af",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/functional.json",
+          "sha256": "108f1ae9ab6172b51f510ee749707fb617001703119e5d77ec1523bb128043a2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/README.md",
+          "sha256": "e48dc380f054f0f7b44868ede5ab9dda0695203417e6a0f989853c73f7f24ec2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/strategy_spec.json",
+          "sha256": "d9553be6898ed76f579b5623c6f1b2ab2288667951ba63bdb65793b307ad3c69",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/upper_bound/certificate.json",
+          "sha256": "15ec51e102ae482be78a98c03e3235574199e73393b7034f700f1b71ce48d1b9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/upper_bound/inputs.json",
+          "sha256": "736e48a2aa6f9435a31b04aee5174376e8fb944c339ef93d78ae90d45be2ea64",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/upper_bound/S15_charpoly.txt",
+          "sha256": "fa397cf5928581c75fc1bc505b5c2b60e97204b2d43bc50d1085c63ab595f9d8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S015/verify.py",
+          "sha256": "1464fd6a787d5da54cf254fd2d567071a327a6528afae6459f698cf04b93dcff",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S016",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S016/attainment/measurements.csv",
+          "sha256": "e5ea21ad7f36dc8b74943ea8f8337159963e32d694d8be9b10ac5affb4e7911f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/attainment/state_vector.csv",
+          "sha256": "a087495629cfa9743b3733379bc0093f9f637f287243ec59bf28e55313e0dffc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/attainment/strategy_exact.json",
+          "sha256": "f4eeda57d6ecee31068dfbd95a3ac08517e8b52c263b158230e91124c1b10ef9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/attainment/strategy_numeric.json",
+          "sha256": "b9eb0821ca2a34fac197805373332f96d829be2a3c5b9267172a036aa4cbc658",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/functional.json",
+          "sha256": "0d911315a779745c98793409590a19fffad333079f1eaeb9a2af66dbe6a88366",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/README.md",
+          "sha256": "56f7583d7ba4cc52e7df52c7ed5fe4712e2a12099afb2be472179fa2050cd791",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/strategy_spec.json",
+          "sha256": "f729f925acacc0023cf70632c4d640000c1057eefaf5dfcc89f95b341e0db865",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/certificate_16_field_bernstein.json",
+          "sha256": "0813806bd3af4033c45d0b49cdc95da1365a86d5d31cf40c4e34c5ace58d42d2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/charpoly_16_derivative.txt",
+          "sha256": "215274fcbe482e645ccfb7da6f2475665f724f295e4cf5362053eb54dc0975cf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/charpoly_16_full.txt",
+          "sha256": "d1c6ce7ac79caf64f016a685cc8c7407e5a07912ec3213309349098f12c12b29",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/inputs.json",
+          "sha256": "7b2ad88bf46e64cc8bc905ccf0ca849e8476a6571786a4f1e104142d91e11b28",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/PROOF.md",
+          "sha256": "a7de5499fe9bc94e4ed9aa9b364f642f0be680c65f5551280a52a4508a6ddf5b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/verify_16_algebra.py",
+          "sha256": "1cd4af129208d46adde7cf0826920f89fe3f8e9f5b5baa0200fe556e27c770d6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/upper_bound/verify_16_field_independent.py",
+          "sha256": "721956ded2492fd962646d23d0748aeb911466e3aa499b8c6193b616ecea5311",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S016/verify.py",
+          "sha256": "95c5a66560f543aa63d41b22ed7ac8fbbc4375d308a9ded800912ab7d9f33d42",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S017",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S017/attainment/measurements.csv",
+          "sha256": "5789fcbfecbbd1340acaa37d532eff4c9ed74c25ad65a3ae093441595138fefc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/attainment/state_vector.csv",
+          "sha256": "62e089147e9d3f044a81a87fbb18c1c08bd183c9653a771308354a3389920633",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/attainment/strategy_exact.json",
+          "sha256": "e3cce2735bc0216fa79d0bf0b65336fe5b093abd1a4ab4689d7a60aa78ed73d4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/attainment/strategy_numeric.json",
+          "sha256": "3aab3dc150646add6aaca2aff1c8b0e23c0ddd2a171590fec85b06d2a5ecee0b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/functional.json",
+          "sha256": "4fb9ed8da41819668cb7631b0be99787e8b35b3ca3f5ce46c69a475f078455ad",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/README.md",
+          "sha256": "5c5f53b54e0c7132cc9fae5ca212a9bcee8cbe5754a8ed4717a19af76d43d79c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/strategy_spec.json",
+          "sha256": "9626720b402aa1b7fa8987e18111785e950524b19dc130fca6e46abed9c2b3f8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/upper_bound/certificate.json",
+          "sha256": "299c44667e38568085739f4be7806c9cff707c35423e9a992ffa5ea6b4b3777e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/upper_bound/inputs.json",
+          "sha256": "7bfc44ad5e2f5a44dc7de8c87deb6cbe73e5ffe998c3ff45b524015bc0949224",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/upper_bound/S17_charpoly.txt",
+          "sha256": "f14afaaeeb376f034fc0c375b3cd3b01e7f28db3b7686f051621d6ce61013f66",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S017/verify.py",
+          "sha256": "04bf49a74492ffb11c140eddace8701994d3e90bb6555d97c6ac77cc91f6aa4e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S018",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S018/attainment/measurements.csv",
+          "sha256": "6547013873d8b579717d6d70e768749e31bc0cd89e13bb7ff54fadfa9ca1cf8e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/attainment/state_vector.csv",
+          "sha256": "d8200233f5b3d94ec2287876f08d3f7f48581d99e1fc53e4d5928595ed189d0b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/attainment/strategy_exact.json",
+          "sha256": "24e0a973345854e8d4330f40c3c58aa068a9281a9c38b8c995a352e9fd7d36f4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/attainment/strategy_numeric.json",
+          "sha256": "850c449b3afe0dcd4648841ffe3013e2eff2dc8ced403fe64c928e466daf670c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/functional.json",
+          "sha256": "04c8d1fd9349a074b49a52cbee4f09af2142231f8e05ea361f61918fc3fecc0a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/README.md",
+          "sha256": "43af70564f84e3f6a1562e59de2798cc46af006402ad08d0f3dc995c73a71f75",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/strategy_spec.json",
+          "sha256": "664064f7eca3bdd933b65f18c49d32fb10fb1b6f559e449aca5cf0b81cd561f7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/upper_bound/inputs.json",
+          "sha256": "cd8a2b3d61ecb6df3a0a6029c2b6ec35c2f070278e34e068a186d855099a0f48",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/upper_bound/S18_charpoly.txt",
+          "sha256": "ce0f62149027d3e53fa15dc56134eecaf9eea393e4c46ebf89337d3a1f14a54d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/upper_bound/S18_full_certificate.json",
+          "sha256": "da357fa1d562c8b5fe3d4cf9abe25a20ffabd11cf163064579699808947d7928",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S018/verify.py",
+          "sha256": "13d066511aad51a5d4fac71dd6fab69aa49512ab4044da982a4b2a6ff584c745",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S019",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S019/attainment/measurements.csv",
+          "sha256": "7ae9135f90dcf06b2e07f88e869b6be1333d77f9c616941dbd402e075bce93a7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/attainment/state_vector.csv",
+          "sha256": "b95f8f28ef87a1c30722c5c3e60a0770473c0e4963cdd94a3e5ae182b553d493",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/attainment/strategy_exact.json",
+          "sha256": "a0c25c7dbfa5c50f9c0895f5c7eccfadcb9a831a25fa19f66a2713ac1a55bfde",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/attainment/strategy_numeric.json",
+          "sha256": "f3fec550aead4257f039c86babfcb72ee57244f2d7090d65da28c56160732ec0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/functional.json",
+          "sha256": "b9979570f7d8b03943a14b7ce5338ed20525a6542a7f7703a21537509383e745",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/README.md",
+          "sha256": "7eb1ab0d1b9bf9689c4cb89b7c965812373062d45616cf35a3ae90e5685368b3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/strategy_spec.json",
+          "sha256": "2463b4218d54f0cbb5dab56a937a0e176b6daa030fbfaef65f30907000f0afef",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/upper_bound/inputs.json",
+          "sha256": "cd0325ba949431d7fea444ae580a5c9b02b96698842c5987fbaf04f7776301b9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/upper_bound/S19_charpoly.txt",
+          "sha256": "d0c77e45165d2c4082619778a3398e74b9c9f31b20f1fa92769332d7ca8b7c1e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/upper_bound/S19_full_certificate.json",
+          "sha256": "04eec98c403d265dc9ef5faab539e67e1d66aedf605d0fe1f6e81fe6f45d7b03",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/upper_bound/verify_19_independent.py",
+          "sha256": "b03151d8212525c5aeb73c73bec4d3fa404a4c9c5c47cd72e35a01514c6d9100",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S019/verify.py",
+          "sha256": "9fce811088afd25e4304b2fef311493c9ca91397db6011d5ffb06a7d8f8a45fe",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S020",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S020/attainment/measurements.csv",
+          "sha256": "b8901024a4f3f7d6ec44fbf55b924bd2c0b9b3dbcd346d8f94927e0bdf9a95b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/attainment/state_vector.csv",
+          "sha256": "cec8d16b7396c2391f55f60b68583e11ec46e5dbb507a85d1552ab52db34e2c0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/attainment/strategy_exact.json",
+          "sha256": "cfc6659ee1143dba4ec328f0e29b8697603887927f8e13f2a25873b70c550771",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/attainment/strategy_numeric.json",
+          "sha256": "f58e9f65fbd17b8b6e4c0dd7dcc0d96337b48ef82066b8e86f70005b7629018e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/functional.json",
+          "sha256": "5bf86f538256ef6fb22175e8cc1a4253c2ab4279ce9b32f0b2cb5b3ddac2e56a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/README.md",
+          "sha256": "06173f0ac1b65af6389a7ab6715f035e0be105d80a758be25eeb22e8a96d5925",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/strategy_spec.json",
+          "sha256": "a5d7919cdc169099b20d0a6809c62d2127a391ede803a176554d683fee64b613",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/upper_bound/certificate.json",
+          "sha256": "2ba311df6aa32b6fa5bb9747f93e64b37b8bed460aee16e71316da90dd5fe540",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/upper_bound/inputs.json",
+          "sha256": "3235ea8213ed02e372f1c1c5f39725e832fb2f6ca452c06ee7865cedc17bc03d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/upper_bound/S20_charpoly.txt",
+          "sha256": "470716aa90aa7f77c193a974a7d253ccd0f5ff4c0672f0def7e5573eb688cc59",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S020/verify.py",
+          "sha256": "11ed27779b8e9e17f609262f2589f799204decad77e61da63e7ca8282a3a0139",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S021",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S021/attainment/measurements.csv",
+          "sha256": "6f03674554805c73deed38e76efc9d76c3fdbf8f898664510dd965d01aeae49b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/attainment/state_vector.csv",
+          "sha256": "b285c6f07ce5a605f81c4e58ea770e45af7b459567416452865f5bfad2beb9ec",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/attainment/strategy_exact.json",
+          "sha256": "47ce99f4af07522a7c503d63872d28b2fbead24792b4984341e0c219a0857cc0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/attainment/strategy_numeric.json",
+          "sha256": "0688d8ec8d808dec12507461092714cf66a8a204f81cc075bac81bf171e7ac3c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/functional.json",
+          "sha256": "a5b7964ef5dbff6650a522cdf9ca8f8086ab2ac8f88505ca883b7b791cb52550",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/README.md",
+          "sha256": "709ed8c9d92b4bf6823c6b27a839d09e3320d9f67c98d141fd088cd83ede2cc0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/strategy_spec.json",
+          "sha256": "c9a6e215810436db5bc5fdb0154052b27ac2dcd011b5b4b3c65e8c24c9d1d3e9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/upper_bound/inputs.json",
+          "sha256": "82d6ea07843dd3adb2bf6adde809946f826ccdc8512fbece1796995c9a7057a5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/upper_bound/S21_charpoly.txt",
+          "sha256": "7a094028a79beb2a58de70007267ed3e76cb304716754fdc36c34635af7acac5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/upper_bound/S21_global_certificate.json",
+          "sha256": "79a08313b05a365491e83c393762b10988a05102fe446426234fb8e7f12e6464",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/upper_bound/verify_21_global_independent.py",
+          "sha256": "f8d83cfbae1346a55c2a07429a475031f1251526f379959231fd951bcffdc5ac",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S021/verify.py",
+          "sha256": "e7566c94c323f29833be440c77a3bb83de987bab6470ed1ff580c9b06f39fc01",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S022",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S022/attainment/measurements.csv",
+          "sha256": "1234723ea788dfdbd1d919f524158c452f82c1d88d312e6100a26c844902d0fe",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/attainment/state_vector.csv",
+          "sha256": "34f3ca11fdcdac13b04d8078bb28477993c5ebaf4a24d2b278eb488b4fdec7b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/attainment/strategy_exact.json",
+          "sha256": "f3b14b069a7b2ca1de1d453b2d08c7d4d31cc5c828ab0ae2a136ade80bdbde3f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/attainment/strategy_numeric.json",
+          "sha256": "4480060fff41bd4f405ba2e0b460ef7cdb3395686d0ee998ef0ce4d6f6ac9ffd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/functional.json",
+          "sha256": "e7620e4dfbbb62b9bbbb39a3290bf30f67a3497c9b4186597594208f7840aaa3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/README.md",
+          "sha256": "c4db6cbe9e418290d30e529a878c3965c0d50c6ae5bd5135f574ad8ba67f3736",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/strategy_spec.json",
+          "sha256": "4eecd8221c4eb6167371e96ccec431eda332eab8e30588275d5c4642f0e8b79a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/upper_bound/inputs.json",
+          "sha256": "cdd8b1f88060564c9e26b262ddd2682acf369c52370ae0d4b58a38afc253e49b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/upper_bound/S22_charpoly.txt",
+          "sha256": "bd4253d923ea14bb8bb08d01f2b8cd4b7aff536b44e702fe631e3f23d6ed983a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/upper_bound/S22_full_certificate.json",
+          "sha256": "503641afac1eef2621159fdb19adf2a12c00d39d9e7f6b0b2fc5886303523408",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/upper_bound/verify_22_independent.py",
+          "sha256": "2cf14850f216568a268250f50ea417dcc277a3fcd5c4d431eaf35d47c263494e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S022/verify.py",
+          "sha256": "d9e89e2df1d049596bfc4d2db83639f2ef113477214491206f49352d33b1c25e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S023",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S023/attainment/measurements.csv",
+          "sha256": "44ec11d2f60b899489b0f062fe1d62fefd4de4dee4e7e2b5f094faac215f1deb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/attainment/state_vector.csv",
+          "sha256": "545e01fd553d40814b78d1f4870cf6f71e0f3fd14a86043a9a5a0020533b0067",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/attainment/strategy_exact.json",
+          "sha256": "e7ac6d1ca8ce9b6f4c9a8bcd71324c56f44c99c7de1494025b97cb18346da6a0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/attainment/strategy_numeric.json",
+          "sha256": "10789f4f464db58d1a98985284c85b53e2bd83dd4a2294427ada6b507a4c60c2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/functional.json",
+          "sha256": "551a6b1df7f2e202951f80c5dad87a696f3dcc3690fa37270f2ad7b69c9a44d8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/README.md",
+          "sha256": "f66e00415a7554fc40cabe8a091d79898aa7aebddd6327723937f5b086e65fc8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/strategy_spec.json",
+          "sha256": "526763a21e8b7485df67a3392a696ca874d9883de4708c3d6b2b9faf75aa7fbe",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/upper_bound/inputs.json",
+          "sha256": "e85bfdfdfff9d3e454ee50070d474d756317ae8f02f05106b698e63f8e5cd42b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/upper_bound/S23_charpoly.txt",
+          "sha256": "a8a6781f3379423e796cd8803d022bae4ec28a1b39fd48b24a5ddf4e9441fbc7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/upper_bound/S23_full_certificate.json",
+          "sha256": "c5bbc8a7a5bfe4d53c63860ce48272583e74fc12720f72cd171dd2db1b65839a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/upper_bound/S23_monic_quartic.txt",
+          "sha256": "374674bbe5095bb1ffb6f41eddcb885bdedc6676ad4c7cdeefd40a1bb43c2956",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S023/verify.py",
+          "sha256": "dd7d77b6eab1f583a4958bcf697cf0107c5f3277812fd06a3a163def1033b1c2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S024",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S024/attainment/measurements.csv",
+          "sha256": "1bbedc853cc96cf412e29d937dc67c1f3febf5b95a23a712f1bf5d0cc43b20b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/attainment/state_vector.csv",
+          "sha256": "dbb060cdf993ce801ceeceb8938b17ea1eccafa2d57c82968c3d0b701e02b372",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/attainment/strategy_exact.json",
+          "sha256": "07e47670fd228b3fc3744d98e7ee223ae154f87fa89381c8f08fe12e7399f53b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/attainment/strategy_numeric.json",
+          "sha256": "bd39b1d39253c2d23ab682205c5c995348a404268e76651cbd9002863e8516f8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/functional.json",
+          "sha256": "84df97160d37b04ea16facbc91909daca7ca35ed7625c7fc07036d17786882c0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/README.md",
+          "sha256": "13387b19da8ccb353ac6679c1545c72b8169e4f69e6530017bbaab9a36566c29",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/strategy_spec.json",
+          "sha256": "9256239d13cce7103c2af98d6f1a8915a36222b75f19a13526f4b866f46f1697",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/upper_bound/inputs.json",
+          "sha256": "96bc639934b0fd3825a29f633d890f50d5cb3bbc94e25fe39c468e2c0bc421f1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/upper_bound/S24_charpoly.txt",
+          "sha256": "1f6dc8848e6bc68bdebfc8fd9bafcbb770ddcbf405707603109ca96cc1140303",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/upper_bound/S24_full_certificate.json",
+          "sha256": "60e38ed881a4ead1ec75fce3a09b9f0303feb0c5d301dd1b07f86a358e5ddb55",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/upper_bound/S24_selected_root.json",
+          "sha256": "02d0f5a2e06d0c3fc6c85cf2d66d9e81cffd3493fd6a90992b81afb5866b5c41",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/upper_bound/verify_24_independent.py",
+          "sha256": "41b5772ecca395280035597f10eaa8037e5fc172ac6e1ed937cd834d7cf7809c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S024/verify.py",
+          "sha256": "7811e180076f4e48eebf7c3574c2f1519b3c0b5e1b3722091a872df6e30e1d14",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S025",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S025/attainment/measurements.csv",
+          "sha256": "eb3352ab96c4d996c5df05f48bdda143f87ca34658428740f842801758dfd93c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/attainment/state_vector.csv",
+          "sha256": "2974d62ad030b1a153ad6b6362d4134a470600e827d51de9a1ef4cb7351dc1f9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/attainment/strategy_exact.json",
+          "sha256": "8937405ac90c20deb87d8ed61b3b0b52824ebfdf2112b8a89d18475fdea8e153",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/attainment/strategy_numeric.json",
+          "sha256": "32a47e95226be86809344f8dcf0bc92446bc0c1935b8690ca3e6e60a01c80ba7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/functional.json",
+          "sha256": "e51633f32aa311bfb0718f59920507302161254ae4e17fd26b2926d18c962946",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/README.md",
+          "sha256": "21fd7bf9c11842733007854f8eea3a1698f073f0ebe4eab3690b6df66cfe0809",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/strategy_spec.json",
+          "sha256": "d30e500e9e53def3e1da9fed993b1007ee18139448dac8059c72d5c85b4ee345",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/upper_bound/inputs.json",
+          "sha256": "207a30752b9922d44db114787f8de087adc7c4c75f3c21e64a0927ee35ff7191",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/upper_bound/S25_charpoly.txt",
+          "sha256": "c67bc5249bb9a3e07749f1fc26a24b14561f57b30c53bd79ad3f3bfd142f4c27",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/upper_bound/S25_full_certificate.json",
+          "sha256": "df8412780c70bc16ad81fe1eabb0239624030129a82efcc0c914030e2a45b1f7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/upper_bound/S25_selected_root.json",
+          "sha256": "afd5bf339597dcc6eae56ccab44be971e69994d77f6ee2d1ba1e85c8a47fd97e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/upper_bound/verify_25_independent.py",
+          "sha256": "7c770bd9787205dee7a16740b669c04eae4dc82bb53f768bd15ca26d86337904",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S025/verify.py",
+          "sha256": "1c59c665939089a78eddf625fa3a896e058c5e6d7224b9d0467ac6528fc42d74",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S026",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S026/attainment/measurements.csv",
+          "sha256": "a054e8dcaede75f92e260800caf51a1cbb1abc00da766a66d5ca6e36359ea48e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/attainment/state_vector.csv",
+          "sha256": "70fdc61879c158b6a53305a8ed3a9cea803669fd46a51fac337e51e293533d63",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/attainment/strategy_exact.json",
+          "sha256": "6adbeec390ec7e72838bd6e5756634f96a8545ec5b71d796a71854c617b49649",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/attainment/strategy_numeric.json",
+          "sha256": "2240e18c25d22abc1e8ad235d27c23df7e80f04414a4dd6185d695146297b9b7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/functional.json",
+          "sha256": "e4cca070751c7fcf35315e56d5cd8cb0c69bd70ec062b3aeb56bbdbaa816979b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/README.md",
+          "sha256": "5d8b6bb5f1cc7750a27ae2012c9d5ae44c4cf7ce2de278cc33bd1ca05d211c89",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/strategy_spec.json",
+          "sha256": "52b24f127a48a0b71f038d0ad673b82bd82d9a9772ceb06e31a47e4549332232",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/upper_bound/certificate.json",
+          "sha256": "692a039500fec1ac163dba947a6c1cb11304ac391513d79ace71d9d2fa2b09e9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/upper_bound/inputs.json",
+          "sha256": "42a68de3ee5c7b76d824fd818362326acbae5af4fb89728c812e3be420544def",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/upper_bound/S26_charpoly.txt",
+          "sha256": "68d56b205f77192703eab173db52d6decab2b64fe3ed36e144361c6e9484766e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S026/verify.py",
+          "sha256": "9a3724b60ea8b277be21d3016235f76bc7c46568755ae96d6a90e07c24e3aa37",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S027",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S027/attainment/measurements.csv",
+          "sha256": "9824075ba79898cdb8d408e529c80bab7846ebc880fda3f82206fa85a9eca078",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/attainment/state_vector.csv",
+          "sha256": "7cc5d7d36ed465c81f133d19325545236ea3336f50aa83ca78d6feceacb2e1e1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/attainment/strategy_exact.json",
+          "sha256": "828d56c3bebb0a9a5f97b46db57e422b865496fe9c50a03c5a432cad7bce33bf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/attainment/strategy_numeric.json",
+          "sha256": "06f6a8ff6417ab3149058a696e03945a6201b949392e173d1371bf727d2136f0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/functional.json",
+          "sha256": "c296f34bcb94c9a6482bde9ece18a39ad4e11a5394b58f7d6e56a802b0e8e3f8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/README.md",
+          "sha256": "9c7778e8e537bfbde40379ad5fd0d2c2bfe3636375099a15aa54f351a0e1000f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/strategy_spec.json",
+          "sha256": "9eb5f17cdc4c8e91326b76252e64c66a9ba4ea7241bda12cbd4e6f5f958cf518",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/upper_bound/inputs.json",
+          "sha256": "5cfaf27fa86017697fe96cd9ec3d2b4399c116923d5b3e168d54a66cccdccd98",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/upper_bound/S27_charpoly.txt",
+          "sha256": "56d3e811f97ecb4d5b018297f89f871dfd7b941b6ce22f1a06da695ff850a897",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/upper_bound/S27_exact_algebraic_point.json",
+          "sha256": "b9f43a2a6d58f55d7c96150c4c32fa6d2f280c193767a30e6fca62114af524be",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/upper_bound/S27_global_certificate.json",
+          "sha256": "b82613e8584ea5a4595b16bf2cb5862c7c73dd5eeb255c4b62b50e53b9ebc029",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/upper_bound/verify_s27_global_independent.py",
+          "sha256": "19faea8c159afa2cd6082377ee621adca888ee97c20c6fad4cb872964af6d265",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S027/verify.py",
+          "sha256": "a13cebdce6bb581fc1202c780e610ae48aee56859f74224aed7bc696d8f5e484",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S028",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S028/attainment/measurements.csv",
+          "sha256": "34246ad9b45dec32e64f0ea215305bc9561b1b5427f08c719982d06b7a036741",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/attainment/state_vector.csv",
+          "sha256": "41b1ee3df100650ad80046a5c5f95c40e5f0280b3a95ff045f002e708c6fba1e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/attainment/strategy_exact.json",
+          "sha256": "8c55757ef3f16046fa14b5007e957c583d832bccc2fcc35ab11e0457c11c6507",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/attainment/strategy_numeric.json",
+          "sha256": "c7837015ccda5f496af9922c4fe54feee3a8b9cd3ee584c6b71114e603fd9c05",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/functional.json",
+          "sha256": "43f921ac4dfa9b0172ceb93a7f41f0f0a5c87ba125917e8dd9875a15a2aec096",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/README.md",
+          "sha256": "df093b72255503469aa4d74ba43616795558a91bf010a56c86a600487fb398ff",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/strategy_spec.json",
+          "sha256": "9acb517fb3ba4c6aa0c1f7d2b112f3d51a25c371d24305de4df59830a631d63e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/upper_bound/inputs.json",
+          "sha256": "6cf90c1387e5f3c0de3429a3800946884637a4817174c827f3ef47b22664a31c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/upper_bound/S28_charpoly.txt",
+          "sha256": "d4e40ea61308e884fac504e2e2e3fdea467cb34059a57d8c5b8b07c745043991",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/upper_bound/S28_global_certificate.json",
+          "sha256": "3e3afb549e2076ee4c83d35b0617283c6e99b38c155f8eb15aca17c84f589ec9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/upper_bound/S28_selected_root_certificate.json",
+          "sha256": "db8e329add80925e3f81e616ca413c3267fbd73314f8d6fb7e818337f18e581a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/upper_bound/verify_s28_global_independent.py",
+          "sha256": "ad0232e88c7c3cd71f02c62526bf27d59350e03ba808cb239e3a28a2f59871c4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/upper_bound/verify_s28_root_independent.py",
+          "sha256": "3caa7548fbd589eb32653659b800e24fac40b75faa13b3e9d9204b7fb9993ccf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S028/verify.py",
+          "sha256": "79ff30247b6746d4f4f97827be13dee2e7731438849967a599f06ef307819edd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S029",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S029/attainment/measurements.csv",
+          "sha256": "b8901024a4f3f7d6ec44fbf55b924bd2c0b9b3dbcd346d8f94927e0bdf9a95b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/attainment/state_vector.csv",
+          "sha256": "ca0a4ad936ae330d7e2a31d4b7f49b647b685d76febffceb1662745767c48737",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/attainment/strategy_exact.json",
+          "sha256": "c6f57975620ce24e8e48938dec7c9345d71dde79f71391baf6816583d42e0729",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/attainment/strategy_numeric.json",
+          "sha256": "a6896f51cba4a4e073d2af94cfd40195d8238e4027b203a35bc75007360782f7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/functional.json",
+          "sha256": "27006eb1412fcb91ea0685005a25cb3e7b04d28b8a140c7895608f3e3348a62b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/README.md",
+          "sha256": "a401a7c50a4ed77c0180e52823f02c5cdf5ccba4da267f3a2d16a5f7291f0a93",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/strategy_spec.json",
+          "sha256": "7aa7bd7309a6fa986b5b4e57e688dd3a8979076faf0f50584aec3892d489c7da",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/upper_bound/certificate.json",
+          "sha256": "8d022294ba312cd440e03a0727dd790846e040f54efbfd9bda4aa6ffe732824e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/upper_bound/inputs.json",
+          "sha256": "8b4194b6585407d46cf2944b4e74197d7f6b9424af35cc54b8ce8dcd17b991eb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/upper_bound/S29_charpoly.txt",
+          "sha256": "e4eddfd1886f37dd0d912ba3c0612627e12c2174f8b34dcac54bf78ab0f8b270",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S029/verify.py",
+          "sha256": "33b5e5d4f51086adabde6b6cbf0f1e1b8295013025ef12ba2bbb379775eb09ba",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S030",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S030/attainment/measurements.csv",
+          "sha256": "b8901024a4f3f7d6ec44fbf55b924bd2c0b9b3dbcd346d8f94927e0bdf9a95b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/attainment/state_vector.csv",
+          "sha256": "6332524854cde41bd70dd489b3ece75595f3fdbd9f56f2a0a284b498055ee368",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/attainment/strategy_exact.json",
+          "sha256": "51128f022d8d1c8eebfe944dec2b3408871901a13f962b3d84595dc65d2dd314",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/attainment/strategy_numeric.json",
+          "sha256": "b88bc0983b704952c6b7ad0dca4f10f076d922f01c613d96554a80399ba03024",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/functional.json",
+          "sha256": "ef48d37d1f4f825fbf3792a633721afe87bb0dfc97a24accc6533bf9361d5078",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/README.md",
+          "sha256": "e7b3e528cce308c02844adc9f719fd40e9a9f338c9d0b91f9a2fc9fe17284335",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/strategy_spec.json",
+          "sha256": "7aa7bd7309a6fa986b5b4e57e688dd3a8979076faf0f50584aec3892d489c7da",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/upper_bound/certificate.json",
+          "sha256": "2db4ce28421756b48ed1cd4b16dea406fb07f92357a9c6770f3003e32982c3a5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/upper_bound/inputs.json",
+          "sha256": "5c61c989aff61db194dfc433e6b2f7b22319fd1045d6abc3e85fd30fd9a70b2a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/upper_bound/S30_charpoly.txt",
+          "sha256": "abeaf2eb271816c72595edf1d8413c1995f41b88942dcf708ba7d0167257188b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S030/verify.py",
+          "sha256": "8f368de0023612ba83f6411605eecdcd0be194c5b3e956f16007171b609d57a1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S031",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S031/attainment/measurements.csv",
+          "sha256": "af3024a9c807c828fd9781ff5443861bb3696a500611c4e67814cf72d3e7c19e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/attainment/state_vector.csv",
+          "sha256": "cc2854992c2af6478708c2f58519a33aaed61770e6988579b03d94537ae8df45",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/attainment/strategy_exact.json",
+          "sha256": "d6c83dfc7f7a05da324a106fc430b0a5a805ac0aaa60794cb6baad5701d37d1e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/attainment/strategy_numeric.json",
+          "sha256": "34a441188a8df7d5e2678e4ce1282c7a6b9878a4858588d7cca0df257f6e20cb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/functional.json",
+          "sha256": "5308899e2df61fc4c6c6105a6ed4410bc65aaa5538c4c9f1a819ea9f4f57c360",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/README.md",
+          "sha256": "eba24ef86dcde5d4d4c5f47288304950d251246f84ad9e22686c4a528f684734",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/strategy_spec.json",
+          "sha256": "e2191a6584f935e5763ea20338fc53e042e7ec9f0d454789a5f553ebea634524",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/upper_bound/inputs.json",
+          "sha256": "ea75e04b6a9dadb67dc5014c2e7f2af4130b85c7b70554a650f5b6b0b4e0f46b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/upper_bound/S31_charpoly.txt",
+          "sha256": "40c99439ac1268760aea92a75a8d9f071ad14f9454c223899cd959aeb81b2f4e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/upper_bound/S31_full_certificate.json",
+          "sha256": "c6919c6a3989f16355a0bd3048f280030741169934072bc4a085188e960de515",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/upper_bound/S31_selected_root.json",
+          "sha256": "55d2ba882a73ec1d081821300e2335b5c5cba531cb0a73eddbdfecd011d9b6ea",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/upper_bound/verify_31_independent.py",
+          "sha256": "f110c2678b1d277ca340491a98708a7bb24b47b5dbc86efb4cb4399811fb43eb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S031/verify.py",
+          "sha256": "f2008fba36b4b5fcad908d593151e49c40e93e395df2488445f211d4b915803f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S032",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S032/attainment/measurements.csv",
+          "sha256": "d5429756fce8671bc36865b11b20fe5d8ff106f991c7fe9bc81ea8151bed497f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/attainment/state_vector.csv",
+          "sha256": "bea23584f7cb4d3503fd8085b744e18d2f55c386f13b3fa545c8c8761a07ad14",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/attainment/strategy_exact.json",
+          "sha256": "f8f5167d8d02f787a89cfaa37621c47e9b5d09358bc69bd7ce6672c805ef176c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/attainment/strategy_numeric.json",
+          "sha256": "627c4997324997119572ab8369788d2a85edb6fe583b2225cb12aaaccdb7e151",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/functional.json",
+          "sha256": "b407891972c0c94a507a4411cf73b63d0521a4e02521935a222a8e51e0b6e127",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/README.md",
+          "sha256": "b08cd0f6bdd6920835cb505a417fc4076848a076c26a4818c923b7447702023a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/strategy_spec.json",
+          "sha256": "2b3f0379791224f1a7856c250ecb4d9bf422dbd1f630bd3b29f9f76b088e8bda",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/upper_bound/inputs.json",
+          "sha256": "5cf91e37f4b8e5944015f455682f696ff8f3a3382e528f9fa2e6cb356c9ee40d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/upper_bound/S32_charpoly.txt",
+          "sha256": "9b04f71ff3bac85da9b1b2f59e1e5409c0d97ca58d0f3ba8e2f52bd1edb50285",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/upper_bound/S32_full_certificate.json",
+          "sha256": "6ddd9e96db0a31cca0728c1763797ec5cc6954ae1aa978cbab9a2075baa80bfa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/upper_bound/S32_selected_root.json",
+          "sha256": "8ddb599cde435acb18d2e5197afbe722b590d7c90e7c881af1815dc63356907b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/upper_bound/verify_32_independent.py",
+          "sha256": "fe7c56d1a154a2209cbc0863717d4db5266a21897022a6d07f3c3055f34083df",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S032/verify.py",
+          "sha256": "3dc1c45fab51f233a289f309dfc3305ca3610ee66e7dae031c024e0d5f97112c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S033",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S033/attainment/measurements.csv",
+          "sha256": "d48f8a30755dca1b1671d720317883ec5695268b951489f7564ffb7a61e36105",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/attainment/state_vector.csv",
+          "sha256": "b17fc8b8e71151ab69007ad1d28d9bb18c93172e652cb78667b44016db9c8ceb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/attainment/strategy_exact.json",
+          "sha256": "83688f20dc41b66ff142b02ec7552ab91b9b0df4b1b6b813602c6e6fc0667ac1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/attainment/strategy_numeric.json",
+          "sha256": "6330de33302364f3f78e1fe0ddbca105914549917397195afc81b6757c2ad6e4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/functional.json",
+          "sha256": "753c288625ec8fdec1e12f21457dc6a60ce976915231d6dc9bfa82dcd9c5fb90",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/README.md",
+          "sha256": "002adb177ad9aae6103d4e814057de5354b976fe95c451ff7deda36f1dafa67d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/strategy_spec.json",
+          "sha256": "68c1d4b863ff68edcd731273274e5665c339bcb75ee324b68a50989204f26160",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/upper_bound/inputs.json",
+          "sha256": "c2022c3121e28c06e4b5f36eb70951a5e041d833635706a522a323c0687b5ddf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/upper_bound/S33_charpoly.txt",
+          "sha256": "d32884ba9f83253c8f57df8c574d87bd588c5269a54c2a2bdbbba25ffb2f6d2e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/upper_bound/S33_exact_algebraic_point.json",
+          "sha256": "5d64114e14f7913a9f3b9935f91b8b072f53f51f46e911987018ad7305118d4d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/upper_bound/S33_global_certificate.json",
+          "sha256": "44543b666bfd23ec293ab1d281c43af0a54ece896f4628436ecffe21e8aa329e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/upper_bound/verify_s33_global_independent.py",
+          "sha256": "b22f9f081f3c9acba1eea883f596070c7a1a2e8b37ef4cf56c99ae0fe5a289dd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S033/verify.py",
+          "sha256": "e03ee7b5bf4aa7d22617a79074fbe13bbad620e6b19a2366e823809927510892",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S034",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S034/attainment/measurements.csv",
+          "sha256": "baffa3d70de69718ea29f32aff7b309dcc6865d9e706f65b946da136f589472e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/attainment/state_vector.csv",
+          "sha256": "4b3cbc9c76c728f472c20f757189d0128e1a57081b8827a2e325fa1dca0649a2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/attainment/strategy_exact.json",
+          "sha256": "74957d7568a17aa9a0dd78fe2d21f59c15ea061dc48b5b128b4ff2c4ac978544",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/attainment/strategy_numeric.json",
+          "sha256": "aa53a250fc92d8b684260ddc1056a7ed7d049807d33015efe18e0cacfc7fbe07",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/functional.json",
+          "sha256": "bc83db90d655893b45bf678509aabdd4692c4e879e0ed999ce092657e0fa26a6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/README.md",
+          "sha256": "de11a9ba90aba223b3e9dafaebcd5b406e4fd84945924a58d0f7f5bc50210671",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/strategy_spec.json",
+          "sha256": "32e86db8f3382177d419acf71ad1f07b3571d9ebf738a14e9bef593268f46117",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/upper_bound/inputs.json",
+          "sha256": "5adf3a0c057acdd722d0b1cdbee5707f24069e05f3e0c5eeb070454d2f9be564",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/upper_bound/S34_charpoly.txt",
+          "sha256": "714e1f11bb013b72eacc6f293825db822768896db46c46e508d6b005d4af8986",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/upper_bound/S34_full_certificate.json",
+          "sha256": "aaa98ddffbeeff8b64ab4b1d787ccf8df9345151349076ba8daf94541188b528",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/upper_bound/S34_selected_root.json",
+          "sha256": "8878eef7e7d0d1414fe45de95f54dd2dc74fddd659aab2f10de7559bce17c7a1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/upper_bound/verify_34_independent.py",
+          "sha256": "5c1fde9d9e101647010a2815decae357375900f10aa0202c8e28ef014da82e1a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S034/verify.py",
+          "sha256": "dcacacb6539155adc62ec8b20d308661642847bd2577bb57681fcb1ebf219a5e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S035",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S035/attainment/measurements.csv",
+          "sha256": "990393ece82570ecf6ae2613561d946e98828b1715eb72c0d5abc44371ed914e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/attainment/state_vector.csv",
+          "sha256": "2a7534f7384da8b30cdb4522969ed482994dd68432971bc94a48e9bb9763569f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/attainment/strategy_exact.json",
+          "sha256": "3e1d11e813a25723a60f42c2c7fdd72af37d20cb851481e81128197829c7a31f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/attainment/strategy_numeric.json",
+          "sha256": "459e05ee250855f0e9250f3213aa095d63985b854c9937caa73702eec8b5c04c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/functional.json",
+          "sha256": "e14ae64431917cc641f4db63885f7a9fdb7f5fd60f0b9fae996a32a284377f22",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/README.md",
+          "sha256": "2647fb1c7ec55257b69fde0041e90c8942100f51496c13fe9af3ea32db99257a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/strategy_spec.json",
+          "sha256": "aafff28c32f4b073098c8e96e2810ba54e5e23fef8448c92206410dd7c7228d3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/upper_bound/inputs.json",
+          "sha256": "c572bae20ccd6b3d779fc481d77b86738bfe6564780c6e67055903968864a337",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/upper_bound/S35_charpoly.txt",
+          "sha256": "37c47b019f822761769dcea265c59983a98c707c59f14805eaa71178a04e900c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/upper_bound/S35_full_certificate.json",
+          "sha256": "7f2b091ab27f5cdf5dfeda6debfe22540ed738b310413363776774514acbf19d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/upper_bound/S35_selected_root.json",
+          "sha256": "cb51cc60f18a3d9d09aabdb5c32ecf7e7c80e38ff8dc516a4f2ee15ffe8112c0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/upper_bound/verify_35_independent.py",
+          "sha256": "72b1c854d0b85e44f8af7c3869b4e6cf36591d83341232aca2d2910231978072",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S035/verify.py",
+          "sha256": "1869a44cf9bd56e9584f87c5e7a77295f15d8167d84d2220cb58b0f7e04a9dda",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S036",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S036/attainment/measurements.csv",
+          "sha256": "181de68a99deeeaf79e36239ef18f57739b2ee4e3a988940e2d8fbe162855108",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/attainment/state_vector.csv",
+          "sha256": "2ccec56e03bcf0c9bb519b0fe3a2362a5818cff79ea6bf0d584ecf2ff2a8ddbc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/attainment/strategy_exact.json",
+          "sha256": "158aece10b5f439a86b49df061512f8e2d858d466ff094a42996cb14142d1cee",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/attainment/strategy_numeric.json",
+          "sha256": "4a39008f64a324f0141ac55f59356868a558fc27f244c522b2d3b6690cf5b8fb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/functional.json",
+          "sha256": "02ca1e670e0cd24daab2ce72699ceaa2188f10696b3b84623f6552dd468cf0c6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/README.md",
+          "sha256": "04b09cdb3890f4fcb7522290cdf831249ec2611b30fb9b3a26203f8f70a0d91f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/strategy_spec.json",
+          "sha256": "e528c81fdfadebf6a1e6ff5fe00d6634fdd89d6ccd4de9d09bedeaa58461ee6d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/upper_bound/inputs.json",
+          "sha256": "2c5b614f9b4bc10c25e2d66acb2e1f2897d67dab1a2e8fd535827efa90297c66",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/upper_bound/S36_charpoly.txt",
+          "sha256": "0bd175a7e249aa92149556c4a9836a3fb303ee2a607c91a7c49a92047b045683",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/upper_bound/S36_full_certificate.json",
+          "sha256": "c31e72519acb302bc0448733bf313780b112f05ca48956974fb3ce2d3b6822d6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/upper_bound/S36_selected_root.json",
+          "sha256": "f992028c80bc9243b3b1ab32337141262c2bd665a06b0b4a986525f843c09f00",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/upper_bound/verify_36_independent.py",
+          "sha256": "197b2fb4ba4966d7b6746b3d1fef32af4cfa4553453710e327ff0951c608a3de",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S036/verify.py",
+          "sha256": "d9d6a28078e57974893dddbf4ea0c7165b427d7fb1f2998c77325d5b45c8b55a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S037",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S037/attainment/measurements.csv",
+          "sha256": "a175f672669275e5d0f7f88df081bfa144b1073f0d18d46c4813160e222bb74e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/attainment/state_vector.csv",
+          "sha256": "7f44dd4c44d5db3709c4ba0d4f2b1e7a1c9412fff20465fe4fa7940067d66f94",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/attainment/strategy_exact.json",
+          "sha256": "953095915eebcb2daff99b2af7a48c61df4cc04f7281a75be4d32948ebbf1649",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/attainment/strategy_numeric.json",
+          "sha256": "fabdef782bf0a808df168a63c0267b17a6a2fbfb680a73f17f816889fc5c01b1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/functional.json",
+          "sha256": "e15654bd7219a96a08bf57bb3dc77af6067e864a5b9ce2ec794cb8f3a8c60662",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/README.md",
+          "sha256": "fc67d464e39e249009f5ac58093d74bacd0f18b254a76705a5d5c289555d552b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/strategy_spec.json",
+          "sha256": "adc858e82c37ca9e6faaedbc7e124f3d6cb0904b06c0ed20d26b5ca44d964eb7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/upper_bound/certificate.json",
+          "sha256": "78cb3f83788857204ad934c722cb75e2871ae77b21e38ebcfb5d1b6044f40f00",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/upper_bound/inputs.json",
+          "sha256": "60948c717eda268f8c9b2815ff0eac89611779c4cafb8e187e6f26051ff568c7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/upper_bound/S37_charpoly.txt",
+          "sha256": "b961bda0ad8294c4eebfd34a78e719d41371098d1a53bc69211361119d9748e6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S037/verify.py",
+          "sha256": "da01b0cac4fb6c56df7f077f28fa75c61b2a8e0e992c92e001d5229d1db38b2f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S038",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S038/attainment/measurements.csv",
+          "sha256": "a175f672669275e5d0f7f88df081bfa144b1073f0d18d46c4813160e222bb74e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/attainment/state_vector.csv",
+          "sha256": "f2e2d52d9b89db6df5773108f6cce6ee9ee77bd91e4c05ec9ebde8ac17fcf3f6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/attainment/strategy_exact.json",
+          "sha256": "2f3ad05b41a68a170452690b27091a4db8d54e95601c89c061209a39ac85bf1d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/attainment/strategy_numeric.json",
+          "sha256": "4531cb2a14b08a5dbc74f9344e06c81950b6450af6bc76416bdf589320e12582",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/functional.json",
+          "sha256": "15c084b9f774fd96889b07c549a0e4ff5ee430862e92baf7aac48f4ea4563635",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/README.md",
+          "sha256": "4bf30f549d9aa303b42a2c59da4cd2802c0517f31c816eb4bf1d9f1cc475957b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/strategy_spec.json",
+          "sha256": "adc858e82c37ca9e6faaedbc7e124f3d6cb0904b06c0ed20d26b5ca44d964eb7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/upper_bound/certificate.json",
+          "sha256": "e6b62b15de8f63e60708454722a0c2105d5050db4109d1dc6a01696e2d544048",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/upper_bound/inputs.json",
+          "sha256": "3099ff9b1dbf1e1969e90c9ea805dd3825bf304beeafb280f70ba3bc8e00c35c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/upper_bound/S38_charpoly.txt",
+          "sha256": "32d26313cb3af998edad9252a65d7e3850e9e3381fc1b4515ec107800b9d2bbe",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S038/verify.py",
+          "sha256": "4b88d342e81c63d1f795f5417729ad49cb5493d0e4041eb479ac28e2e2209fce",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S039",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S039/attainment/measurements.csv",
+          "sha256": "e5d1e76761de6937ce018a88a4310f5f0e9e260a3ad7ddebe51caf27ca58e1b6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/attainment/state_vector.csv",
+          "sha256": "5da6b837706fa7cd7b592506b5a3145a1ea2707b535226d1a37ec6b50c6a2ace",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/attainment/strategy_exact.json",
+          "sha256": "225dc1cee47bcd53047af330b1690c6a8aa0b2fe52100699e64abffd2bc768e3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/attainment/strategy_numeric.json",
+          "sha256": "b8a6b39852e19b857145c2b5104e65db737383763ad8e9fbf95de4ef35906040",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/functional.json",
+          "sha256": "e143a0330540e9b4833cea0b3f3d530c67c61e4c9b2c517b6ad835b3afcaa2bd",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/README.md",
+          "sha256": "8b0fa243dc9cef9e4b7a8b988dae572e0fdbf3bed5ef2f1249a3cf0d7e614e2b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/strategy_spec.json",
+          "sha256": "787a85fd9a3fc340c23e2af1a1930383bf535b912533e0bd873fb5c5cd455d28",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/upper_bound/inputs.json",
+          "sha256": "6a9971436d1fa02c9fedc164f92d145c5f04d15bd9a947a4aa1058632dbc6c5f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/upper_bound/S39_charpoly.txt",
+          "sha256": "5a80621f5c68f87343888b68e9f425ab8786564d309fa0e50ddb559266673877",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/upper_bound/S39_full_certificate.json",
+          "sha256": "0993c9f9060cd48ffa6a85b1621cb98fbb184a4266e83366f8bca911f80d9fc4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/upper_bound/verify_39_independent.py",
+          "sha256": "c7cf20e9bb8a67ba6a9a270ba80c2bc35cd4a3f6566a58d7ed750d2ef326fb63",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S039/verify.py",
+          "sha256": "b9f01ebc3035cd75b2f3bf0f50ed66ce49a46f53591ec83a53637b951343a43d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S040",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S040/attainment/measurements.csv",
+          "sha256": "eea4590f15530ab2c126177bdd1402e32ce0d4b319b8eaec0fbcf2109e39854f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/attainment/state_vector.csv",
+          "sha256": "6ccc5b5f9152d1fa8a62f326cbab29aca59af6852412ded69301c7fa14b5d673",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/attainment/strategy_exact.json",
+          "sha256": "f559773f1aacc4594c4e3068a900ef9894e8e3af98a7d61766373d508fb292f9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/attainment/strategy_numeric.json",
+          "sha256": "64e742c19f165dfc1652ff556090d13145346520059aa3cb4e22d228310688c0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/functional.json",
+          "sha256": "52bcabdb7ea55376d82670df3c364b3d696d47b47ab148fb8de6715869de971e",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/README.md",
+          "sha256": "6eb386b1fd6a5af1eb0512bc3abfaec49c0d72d3dafa550d074e358c51eb0078",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/strategy_spec.json",
+          "sha256": "67adf78278b601dce7aea9403a4ae0f5aa40ebac71108879c088ab38fbb2583f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/inputs.json",
+          "sha256": "75600630df13584cf1edad2aed2a39772664e492e510cb7b4e22dab1bc0decc4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/S40_charpoly.txt",
+          "sha256": "26e893af9c0362506d0edb923491c0f1f54d973df0254c60555a2b72a412d799",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/S40_full_certificate.json",
+          "sha256": "0b089b4fefb61cbbfd74339b0d2bf7d9b765193e6e4b4f9a07b03d7fa464c96f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/S40_selected_root.json",
+          "sha256": "40e651619948b0f585ac48ba22501d20eb58007be25945cd4b915f13d2b518ca",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/S40_single_field_definition.json",
+          "sha256": "f6558988e03643c94cfe7b771771900c75babff2db475e2726b8b9520b2d258d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/verify_40_independent.py",
+          "sha256": "20c2a56ca759483969fc602d748cbb1fc68ab6b026008514530738d8fe5f1c5f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/upper_bound/verify_40_single_field.py",
+          "sha256": "7ed88d10c66ded9390ba27891ac3f0901a1e0c2615dae885a1d7f32cc81937aa",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S040/verify.py",
+          "sha256": "c6476077dedad55b9a17b0af3be71594b935acf041b4679660e45e18a2de1840",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S041",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S041/attainment/measurements.csv",
+          "sha256": "784d09ca5ed78feac2f5459749f45d531040b0faa56cc5927f514f890da70e1b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/attainment/state_vector.csv",
+          "sha256": "16ebf09e12570b23836edd515a67910b1d8f824343c89e607a5f499c8dae3752",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/attainment/strategy_exact.json",
+          "sha256": "62df56c6d03c2c54c9489ba9d9092fb34a50cdf623961acfef42efb06a44592d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/attainment/strategy_numeric.json",
+          "sha256": "390277e1fdd64f6d2243ec6fdfc6c91c1f908d97142ec6fb3b6c33a0f1dd5686",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/functional.json",
+          "sha256": "cc0a15af7dbe84b2075232fb825fdf29b8d9371a463d380df8d7c4dd269f513f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/README.md",
+          "sha256": "e6b731e66efe2b2bd9eb7fc6de8a1976e87668b7bd1dbe14bac6e8c42aa2d560",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/strategy_spec.json",
+          "sha256": "59bb1c4b7a8f2ea41f2743dfe4acaef451f65d6836f3f574670fd42ad1827719",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/upper_bound/inputs.json",
+          "sha256": "91c1600a44824f0be58e934ef6767ae7568d187cfc2df18774b9fffd41eaf559",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/upper_bound/S41_charpoly.txt",
+          "sha256": "cbe92dedcaa90c85e23d0ec0bfdb716d85b2ba789b0c0c2d10bf8c99d4b1f1b6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/upper_bound/S41_full_certificate.json",
+          "sha256": "b49c08b54e278fcbecfd91bac8bd13792d51a8273c957f51224123d4cb4ddfa5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/upper_bound/S41_selected_root.json",
+          "sha256": "cdc6123c670be2a203827db38771dbf2ee7ae76878469d39139ff045b5f9ac10",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/upper_bound/verify_41_independent.py",
+          "sha256": "213e04a980a083f04f350419c50f56b71077f81a5bebc6740882b7edd3db0cad",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S041/verify.py",
+          "sha256": "2c36ebb1beb8c06d90fe5e6695d64395ed9a36d2b17b5517316a834a02311a52",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S042",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S042/attainment/measurements.csv",
+          "sha256": "f493f4ede9b1502046ae9c4f6a11913a35754f99e24e7e00869bdb0505a8ec37",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/attainment/state_vector.csv",
+          "sha256": "07c58caff1e50e664e380de02aae5bb0493c79e35e93356b6a9fc9cedfadd2d2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/attainment/strategy_exact.json",
+          "sha256": "63f6bae70193f3e342c3cc4084953dd91c90aba3ac196e85bb7591f1cc30fc8c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/attainment/strategy_numeric.json",
+          "sha256": "b17a89cfe119ab5ef11eb7c1c4dd9607f56f1c452c5777f6a7bc878c1706de51",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/functional.json",
+          "sha256": "c9136786dbb9f1d5f610478bfbf2ba19924da341334d7673ac3e5c67dfbad9a9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/README.md",
+          "sha256": "82539fb0fff8e249ba09036a6347723e7c3f695ecfac3c469e3e4717ba356b3a",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/strategy_spec.json",
+          "sha256": "3c62f3392724fe31011cc8987e060eaf59af8c856e4cdceda696882399b333f5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/upper_bound/inputs.json",
+          "sha256": "bb60a22be1d2a0c8313e78d8e59c9d351b5d5c9cd57c59301342ad1b635de9e7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/upper_bound/S42_charpoly.txt",
+          "sha256": "dcc992828441c4360c535c12a150a86d79e6c1f58d6b42015f042130e071b7cc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/upper_bound/S42_full_certificate.json",
+          "sha256": "f6b5da39c280a5c67d83691e94588ecdc1b74c528f038df59ad6af4a86ed29d1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/upper_bound/S42_selected_root.json",
+          "sha256": "ea1230846a66cba889f28c6d720b95704bd8fe743332c5dd3de9fca07819a0de",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/upper_bound/verify_42_independent.py",
+          "sha256": "5b0264375b47cf81324e8d259941f32f13494d64b28a76a84850bb9e982cdeb6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S042/verify.py",
+          "sha256": "3da58c431bf1b7f1e4c422b861ab76036a9c274dddeb51b3e57d0257dce928f0",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S043",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S043/attainment/measurements.csv",
+          "sha256": "5789fcbfecbbd1340acaa37d532eff4c9ed74c25ad65a3ae093441595138fefc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/attainment/state_vector.csv",
+          "sha256": "ad3b816b48ef999f2cf4552ed6f4c4ad04da8bf1542dcd37e94aac7d4f175cd2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/attainment/strategy_exact.json",
+          "sha256": "2102f854e5d88644ae20b0c54026a09bfa423c6ff3a699efaf8ee6c48df95ce2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/attainment/strategy_numeric.json",
+          "sha256": "d26a71e3e8406eeaf288e26ec9b8a1441bdfe632879eba6a8fedfeb419ed3812",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/functional.json",
+          "sha256": "1c05452b9a6912328ac796f1bd46bec3cc5058ca5013edb11a5b3b7fd922618d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/README.md",
+          "sha256": "e13dc64d1495465e547008cb68934b1ad544d5302b48a4989b92f0e32299f20d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/strategy_spec.json",
+          "sha256": "75309c66fe596c0c487e586fff2e9926f206c5031b073c24b59adcd6d6c43d8c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/upper_bound/certificate.json",
+          "sha256": "bd4b00f21686ea2d118506aab28f734abea90e02b64b566d0b0ba783f94d71d6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/upper_bound/inputs.json",
+          "sha256": "a49c71550d4b0544b637fcf02b6858cb4dd79252179fe8c9520aaff29525796f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/upper_bound/S43_charpoly.txt",
+          "sha256": "6a166091c105c357e77d52cf46bc47cf08a078ae45daf70d8f97866f7ee795e8",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S043/verify.py",
+          "sha256": "922c3e13a124e2514691d43da4e0e64ff971a7a4c651032f14f23e081bf77ecc",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S044",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S044/attainment/measurements.csv",
+          "sha256": "b8901024a4f3f7d6ec44fbf55b924bd2c0b9b3dbcd346d8f94927e0bdf9a95b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/attainment/state_vector.csv",
+          "sha256": "0918725192ccda8c6013e43fc41ed26c9c2274e2d8278c56723968e6555242ff",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/attainment/strategy_exact.json",
+          "sha256": "4ea1281ed8aa174c17ac5b46b22ea3c21ef7c7990f8634ee101ac46d44c5fdab",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/attainment/strategy_numeric.json",
+          "sha256": "f8fc40a46406c8aef9e5bf76450fdf788b6411783da8ef0df81a80f076d345f6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/functional.json",
+          "sha256": "093a012b2fd8ebeec78ec7e733f1c1771ca783b3012d1304297eea0bb09597e5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/README.md",
+          "sha256": "bab2a221ba16463636471a566807c750c5a110e999b2c36a2f23830142b29f72",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/strategy_spec.json",
+          "sha256": "8f12993207b00094248fc770fa497644b2b539f006d7290cb7f6ed64ca6c31cf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/upper_bound/certificate.json",
+          "sha256": "7732867baf9a5b719b6e76ba82a267caadce69f0d22c5856e9f947290123e739",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/upper_bound/inputs.json",
+          "sha256": "27e83c991c36e23ac3516773c3bed8a92bd6e5f711643b0541e4a6f062ed632d",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/upper_bound/S44_charpoly.txt",
+          "sha256": "7f3ee11bb850cc8bf01865b9aec0f772ca40d20b00eb47ba1d60688796be4941",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S044/verify.py",
+          "sha256": "3fca773e88ee4ed27bc21502450131a756303ea1164501a039e8018d7f0574e6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S045",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S045/attainment/measurements.csv",
+          "sha256": "b8901024a4f3f7d6ec44fbf55b924bd2c0b9b3dbcd346d8f94927e0bdf9a95b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/attainment/state_vector.csv",
+          "sha256": "d9a348e9b1022af2261edfd58490751102f8423d1758b7af53a8e57814ee86e3",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/attainment/strategy_exact.json",
+          "sha256": "fe7fb83a1990c647bc8198e015c92c66eeafc95fee7b531ba1e93689fca638f9",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/attainment/strategy_numeric.json",
+          "sha256": "909a032e0d97be6502b5868992462190b6a49f468b269ee6f426a0904dc54043",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/functional.json",
+          "sha256": "0aec64e671884560c2f1c4fbde1d23b5ff3c3c54b33108b9e14ae8a0717f28b2",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/README.md",
+          "sha256": "9d6b6e47baebe1b644fa8816e3725da939fb32ff5f38e413802edfd733cdd0c6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/strategy_spec.json",
+          "sha256": "8f12993207b00094248fc770fa497644b2b539f006d7290cb7f6ed64ca6c31cf",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/upper_bound/certificate.json",
+          "sha256": "da67209671a2f39ebb5e54fba95cecb8bf285d884197f099b7306c82963cb328",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/upper_bound/inputs.json",
+          "sha256": "65cfe321dc5126c0ac07c9d7151fb286d0c3445328344a480f81418554e0b6d6",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/upper_bound/S45_charpoly.txt",
+          "sha256": "da2ed778371ee6e53ad1df576aa852c50394789a6b7ce31539ec6495e3f1849f",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S045/verify.py",
+          "sha256": "bc61d52db683bc7cdef733aff77eb0fcc668c25b0235fc7dd23876950259a634",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    },
+    {
+      "entry": "S046",
+      "definition_origin": "published mathematical representative, locally normalized and serialized",
+      "definition_sources": [
+        "Sliwa2003",
+        "LopezRosa2016"
+      ],
+      "files": [
+        {
+          "path": "entries/S046/attainment/measurements.csv",
+          "sha256": "035f57e25881f678ccdf62e200db8099f1d00467483dae633442703e06931fa7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/attainment/state_vector.csv",
+          "sha256": "630c40a42e68fb4dd7099fd2a553f738305f4060bae914e0f9d8baf0e77695e7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/attainment/strategy_exact.json",
+          "sha256": "582aaab71f7915c246c736d036e47ff5cba666bbf06a9171f4a18887400a12c5",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/attainment/strategy_numeric.json",
+          "sha256": "ba722004f908c4c01bb0016e5173ecce6446fc6f222e183bd5057947934946bb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/functional.json",
+          "sha256": "5875bbd1d50d48a12e73bf90e413a7ccd0397bc250c14bbde9083e9f471f8fcb",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/README.md",
+          "sha256": "f885756627493da9f70cc26ed88db21b07558c15f696ffa87b3b1203c91ce945",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/strategy_spec.json",
+          "sha256": "4fd999eb382dd59fa52640b2ea3332d3e707c22061de9d4e8bb4db8a72e15275",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/certificate_46_full_bernstein.json",
+          "sha256": "da4d36372e6a1a03d6900404f3d87f35ccb0c1103f7b411a6f1884259bfa65f4",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/certificate_46_reduced.json",
+          "sha256": "e93b87d354ab1f0c1294791ddfb0cf311a1d527874664e57f43ef64c1ed39825",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/charpoly_46_full.txt",
+          "sha256": "1a8d92ecfac527cc4cb61df443d0438538e87a8bdf97d9043fc5ab496322b300",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/inputs.json",
+          "sha256": "0f1d00f43c93e55c7b9515c57512e757afd1f1b6cb9dbd1c99bf04fd44b75e45",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/PROOF.md",
+          "sha256": "049b464f35a028d823e9d5a19247e60cbf4c452e26cefdcda01f130e902ae794",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/verify_46_plus.py",
+          "sha256": "5e7f8564ddb1afcc45993bd5ceb0c02010c001ee081bcc76bf19e01801f97f1b",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/verify_46_reduced.py",
+          "sha256": "3cfd6e6ba40be193b8b32b82d3dd5e40eb4f3ebbfdd5fc96ef531ace2a56771c",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/verify_boundary.py",
+          "sha256": "76f336fef62b3736885560261a4c95f815682d666a4403563978597579c8d1a7",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/upper_bound/verify_sliwa46_bernstein_independent.py",
+          "sha256": "4c3d8e034e3aabb9d40a86bf133f42e50b5e26be475957f1d28353653ca481d1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        },
+        {
+          "path": "entries/S046/verify.py",
+          "sha256": "f8f886fdf8205ddab7e8cb0dcfacc61c5b7a6811b67016e60657b493ebb3efc1",
+          "immediate_source_relation": "byte-identical pre-consolidation constituent file"
+        }
+      ],
+      "proof_materials": "User-organized predecessor project proof implementation, exact certificates and exposition; external theorems and third-party runtime retain their separate credits.",
+      "historical_exact_value_attribution": null
+    }
+  ],
+  "shared_mathematical_files": [
+    {
+      "path": "bellverify/__init__.py",
+      "sha256": "e22f2e0319f81c5a773a6fef288500e74fe6daf05d7b6e3398d70a6944813638"
+    },
+    {
+      "path": "bellverify/exact.py",
+      "sha256": "5a64c009215c1ee68d21ae851e61c8494d16594d738f6bc6816812bca8ce8b49"
+    },
+    {
+      "path": "bellverify/proof_inputs.py",
+      "sha256": "2126ee186ee5eb39340314d9162ecf3caee7e9c58391b5c9c796e659b9c9cb7b"
+    },
+    {
+      "path": "bellverify/replay_contract.py",
+      "sha256": "c678c4db072a8fbc769103936401b8dea815efee0c9035bcdc2c84178f2bfe9e"
+    },
+    {
+      "path": "bellverify/strategy.py",
+      "sha256": "a6469af2057cf64c6e66758184c44758f42cbdd89ef6f8ef1ae2a2883a16ddbc"
+    },
+    {
+      "path": "data/compact_root_selectors.json",
+      "sha256": "3ec64abcb495082290c01ee7486de83d3219206e7fa5156b251a4a2244f8c6ad"
+    },
+    {
+      "path": "data/prior_work_and_contributions.json",
+      "sha256": "d1f5612a803f8f2ee585fd67f70502c7f58b796b176effc8749db9de4a4422b1",
+      "predecessor_sha256": "cfb710c77b6349cc07a3c676f6a95232aa50448a3dd0c045fad920494d255c48",
+      "immediate_source_relation": "Project-authored historical-reference supplement to the predecessor documentation"
+    },
+    {
+      "path": "manuscript/bell_functionals.tex",
+      "sha256": "8dbf6713763ea84f9dabeb5e3d06bc9f6ffeeec0390e8adc70df07fcf87a46b1"
+    },
+    {
+      "path": "manuscript/catalogue_data.json",
+      "sha256": "1d4eb166342ac8c5dc56547951ffba9e67815ce6d2e2f10810a34a3bc99e6b43"
+    },
+    {
+      "path": "manuscript/catalogue_table.tex",
+      "sha256": "729d8d18661b9c8fe799980b16cfc1dc1cbad71af5e216bde7c550e884e26fb8"
+    },
+    {
+      "path": "manuscript/radical_values.tex",
+      "sha256": "006e28736ae748636f3008394678e8e1d8fefd1a8e59f45aab133c98861a7051"
+    },
+    {
+      "path": "manuscript/README.md",
+      "sha256": "003dd2c53396147ecf4076f259e0eee56eeeff5bc67fa63b1588b67b254f2fed"
+    },
+    {
+      "path": "manuscript/references.bib",
+      "sha256": "62d77b4f72c8e9bf49fc7bedd0c1d8f95424951034add6abedc48da2fad64033",
+      "predecessor_sha256": "4d69dab5c5a94da2d013bc0cb3ec7336db5a5b15ae9489927d02ff793d761340",
+      "immediate_source_relation": "Project-authored historical-reference supplement to the predecessor documentation"
+    },
+    {
+      "path": "manuscript/system_centres.tex",
+      "sha256": "e00e81608b08771f8fb364ef21811763b30217ae2965dbd953d693ad9f5386f2"
+    },
+    {
+      "path": "manuscript/univariate_values.tex",
+      "sha256": "710e68f912e53a58f9c62dab0757487d200a2a4477cc9a9273833f1708824ae1"
+    },
+    {
+      "path": "prooflib/analytic.py",
+      "sha256": "208e6af1adeb8f476dbbc3a23688e85f3be7e054a9acb98817c8b71ce8bb6212"
+    },
+    {
+      "path": "prooflib/radical.py",
+      "sha256": "7eff335f255811187e29b036c12a6d91245e72522910f06c7491fa8f9591ab09"
+    },
+    {
+      "path": "run.py",
+      "sha256": "b905a127a1e112b5d9a87a51081e809f2325365cea0d35e6f868672cc6422bce"
+    },
+    {
+      "path": "tools/build_manuscript_tables.py",
+      "sha256": "749bbd27ce29eebdebc874139e3d409ed6240f7f69e0fc9343b2ca057c326e74"
+    },
+    {
+      "path": "tools/check_exact_dag.py",
+      "sha256": "0e29e5f258a43d2425009691b052313abec4a2b2380b6becc3150da2544ead5d"
+    },
+    {
+      "path": "tools/check_publication.py",
+      "sha256": "a7948a76ff505831b61a0c6ac658e204e9a657ac7ab043816c0bee81d2de746d"
+    },
+    {
+      "path": "tools/check_strategy.py",
+      "sha256": "703f09fcb79957f3f30036177c097fc3a5d9c278dc9f14ff455a990327ab47fa"
+    },
+    {
+      "path": "tools/independent/audit_frozen_tables_and_obligations.py",
+      "sha256": "e2dd1f60fdea97f2c5fae33542577283e0abb18b01f027db4a1f2d652f52e552"
+    },
+    {
+      "path": "tools/independent/audit_local_facets.py",
+      "sha256": "a9d2c238e4305a70c60a152053d178075ab57ecc9eece6aebad68da1e791c308"
+    },
+    {
+      "path": "tools/independent/audit_primary_benchmarks.py",
+      "sha256": "97c2fe08e86a4d2b6d16239249b4d5ccd975bc51c758765c841be78016e959cb"
+    },
+    {
+      "path": "tools/independent/check_independent_kernel_controls.py",
+      "sha256": "be65b70e11673d33fe911e9691ce1c35ecfc2faf14f50f916530840670bcc1d9"
+    },
+    {
+      "path": "tools/independent/independent_attainment_audit.py",
+      "sha256": "65f355c7818dedc6eec59a6214213ee577dc5fdf859dad38cad95faf97a93e13"
+    },
+    {
+      "path": "tools/independent/independent_charpoly.py",
+      "sha256": "c61eb37e7dbef18aff453a1b205e317c74af657838d341d399e5879864dc18ea"
+    },
+    {
+      "path": "tools/independent/primary_source_values.json",
+      "sha256": "3702bc276649655e120b609879923bd7fc9569b476845d55f49165a1e0e94688"
+    },
+    {
+      "path": "tools/independent/README.txt",
+      "sha256": "cc6f75292e0901a2164dfcfb709f4a1c2a950e0c0d6f5d2500214c5b2b39f3ad"
+    },
+    {
+      "path": "tools/independent/recheck_boundaries_stdlib.py",
+      "sha256": "b0de93767aa72f8eb7c4dbdac1a8d2f636f29f8f59583be0b0e4ea69c7fc3301"
+    },
+    {
+      "path": "tools/independent/replay_release.py",
+      "sha256": "cbdfc8f3a8441f5ab942cd0f7be206f5bec795ede39833eb15210053b8f05ced"
+    },
+    {
+      "path": "tools/test_exact_controls.py",
+      "sha256": "768602e95b041493fac4e21721bc05348d28c0aaaa7d99af9540e189ef25a7ed"
+    },
+    {
+      "path": "tools/test_geometry_controls.py",
+      "sha256": "5df31692cc96b8f843162d94e471af41826cc83008585473d0d40bb46c513976"
+    },
+    {
+      "path": "tools/test_negative_controls.py",
+      "sha256": "bcbd61b10c25acbf8ba0352a1007e5007d1368e638109b3c7761d162d834058c"
+    },
+    {
+      "path": "tools/test_obligation_controls.py",
+      "sha256": "2a2cf424141dce50548cf3eacb2273dd825b8e837c703b3f7293d43affe539d9"
+    },
+    {
+      "path": "tools/test_public_regressions.py",
+      "sha256": "5247f8bff6e2172e4c07f0e99d1748e742b8b20cba3fd53ed6019d8a9a1e5380"
+    },
+    {
+      "path": "tools/test_selector_controls.py",
+      "sha256": "3af47d7837f8bedff0abd564cc903297d8711fdedb09674e3cb6c52c8ec4ba71"
+    },
+    {
+      "path": "tools/test_target_binding_controls.py",
+      "sha256": "b1c73d5a6ea456fd31be0230220f09e04c964f52832305b0dceb1579f4bdf378"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "sha256": "1c76d844fb39c322f97d05c3dcbbf8b9f3cf5a2bc6634dc65165019953e19597"
+    },
+    {
+      "path": "tools/verify_root_selectors.py",
+      "sha256": "6f10c9a7a7d80b52f6c66818ed42af85f39875ca115769a7347588c5c469ae41"
+    },
+    {
+      "path": "tools/write_manifest.py",
+      "sha256": "ee6097e382b9ab398751d2f1514b1b5cf713a89854196a745f51ec7e4bc6ae98"
+    }
+  ],
+  "shared_file_origin": "User-organized predecessor project implementation and generated reference data; mathematical source references and third-party runtimes are distinct.",
+  "mathematical_sources": {
+    "Sliwa2003": {
+      "authors": "Cezary Sliwa",
+      "title": "Symmetries of the Bell correlation inequalities",
+      "version": "arXiv v1",
+      "url": "https://arxiv.org/abs/quant-ph/0305190v1",
+      "role": "Catalogue representatives; not a proof of all quantum values"
+    },
+    "LopezRosa2016": {
+      "authors": "S. Lopez-Rosa, Z.-P. Xu, A. Cabello",
+      "title": "Maximum nonlocality in the (3,2,2) scenario",
+      "version": "arXiv v4",
+      "url": "https://arxiv.org/abs/1611.01699v4",
+      "role": "Literal normalization and reported analytic/numerical values; numerical agreement is not treated as an exact global proof"
+    },
+    "NPA2008": {
+      "authors": "M. Navascues, S. Pironio, A. Acin",
+      "title": "A convergent hierarchy of semidefinite programs characterizing the set of quantum correlations",
+      "url": "https://arxiv.org/abs/0803.4290",
+      "role": "Moment/SOS method, not a claim that a finite numerical relaxation is exact"
+    },
+    "Masanes2005": {
+      "authors": "Ll. Masanes",
+      "title": "Extremal quantum correlations for N parties with two dichotomic observables per site",
+      "url": "https://arxiv.org/abs/quant-ph/0512100",
+      "role": "Two-setting local block/qubit reduction"
+    },
+    "Krawczyk1969": {
+      "authors": "R. Krawczyk",
+      "title": "Newton-Algorithmen zur Bestimmung von Nullstellen mit Fehlerschranken",
+      "url": "https://doi.org/10.1007/BF02234767",
+      "role": "Certified root isolation method"
+    },
+    "RossetBancalGisin2014": {
+      "authors": "Denis Rosset, Jean-Daniel Bancal, Nicolas Gisin",
+      "title": "Classifying 50 years of Bell inequalities",
+      "version": "arXiv v1; J. Phys. A 47, 424022 (2014)",
+      "url": "https://arxiv.org/abs/1404.1306v1",
+      "doi": "10.1088/1751-8113/47/42/424022",
+      "role": "Section II.4 and Appendix C.2, Proposition 4: tight composite quantum bounds, specialized to S004 with explicit attaining factors"
+    }
+  },
+  "publication_citation_policy": "The entry references identify prior strict exact-value theorems; classification papers, numerical studies, general methods and software credits remain in the component-wide history and notices. A missing prior-theorem reference is not a priority claim.",
+  "current_selected_file_tree_sha256": "f8b1ba86aa2566a0286e3a0304e041fafacd2fcda37db88d615c6f1f027014bf",
+  "current_selected_file_tree_digest_encoding": "SHA256 of compact sorted-key ASCII JSON mapping listed current entry/shared file paths to SHA256. The predecessor digest continues to identify the historical constituent."
+}

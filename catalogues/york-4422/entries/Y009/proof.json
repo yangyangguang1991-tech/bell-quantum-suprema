@@ -1,0 +1,17 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002"
+  ],
+  "sha256": "d3abef1e40713be8973a5b24609afc97aab6520cc8d3fc3cda4131b95e58755a",
+  "commands": [
+    "run_c3_fixed_acceptance_rows.py"
+  ],
+  "table_binding": {
+    "file": "original_york_4422_CG.json",
+    "path": [
+      0
+    ]
+  }
+}

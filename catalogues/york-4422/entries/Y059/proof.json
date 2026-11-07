@@ -1,0 +1,30 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004",
+    "certificate.zip.part005",
+    "certificate.zip.part006",
+    "certificate.zip.part007",
+    "certificate.zip.part008",
+    "certificate.zip.part009",
+    "certificate.zip.part010",
+    "certificate.zip.part011",
+    "certificate.zip.part012",
+    "certificate.zip.part013",
+    "certificate.zip.part014",
+    "certificate.zip.part015"
+  ],
+  "sha256": "5077abc551b7e30f3fbba39f8574ae1ed6cb0495ebca26235defa89864a0a933",
+  "commands": [
+    "high_run_acceptance.py"
+  ],
+  "table_binding": {
+    "file": "selected_root_certificate.json",
+    "path": [
+      "literal_probability_coefficients"
+    ]
+  }
+}

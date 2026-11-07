@@ -1,0 +1,231 @@
+{
+  "york_number": 150,
+  "traditional_name": "I4422^4",
+  "probability_table": [
+    [
+      0,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    [
+      -2,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ]
+  ],
+  "exact_value": "sqrt(2)-1",
+  "coefficient_crosswalk": {
+    "york_id": 150,
+    "name": "I4422^4",
+    "obss_row": 30,
+    "q_york_equals_minus_B_times": "1/4",
+    "york_action": {
+      "exchange": false,
+      "a_perm": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "a_sign": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "b_perm": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "b_sign": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "gcd": 1
+    },
+    "obss_action": {
+      "exchange": false,
+      "a_perm": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "a_sign": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "b_perm": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "b_sign": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gcd": 1
+    },
+    "coefficient_identity": "4*F_Y(T_Y(A,B)) = -(gY/gO)*B_OBSS(T_O(A,B))",
+    "deterministic_checks": 256,
+    "CH25": [
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      -2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "OBSS25": [
+      8,
+      2,
+      2,
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      -1,
+      -1,
+      0,
+      1,
+      -1,
+      1,
+      -1,
+      0,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "canonical_key": [
+      -8,
+      -2,
+      -2,
+      0,
+      0,
+      -2,
+      -1,
+      -1,
+      -1,
+      -1,
+      -2,
+      -1,
+      -1,
+      1,
+      1,
+      0,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "source_A_as_Y": [
+      {
+        "side": "A",
+        "index": 3,
+        "sign": 1
+      },
+      {
+        "side": "A",
+        "index": 4,
+        "sign": 1
+      },
+      {
+        "side": "A",
+        "index": 1,
+        "sign": 1
+      },
+      {
+        "side": "A",
+        "index": 2,
+        "sign": 1
+      }
+    ],
+    "source_B_as_Y": [
+      {
+        "side": "B",
+        "index": 1,
+        "sign": -1
+      },
+      {
+        "side": "B",
+        "index": 3,
+        "sign": 1
+      },
+      {
+        "side": "B",
+        "index": 2,
+        "sign": -1
+      },
+      {
+        "side": "B",
+        "index": 4,
+        "sign": 1
+      }
+    ]
+  }
+}

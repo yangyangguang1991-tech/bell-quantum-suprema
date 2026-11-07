@@ -1,0 +1,24 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002"
+  ],
+  "sha256": "8a3d6dd0d16d1a9bd11fdeda0d8d9cc0abe84a7340182f6abd6a2225d96b38c6",
+  "commands": [
+    [
+      "run_fixed_acceptance.py",
+      "--out",
+      "../replay/Y34"
+    ],
+    "independent_root.py",
+    "independent_gram.py",
+    "independent_compatibility.py"
+  ],
+  "table_binding": {
+    "file": "fixed_inputs.json",
+    "path": [
+      "literal_target_coefficients"
+    ]
+  }
+}

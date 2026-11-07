@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "id": 3,
+      "local_bound": 2,
+      "quantum_value": "2*sqrt(2)",
+      "literal": "ABC + aBC + Abc - abc",
+      "overlaps": [
+        "0",
+        "0",
+        "1"
+      ],
+      "q_field_d": 2,
+      "method": "elementary_operator"
+    }
+  ]
+}

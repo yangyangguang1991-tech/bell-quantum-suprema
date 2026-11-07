@@ -1,0 +1,19 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004"
+  ],
+  "sha256": "5ff2ecdf4d9b3480db0bae64b2f6f16d0e5da2d76e02dc01ffabb18f9041869b",
+  "commands": [
+    "run_block_acceptance.py"
+  ],
+  "table_binding": {
+    "file": "selected_root_certificate.json",
+    "path": [
+      "literal_probability_coefficients"
+    ]
+  }
+}

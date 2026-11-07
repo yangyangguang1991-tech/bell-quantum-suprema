@@ -1,0 +1,22 @@
+{
+  "scope": "Exact unrestricted two-party value of T=S46|C=c=-I; an exact lower bound, not a full tripartite S46 upper bound.",
+  "polynomial": "25*q**3 - 46*q**2 - 4788*q + 15192",
+  "root_selection": "unique real root q>10",
+  "isolating_interval": [
+    "12985173496317373/1000000000000000",
+    "6492586748158687/500000000000000"
+  ],
+  "attaining_t": "25*q**2/4224 - q/1056 - 301/352",
+  "attaining_measurements": "a=b=Z, A=B=tZ+sqrt(1-t^2)X; third party C=c=-I",
+  "exact_checks": [
+    "original S46 substitution",
+    "local bounds by all 64 and 16 deterministic assignments",
+    "4x4 characteristic polynomial under exact reflection identities",
+    "x,y symmetric polynomial and all edge factorisations",
+    "interior critical-point gradient identities (no presumed optimizer symmetry)",
+    "diagonal factorisation and exact resultant",
+    "attainment t(q) identities modulo cubic",
+    "rational isolation and t in (0,1)"
+  ],
+  "result": "PASS"
+}

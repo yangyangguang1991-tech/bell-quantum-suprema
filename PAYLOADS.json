@@ -1,0 +1,1879 @@
+{
+  "format_version": 1,
+  "repository": "bell-quantum-suprema",
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "catalogues/york-4422/entries/Y001/certificate.zip",
+      "bytes": 8931,
+      "sha256": "a860776198513e84f1753a92ed67b1ea1fd56f174ffed26feb08e577d84ba793"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y002/certificate.zip",
+      "bytes": 9192,
+      "sha256": "9c8e33e37d8893ae0ff520b8fbb9a5adac607ab5846e5776bfa46cad0be2d04f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y003/certificate.zip",
+      "bytes": 14718,
+      "sha256": "a3295daa8cc4899d6850f4b093f7e1fc0fc9857d9db20953331d385d634f0b7c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y004/certificate.zip",
+      "bytes": 9722,
+      "sha256": "c837e36c3b80c77c118991dbed8403b65dece18922104ebb842325e8d284dcf6"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y005/certificate.zip",
+      "bytes": 10573,
+      "sha256": "242de9e808b889aa842c5f7f0942b455e8ea50dafb2503c026f46a3811c8214b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y006/certificate.zip",
+      "bytes": 16713,
+      "sha256": "840a6104e6d35f003f320aacf271a6ca4898d43b8e76ae247685b10024899f47"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y007/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "08f17d50ffa0b0302fd069f456d1569729530cd276cdb75b3f1124c7883c4d6c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y007/certificate.zip.part002",
+      "bytes": 4072676,
+      "sha256": "2a06977bd179262235e3fe5f2f068356cf2c00b0304e8439e1913e7b9cdac248"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y008/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "cc7ab27a381ff650532cdf054d5ca516dd9dc1a6a9a162d2eb50c6d28f506fff"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y008/certificate.zip.part002",
+      "bytes": 4244358,
+      "sha256": "4322e51ac79cabc4604e7db16d4942f8951836f7791f68bcd8aabd9dbef02c91"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y009/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "9e32a457d0e5d82ee2e7c6874a949be64238f960f4c2bf8b7c453c368ab189a3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y009/certificate.zip.part002",
+      "bytes": 12250608,
+      "sha256": "efe8dcc5df7c85b1ae118ee2172de3a30ca73816f4754292a0a7d0d77f99aa6a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y010/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a3874f4bbdd14ea8f81b496ce526b199eee8d27584d7edbb2aed3fc461fad6b8"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y010/certificate.zip.part002",
+      "bytes": 4155857,
+      "sha256": "7ace5dde9d552d0e56c0edb63f5bde9388cf870d510e07161568d06ad4fca9c7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y011/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "7a6d5ec790a752eb2aede3898ea9a0bb00ecb07f995e52d056c0c2bf5d97333f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y011/certificate.zip.part002",
+      "bytes": 1889824,
+      "sha256": "6bacf4a988129c75d9157b0fea42911b16fa33d57f7b5eabb1cc8db306b4d158"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y012/certificate.zip",
+      "bytes": 48188,
+      "sha256": "47da0c018081d1c475bd4098d389ffa18b722f5e52786ce7a5dd9f7f71b91814"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y013/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "85f7ba2496dc30410580ae4528ba9f9e4634f5601e653e37bced343b82035e01"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y013/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "90e44abb15d494f34dc058aec0c86f0b599546f14b56d6184f43e1f90aeb65b3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y013/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "cac7ac24a7f569b05c8751c2f76af3602a44ff40df3e498c2b2d0256aa1c3862"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y013/certificate.zip.part004",
+      "bytes": 11613968,
+      "sha256": "e692f8c943a7f7d34425cbf3073525dbbd69c2e3bbaf8230764c55a58b570e57"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y014/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "34a1384eaf214a614a1255c213d81a5992b3c2eb410e47ed13632cdea5308196"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y014/certificate.zip.part002",
+      "bytes": 4276092,
+      "sha256": "a6ecf857a0eed09346f7fefeeb9bf4852c0bcc92e27f8fc3b3b06afe7d6ff871"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y015/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "acc93d81f6f8c8bdfdc7bf633868d567c3d706d4ad75ee426bf08ad370b3d07f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y015/certificate.zip.part002",
+      "bytes": 4369289,
+      "sha256": "a9daa4cd2022255aa281e41a7fb9481386d93d438826e89cd4569b341a6f9b15"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y016/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a8fa22c02a1626ad2ae1ff2e3a184b7f4600cd4e1ec83c7eaae68ac65e7e35db"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y016/certificate.zip.part002",
+      "bytes": 4220779,
+      "sha256": "68fb6ec9741102c632b8654b4e68e9a9891431a96da93db71260d931c064142e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y017/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "e8d78b52b406650e2fd60365e746745c0aae57efe9c42f3ff301208953a32356"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y017/certificate.zip.part002",
+      "bytes": 4083884,
+      "sha256": "e7f16c75e482cede44f8333753d36ddc1cc39b9c1b2e0a4e1fcd2319a2961bea"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y018/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d5f0b5a32ea0f65d1fff5f8c072cf5dbec7df797c8a177135e3f66752f97a1f2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y018/certificate.zip.part002",
+      "bytes": 4254175,
+      "sha256": "08d8214271fbdf488ff35f3baff68e7251790026fc6d7ecd3465f38cf916f05f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y019/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "80ca09bea63480c8bf2ec42138baf0263414b6411a7028589692b38716191e79"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y019/certificate.zip.part002",
+      "bytes": 4339623,
+      "sha256": "6b9a5ea48e335145b9bb964239f7726063079010f092bc89980a774e6ce8c706"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y020/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "46b1531423bba98baf94c8ac914c192d9fdf341c11cf86a0c978d3d8109ab683"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y020/certificate.zip.part002",
+      "bytes": 4070011,
+      "sha256": "2bd9d411d091ccef35cd1dbd496affee97dc62b3addf021b384e69f3be4246e5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y021/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "e50428b74c9a0bfeea74e1bc77f4656916f302d6434fed06b07cdbd9ac8a0f86"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y021/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "7083a66acb05abe677e2093b2ad5efa6ac0cc95c46b871a55f062a121061b240"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y021/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "5e96c7b00840b5ee740775e6503546c0488251e1ff97dcc6d20c4ca7877e0ce8"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y021/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "2993498297020ee103ba912c106a246705393801b283cd874d5bb9789b31e4ff"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y021/certificate.zip.part005",
+      "bytes": 4281670,
+      "sha256": "3f6c31f0dd3fb3abe9ed7cd35b80c063ca34c433fe4c966007b927183cc4dec4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y022/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "7be4476eaeb5d0b9b2770b56c154ca3e5acf6861c9514bafbe7db93ee807bec2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y022/certificate.zip.part002",
+      "bytes": 4294360,
+      "sha256": "598def7cf565050c82d65439eb060b5656d32b36d3af4305aaabbe4f92985f98"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y023/certificate.zip",
+      "bytes": 46539,
+      "sha256": "4ef804a4e61a23a79016506a640ccdefb79436ade6fa53186e4d05639efc9d9a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y024/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "185cc937b5f5f3631d94a6c7c5d3ad1df2869b77824ae072df436d8633e8238a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y024/certificate.zip.part002",
+      "bytes": 4392135,
+      "sha256": "26017a154dc4373853f7267b3479e4b2f78d3bc95610b2ccb516d896c6af191d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y025/certificate.zip",
+      "bytes": 1221,
+      "sha256": "fbbd39a63ea6e59d6b720f3737506ee81d3f357ca0c66c21e9ce33ac56fe3a43"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y026/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "4217a2f7e7b53830fdf4586f0ab8af4d4b60a551012f9e38acefa771c5134863"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y026/certificate.zip.part002",
+      "bytes": 4074905,
+      "sha256": "67835c976a739547003ee3bc8a93c18ddb7425c3486e21a7db1aaba34dd0e2c5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y027/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "3450488f4c88d6115e30be7e520d0ea433e1db0994cb4068d487d18fa52eaff4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y027/certificate.zip.part002",
+      "bytes": 4245761,
+      "sha256": "a549dff59e5aaa4bed5caf560e40d81c7d39d416542bfce88e8881941b2bcfda"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y028/certificate.zip",
+      "bytes": 272505,
+      "sha256": "c2c9844b7b3ae42238ff5c967a576b6d48c8461d49c2d0e6761b9693fbea6686"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y029/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "5d0e1f0a826eaa16fb761389ff3e604b1839ed451465d1d84b16591c078c2179"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y029/certificate.zip.part002",
+      "bytes": 4077757,
+      "sha256": "e9e598b35f86f14b0c2727159f4b4610d80ee5fff5dd8eb824da32d8f3474bcc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y030/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "98df155359ee98d9fca47af6f213259d213073ba60ccd37fb22e3495d3827022"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y030/certificate.zip.part002",
+      "bytes": 4364968,
+      "sha256": "2b58ad1594627bad20c53f99867db2a1be836381c1601a02e4431029e2856424"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y031/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "31cb506c690b89a4147b07f6ee1ea6eb22560196bc7f93d265bbd04d39d3610c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y031/certificate.zip.part002",
+      "bytes": 4345589,
+      "sha256": "db98665fc5e32e72e1d914cbf012006b35254add3ca4479134192b90ba1ced0b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y032/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "da164ec7aacd32fd0955f6a79bd31ad105b294c646adc5a48b0bf6f8be2a0dd4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y032/certificate.zip.part002",
+      "bytes": 4146663,
+      "sha256": "f86b8130be62f84a8e5e05e2b117d1136bd4a83e8f965987a9e8178f8a972824"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y033/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "0764a583fa5bbc6d17f7580985869588b70e09c336761bba64ddb825a638dcac"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y033/certificate.zip.part002",
+      "bytes": 4074102,
+      "sha256": "f2b1f4c8a19cf032ac89dfd0cdbd3ba9f7a3a15e5da0ef1e51ec6b706191fc60"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y034/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "65c099ac50e0d11dffb882ffb2c4bce051e6cf25e47733239ebdff0f89e8100a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y034/certificate.zip.part002",
+      "bytes": 4211536,
+      "sha256": "d0e2cf1f1441deecb4404508bcabe2dd87eca870bfa9ceb64b0eaf3fe8974b3f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y035/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "cddb5683f508d421d71e5abb79a1ad37cf985a5040acc9e9442052989b6af73b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y035/certificate.zip.part002",
+      "bytes": 4232214,
+      "sha256": "1196268cc740740453f237a673a524880de8f917eabd55d2d3b639d881d6e00f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y036/certificate.zip",
+      "bytes": 279292,
+      "sha256": "0e6fd6a425a3e50e4d107228c2e42f135ffb341f4caeee6ad8b81fd5ea074c7a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y037/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "bdd9e90adb27d21574c56b9990dc5c30dcad22548e4d9000eb7b68eaf0c3773b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y037/certificate.zip.part002",
+      "bytes": 4135992,
+      "sha256": "7d17e11bba48347e6d746ede1b466938280d32852844f75df7201d29f73dbe2d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y038/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "895714cdc271a63eb8590f7d13bdbc93d40ab389b9f0d2e67349aa38c4a75032"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y038/certificate.zip.part002",
+      "bytes": 4164434,
+      "sha256": "e6db8ab0393e874e1005fc11fbae65133d88ed594264a29fb9aee2c1843ff362"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y039/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d3027878c6ed677f00fbcf1c8a5abb9865313b8f39073c0a37ea5fb90e6bd11d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y039/certificate.zip.part002",
+      "bytes": 4076346,
+      "sha256": "a7d9ddf567b2d81f249e1cbf3a1caeea1550db80c14651d327c920c0a9049cac"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y040/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "5551f4935986680726a3610e9df8468e5b67822d0d7b93057622e8a0f7191395"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y040/certificate.zip.part002",
+      "bytes": 3799195,
+      "sha256": "440675fbaa623ef899f30b1214860ca918a91c2a08bf0bf5c84b2d37128ff81d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "ec334da80f99c06a9b437fccc3c32816f15ca8780c300d4a9c620af81de0a57d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "cd529b47d1b62775970b5d3f5d6097df2645be3abd93ab42f0514dcf640a2842"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "97766970e59cf47f107fea7cf4db0c98abeb9edd6841370a2042968e3369ba9d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "97245a5cc9cd49a07d7dbd2a7a1e734e0e2efe45d1e9dc51af9f0a5b50218a83"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part005",
+      "bytes": 20971520,
+      "sha256": "0be2bd08ede92c654825ac4dc2a0e21284f6664cebd9cc8c837b760b8371c250"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part006",
+      "bytes": 20971520,
+      "sha256": "aa8943dc5d1688b3e5db165bc3d7bc00072006314588c4910c392f96f8ad2c49"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y041/certificate.zip.part007",
+      "bytes": 17873202,
+      "sha256": "63d6c91748536a592e66bc1cfecc5f59b028e40d31e63db3f8a1ab07aece7962"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y042/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1e6793e6abf638e3ba6e2c5c2c17d5398fb403a79899fcc5e9afe054dea0c5a7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y042/certificate.zip.part002",
+      "bytes": 4208519,
+      "sha256": "cab50752fff1772f9a2a578fac4233411d4ad7b4440f1bc4a158747f8c3bbdad"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y043/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "f5db60a146b5cba525f90ecd394e6ddb402518c3fffb3ecc4245698c1de234d0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y043/certificate.zip.part002",
+      "bytes": 4155268,
+      "sha256": "3ba585d5a372562c6c8322d981287a2e38e48889cd5664c12cb509bdca60d8e9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y044/certificate.zip",
+      "bytes": 49167,
+      "sha256": "892cc7e5b7d75c004752b33c6ae05698c608533e5e5c12e78d926c45b0247ede"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y045/certificate.zip",
+      "bytes": 276240,
+      "sha256": "930667d28c70a5e7a432f6f3f52b855e073ea1750caace16563318f3402daea9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y046/certificate.zip",
+      "bytes": 276475,
+      "sha256": "00dcbec29f75a9f99daf49d03406a6a4877f11e8a575e727eacc499de284b238"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y047/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "f08004e8b9bf865b9b89169e76c698d5c68fa02c0616e126684432a0c355ebaf"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y047/certificate.zip.part002",
+      "bytes": 4410307,
+      "sha256": "dab0f56fd141b8e9fc490236d13ed15a49257e918a295896240119987e51f265"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y048/certificate.zip",
+      "bytes": 276547,
+      "sha256": "e43b09a0a14fd313a75e193b07bc19fe8a1043f22f9d2729ca174f4dc733ca95"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y049/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "3c45d319d78066b84ed5c339bcc0e71c668de2bb6ef76425b99e0893b6511cfa"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y049/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "a04fc7f911eba2aa1d9b3da8d65c34ae7e7ace7b14420730170fc69a0c4ccd30"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y049/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "ddccb9a08cbe96afbc6d3915af1336c24ba425a70dc2db88396544e5bb366fa2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y049/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "ee6899fd079372fd11165443f9df4862c254a239453c28394000944f23d7ffcd"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y049/certificate.zip.part005",
+      "bytes": 4287030,
+      "sha256": "5a929837b7557854bd23b2605b08433200cfac118b344bbc8741e9431d28960f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y050/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "37ce13e5bcb69ddc6852a58121450b6632861adc1f72995d8d76afbc7272d77b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y050/certificate.zip.part002",
+      "bytes": 4221040,
+      "sha256": "c577d21be85ae94d6d80c57d5451ba18cd8110bf99a8539b5f565126921b98ae"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y051/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "ee42512d243edb7479c3410fd00e0e07d9c08536ff6d5db101e1b58e2e9ba6ab"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y051/certificate.zip.part002",
+      "bytes": 4142487,
+      "sha256": "8189f7ce7100b405de3ba25df09ed782c7370eb1d72c707c0e3033c01eca0cab"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y052/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "452b8e06e5281117beceb05401a422ffc6d2644c33699100502b0250e2109ccf"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y052/certificate.zip.part002",
+      "bytes": 4263298,
+      "sha256": "97a63a76cd55ea18a8d46ceebcbd718730aedf4b2aaf66c9965248a15f0f4208"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y053/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "afd54aa5f0fc8cd9983c66fce8b4d9e0c04071dea7167dbe28e97375ddd9214a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y053/certificate.zip.part002",
+      "bytes": 4394409,
+      "sha256": "598158dfbb0f1176d437418bd1f6fa24de49e37a13803f27fba28b4940e612f2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y054/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1995e62d6b2f268abb927f49a3244daecf42e26b61e0df6c711834e948c54c28"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y054/certificate.zip.part002",
+      "bytes": 4176925,
+      "sha256": "e5151315ea790bd27006816ae87f0d72cdbf93c414ecd527389630fe408491f6"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y055/certificate.zip",
+      "bytes": 275278,
+      "sha256": "da9e271cbf480f9f81dfa5f8b2868dce2a7844414accd027d228471862d6d1ab"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y056/certificate.zip",
+      "bytes": 8132,
+      "sha256": "9120f3dac90e46e98e5f0a337175123de47949bb12efd0f669b4e5debc374645"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y057/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "3cec6fe1ff4645c888cb1d31680fbe3811ca5d8abb65e9af08bf6d918b605d6e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y057/certificate.zip.part002",
+      "bytes": 4263883,
+      "sha256": "87a8e34ad52583de3d47bb8182c92f2ab820937c48a2afdc734cb1378e617f10"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y058/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "23ac1fa9b3c4614ec5948483cab9491a15d354703220056efe25169b8fd47ab6"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y058/certificate.zip.part002",
+      "bytes": 4255854,
+      "sha256": "c4b35ffe82442c1d4f8a68de9b8aff376ccf0366724fe67011a210b04757dec2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "06eb96e7be8fc730ccd4863429d778b0b8b51c913cc36708bf275ac9bac6dedd"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "d1a86e5216a9733bbcf2f518064a926c54817b29f946d94d40a69a127429a6eb"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "9908c8ff766817b21d6316ae5b272a9b6fa1cf81b391b09bd0c6fab8285e3ad7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "c4b5d8db6b6e21a0eb65f39a698515c1221549f1535bc92a3ab6acf7a87a3936"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part005",
+      "bytes": 20971520,
+      "sha256": "85b2ade57ec569ed694f4b2c2acbdb0f0b6621c437851d831b26d0713e3bb834"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part006",
+      "bytes": 20971520,
+      "sha256": "d17883fb857990d981286df2c9dd7ed0acdf56dab1840993d4c1624f2ceec067"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part007",
+      "bytes": 20971520,
+      "sha256": "69e3b90aaacc245e2342182d9e5788c711c2a1c8d4e68b386886d138f6179c39"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part008",
+      "bytes": 20971520,
+      "sha256": "61e22af9a604ce52e7482afe994c0caead675c9d21e7ebfa9669eaf1180fc37f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part009",
+      "bytes": 20971520,
+      "sha256": "062ba6ef7532fed33b161df1a349d0eb5ad2a421d9cc6a084b801c6faa4c17bc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part010",
+      "bytes": 20971520,
+      "sha256": "6e1d4e7a535aeb187b9cf6c14d9587df8df04fc6e2f4c38c31fcba0054222ab2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part011",
+      "bytes": 20971520,
+      "sha256": "4370ddf708de73adffb574c08cda9cbcc3319a895c33a42043fc67e4fb839134"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part012",
+      "bytes": 20971520,
+      "sha256": "475b89cb6ee73072ff3af10a146e0fee6c9fd3ae36eef45c0b664b349ce76364"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part013",
+      "bytes": 20971520,
+      "sha256": "a0658ad4fdcf8b0fd25a39445b04f11884b5dc468c309f5e918f6492e514b1ef"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part014",
+      "bytes": 20971520,
+      "sha256": "b52ae3e9bbfd315c09d0d6e5f15b5a398726d5de43742a81ea2ba568a2e9a901"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y059/certificate.zip.part015",
+      "bytes": 9580629,
+      "sha256": "5a1eb40f593190831a4c1e6c895bb37291c9f09c6e5cba69dbdfdc744d222c32"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y060/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "f6a170f5a5f7b50b470c48b101465e45ea05e0ca7f819b9aabce1ca9d5672c16"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y060/certificate.zip.part002",
+      "bytes": 4107250,
+      "sha256": "2ca2e92980a35fd284b6aba7a94759649b6dfe64b2752c6573d1b2a173c27589"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y061/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "4628f408d0f586fde5d7564d70eb4c529e6a8a3e1892393eba3411404be4a33e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y061/certificate.zip.part002",
+      "bytes": 4200957,
+      "sha256": "a8454804dd818c2e039e0668041838a0369a8295bea87e7eec994f899b617840"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y062/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "46fdc3bf326680f67a209cde7f5a6fe9252ba544ca041263f91ca224ed13443c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y062/certificate.zip.part002",
+      "bytes": 4308646,
+      "sha256": "3554c0268369bb5622ea41cb3d3da227e1e31ea137bd61b46b96097f675a48a3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y063/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "e953fd0390906df37f499f66e4214133d3ea2348af575cae66039140052b2ef1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y063/certificate.zip.part002",
+      "bytes": 4078373,
+      "sha256": "cab1164373877beb811e4c086660711b8ae15c9896762882e9a3f374db35d876"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y064/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "c07dcebbded6b75f482f492356f17132032200fe0c4bbc698c8bdec18dbe7a58"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y064/certificate.zip.part002",
+      "bytes": 4175138,
+      "sha256": "35d7b6224fb24ef22664f6d9f90d94e401745a9500d253d051df564250be006e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y065/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a80b2b997934e486163cce5088efb408e150eacbb352b7880438de8ae18e10ff"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y065/certificate.zip.part002",
+      "bytes": 1828345,
+      "sha256": "51a1e1025b271d762f94785e99c6a10e32bfafa4e5699c054cc450469e9ab5af"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y066/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d35ba92e5f13ee189af96bf722f4636d14404221fe150ad326e689d4a6248a78"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y066/certificate.zip.part002",
+      "bytes": 4074767,
+      "sha256": "f16f230b4fee8d9504535424fee47b7d8b53ec3e0a432325b08762f513a2476b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y067/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a83ad2a3c9f6429ed963e2526a9808fdf8e40602774bd42646aa8f1bcb80249a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y067/certificate.zip.part002",
+      "bytes": 4361437,
+      "sha256": "d129241370691eccfc3fa39f52e3592b3de8e95e0c6437890b9cbb9b863297f0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y068/certificate.zip",
+      "bytes": 249503,
+      "sha256": "cc8180f50d73a653014e432e30d90e86baf0bc2fdd9c6c51d803878d71e7132d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y069/certificate.zip",
+      "bytes": 178526,
+      "sha256": "0b28566cbc0767c9889d20c64f1e8561ca8420f81b3ac303844dbef5852b7368"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y070/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "ed825929a2d68744d2fd41635cbd950172f1044fa33d9b8368597055b52096b8"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y070/certificate.zip.part002",
+      "bytes": 4075550,
+      "sha256": "f0f656f423982fc46b9302974bc2dd067e80eb6b2a0cb9e534406ef062fadf6e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y071/certificate.zip",
+      "bytes": 273029,
+      "sha256": "19179cd433cc102eb5f24726506627c1c4f0cd8a56fb46d640638c6a6abe65d1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y072/certificate.zip",
+      "bytes": 275213,
+      "sha256": "1ede4d275384667ecab994a5961c5fc8e20eb4fe0f9ff3df267ab238bbda5519"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y073/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "08471f96b5d89047886bda97d34b662104ddae22290a959c6dbaef83fca2067e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y073/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "08163c836b606b6172e5313fbb68bd36892ad8d5dbb2386bae4e40c7e1def3b0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y073/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "6f02348081afbdf51768c0e812cd4b20396d403f64bac745a9930db2fcd643fc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y073/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "cf05f30944d493be4234526fa38678946f92beac4ca6785a4f2dd6155caa538b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y073/certificate.zip.part005",
+      "bytes": 4320428,
+      "sha256": "4e368730adde9e1d5cfb5f2788d0ed6141a9492ca05669b482ef385996ecd9fc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y074/certificate.zip",
+      "bytes": 959,
+      "sha256": "b5d38a6f5e1e01ba5a8f2381321edbf46a57f815111bc7ebbe3dc0ea5c9f7da9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y075/certificate.zip",
+      "bytes": 276837,
+      "sha256": "b7a650d5ea2f0a957b96bb2a5f625faf88e6f6afd4974786bd5beef698207ee1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y076/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "ff52016366463437fde265293120c4a2426bc0dc0dbba1fd521c50e0d85d926c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y076/certificate.zip.part002",
+      "bytes": 4392043,
+      "sha256": "db94cbefa971a5160430c96938916b969fd8fe492b27efa2efa88fc6c08ae72e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y077/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "aa2e20e333951ce9fa2132c94aace2b60ed876c5c0d34d9aa674ffcc91863b53"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y077/certificate.zip.part002",
+      "bytes": 4268690,
+      "sha256": "cb83bb98075c4d452b73deceeeac8268cbda37003d86a041a3c95fa851460e83"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y078/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "e7048bd2a4a6e1b064df2bf30c802cea8d924c2cae10a22a09a57415d298a2e4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y078/certificate.zip.part002",
+      "bytes": 4206601,
+      "sha256": "7b564875fb2c2dd473c895a60b4f98ecb5de29af1456679145826178b785aa77"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y079/certificate.zip",
+      "bytes": 277766,
+      "sha256": "bdceb7d6fb76e776470c3bd4569d0bd75bf970e15b0d5bb88b3efcd8853a95e1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y080/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "6cbf12c9c9528124853339b07b975065da64fcb722182b23dae18a582ca65ff0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y080/certificate.zip.part002",
+      "bytes": 4110129,
+      "sha256": "9cadcabf0e3684ba1e2bbedf71e4d7bc9cdb57bf2700610ed3990083e927d284"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y081/certificate.zip",
+      "bytes": 7610,
+      "sha256": "f49cd196e14f58dce0b033c5f72a21153997087ac68e144bab3d049d988b37c5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y082/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "80bbfd1222c678f72372a508c26ef58cc5a96ebd13a37c79d35c689e063c4509"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y082/certificate.zip.part002",
+      "bytes": 4104485,
+      "sha256": "e8ce6a6650506ec85356e169e9d63e29ad1209f2fc1b55863b2da6a4faf0d32e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y084/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "2a810911f0ab970af2d1ebb548a3361e5cd54d978ca73b02e3f5b915d654a663"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y084/certificate.zip.part002",
+      "bytes": 4384148,
+      "sha256": "b9c30b88a5cd2f712baa12176c71050b9dbf18244f11c1f0fbfa6ae026f2ed46"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y085/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "54aae3bd6dd026cc82e97dbdc2bb2c15058b7c9b59aef5f3b8370970c23ffe0a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y085/certificate.zip.part002",
+      "bytes": 4390390,
+      "sha256": "9e996246ad8b3a66a7aeaf083153f3efcec5d664e83288d3219a1071e0039800"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y086/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "0e6358350ee97751dff998a155877208263147f0532e0d0e8b1035b6a5a89ecf"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y086/certificate.zip.part002",
+      "bytes": 4258270,
+      "sha256": "0a6761bd5a0a4a156c4eee76a535facc01ad43da61ac9ddf8b4cc78e1c7da6b9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y087/certificate.zip",
+      "bytes": 8170,
+      "sha256": "e17a7656dc2f009aa35429f0912f2691e1f3a2247eb5807889dbc782aeac1c3d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y088/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a05372bec5151c774c9fb4a7b06c5e4b6a5b8545535c3faf445f31271c56afdc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y088/certificate.zip.part002",
+      "bytes": 4321177,
+      "sha256": "504a55703321f29d6731e25a4867b48ad8db39d6f1d81e127452f25c36b0aa27"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y089/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1212f1f5f838dc995407ced4d4f39c2b13ecc50000a209c134626614de9e4a0d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y089/certificate.zip.part002",
+      "bytes": 4210517,
+      "sha256": "bbc0e67e822f32e99bfc1e0c9a92dd9e3b8369b9dc4ff349c1542224ca782399"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y090/certificate.zip",
+      "bytes": 273444,
+      "sha256": "549dc1f267c8b0b0d05a6d3a6693f9141b76fc692a10c86da9b1ddaba77dadc7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y091/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "b544793b1362b298e0714bc60d4dbaa96e7959e467480a201fb607370cb7b8c9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y091/certificate.zip.part002",
+      "bytes": 4171538,
+      "sha256": "32db78e1a5d2026197417ee4a4d0b8dd09bb30da1eb0b1f964e009e03f0d404f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y093/certificate.zip",
+      "bytes": 276393,
+      "sha256": "9e28ad4e9b10884ce28c0668d640931b3efe62e65e67150e3b8ae7c4898fa51f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y094/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "3d023720d81f42e8e8ce973c51f4ef4a78e5c16abe3169ad5f6bb4274552e2a9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y094/certificate.zip.part002",
+      "bytes": 4257650,
+      "sha256": "5c1ae732ea577ad0264ad9d65d79a85146434618042b77af6d32ad853180af1c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y095/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a69122ef1f0dbc704321887c97a8225026f01e5d4c057418ff82006b47a7afbe"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y095/certificate.zip.part002",
+      "bytes": 4107673,
+      "sha256": "dcc2fb163cf8639b777e90ffca18b768c7530dcaea4c6a45e5441c38cdbe4966"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y096/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "332eacbb2493d28d303bfa8ed56989c45b8d944d75d78500e857db0e0d0e758a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y096/certificate.zip.part002",
+      "bytes": 4392652,
+      "sha256": "363f0af2fdfa62cc9681de30cc7b26e0e94db36332ab0ea0d6b53e3a51046efc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y097/certificate.zip",
+      "bytes": 276347,
+      "sha256": "8e40f1381ffd9e807ddd347b3cd4c544abe164fa25047399493c64f411f96a92"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y098/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "cccab85ff7ddbc898396079f97071b5b5396b126e17141aabd90bed0242a4970"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y098/certificate.zip.part002",
+      "bytes": 4085333,
+      "sha256": "cdd74f806e8d8eb2452d6110a7912594c33e07cd542c481bea33a3e1429dc58f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y099/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "191c8f8902d34487386d28492f3539c854eae5ebe2d6701aacbeda00d25c3976"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y099/certificate.zip.part002",
+      "bytes": 4334876,
+      "sha256": "e9943945cdc0403739c127bd168c21c60936f97154cc3f88499a0ec9d5005db6"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y100/certificate.zip",
+      "bytes": 275104,
+      "sha256": "3949c93d74122353da35e93007094d20869b86f1c65bdbdf8127be500c2a61fc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y101/certificate.zip",
+      "bytes": 276082,
+      "sha256": "2ba88a1c30ac45ea7629405ee5e9bb856b4c10ee8f4a681a4a5846551e4bfc62"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y102/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "97621a99fd29dcfe8ed26d32c1173aa8d8ba7a5c342c6a3a4e44c854ae0256d9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y102/certificate.zip.part002",
+      "bytes": 4116616,
+      "sha256": "4730a0c24132211b1e0a3d5474ec60303e7ff7e5580f27b3ecc1bced6d731988"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y103/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "c9da94ef8d850301b3b57f4b21f3b4fa4eb92b35eb2319b15f2a125965e6e953"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y103/certificate.zip.part002",
+      "bytes": 4306443,
+      "sha256": "ddffe8cdfe163de496c38e875534587045ba34320698e11bfd3d5520fceca113"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y104/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "70478308fd8f4b85d13124ee28514cd53b581b937260860701d92e0c271c0ddd"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y104/certificate.zip.part002",
+      "bytes": 4317956,
+      "sha256": "39b32bd4cd10486351dd40744e486afc7d6ce8b19447bb59fc482ef90d264b24"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y105/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "ec0ed642fdee0a5cd91dc8a3f09ecb9fabe1c613700740b17e55ed611c815dfa"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y105/certificate.zip.part002",
+      "bytes": 4169329,
+      "sha256": "a65e3b9c6572d72b5558eb700cf85ca6dd1e64f7ee4a9151f124fe8e9d1062da"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y106/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "7a56106ed6dd00c21771af22e6109792649ec7933fe7dd0144751353e06e1087"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y106/certificate.zip.part002",
+      "bytes": 4290263,
+      "sha256": "4c9bacf0076192d33d4f0ba620b71dc4a4d5453b5993e1c9c53ec60b0897e366"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y107/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "48c3fe472ecfa3271a56a34b4625c366381da22f10146729b86fa1114713fded"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y107/certificate.zip.part002",
+      "bytes": 4129266,
+      "sha256": "c8029ca734957df0ad8b11983238e526cbacf3f38358faa5be1343e00df97c47"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y108/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "de48672f6b4c191f948ad3d07b3f725e9f8c751efef948db14689961a546c37d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y108/certificate.zip.part002",
+      "bytes": 4408682,
+      "sha256": "34c8c2efc1f504dcf0a1605814da167510e793e19e58607d8274d8ce91cc57d1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y109/certificate.zip",
+      "bytes": 276665,
+      "sha256": "a9c0fac0ff9cb3b90f5a92c1769af3051d019d44d0f5d9249ebe123c64b9593b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y110/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "c39734e177e93ffe79552bd10697d993787ffce4de5f948cd9931f0f360d658e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y110/certificate.zip.part002",
+      "bytes": 4115991,
+      "sha256": "a6ee644d7d15bd08143524d3aeb710d793e5b596f6036cfe329395b36a0c64de"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y111/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d3a17f07dbc564ecd7ae2140dca4ea1cffe6320cb1cf0b22f1161af80583cb82"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y111/certificate.zip.part002",
+      "bytes": 4336397,
+      "sha256": "4119513baf768d3f2ce064f20337c01848097e03d04087542526cea2f864582e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y112/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "3ca3877e266585a84e1a74c2dacf9961df591db2c95ff4592651d9032a162cad"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y112/certificate.zip.part002",
+      "bytes": 4151954,
+      "sha256": "038d3474a510f0ad6366af33d8af8eab90eee240c959311b8e49b0303ba55053"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y113/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "8ec08b16ff54bf09a78445b107fdea9d3988fc5772a4e1143e68fe75147b762f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y113/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "83715f1989f6ac2b5ce4cfcbb37ea7364396c868666b001eae5df49cced5d94b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y113/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "bc5764ee245fcfd1104c2cf16fc35199964883965f7f6bc71e89377aba49d97b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y113/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "bed3deb7a6b4990d32ed0c14945ef1b78f3aa84b361cf98ea44191d0f1acef63"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y113/certificate.zip.part005",
+      "bytes": 4292873,
+      "sha256": "4edad6a037195eae9b3efbfe35b26418831c12d99dc0d2f64db62b9a3a915e80"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y114/certificate.zip",
+      "bytes": 276964,
+      "sha256": "0f3d3b75d49046c88ba7288fec1a82e04524d2fadac22d8a7062aa52b4c7da58"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y115/certificate.zip",
+      "bytes": 276209,
+      "sha256": "670ff16ac0b515b387d5d7a6953a6f3798326ff762fb3847b8dcdedb48082b7c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y116/certificate.zip",
+      "bytes": 43404,
+      "sha256": "3c6dfbe0c5bfbe7eac5a4dcfb1b333fe866afab06dc520888c160d7bb6cea9da"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y117/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1473b314ecfcac7a80c9631f194cd6c84746efcf10a941308c2cbb686c0771f3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y117/certificate.zip.part002",
+      "bytes": 4073283,
+      "sha256": "96eb8809ec0ff5b22ec13f71e2ac38a56cac52a38c5490d26d72f22a91275f9a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y118/certificate.zip",
+      "bytes": 277041,
+      "sha256": "1ffb300f527c8ef250b679bc96f1ed4ffac668441e4fbcbc565821b42c10271a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y119/certificate.zip",
+      "bytes": 277016,
+      "sha256": "05a20dab3f2fedc34c2da674bf0759604b9b537e7b99bcb32c19509fa963cc20"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y120/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "6d747b1e26c1d907220c370c1ec32975291edeb22ce1ddafb622e4708ac6ea40"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y120/certificate.zip.part002",
+      "bytes": 1824387,
+      "sha256": "53b0f0af6a6734e9c2a719faeb339b4d7cc137010f22097187d073f6703ab29b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y121/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "212628eb91dd81e91fc03b6211d98e0174315e4d6b06a4a76d44f225e7eb2042"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y121/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "f347a9f228ddd5b549882d3784d127ab443e766ba652a0cb7b2f05beb7326ef4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y121/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "56c94b5cfdba064dca5d9730be850e25142ef86ac2dc092380f8338a3d7c11e5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y121/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "e759a06ed82914c0827e7cc06b32f1dae65580a3da0ae2a0e623dc12d5c87478"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y121/certificate.zip.part005",
+      "bytes": 4462605,
+      "sha256": "5ebadfe0f41380adef988ed3669559b1b6261706f7ce16e728c6e3101839dd88"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y122/certificate.zip",
+      "bytes": 46290,
+      "sha256": "2ab95e1fe41e8a83598b612c05010ccd30d07e3618cd6ce1e81ff770e3197f66"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y123/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "ceaa73e3c821ad8d69f5bdc016dde03d3c1b5645e58a8b082258cca466ad8c7f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y123/certificate.zip.part002",
+      "bytes": 4269253,
+      "sha256": "966dfdc426d2d85246bfe8c70865fc461c1bd4e5fcc926a86c39e11c50a54d93"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "20bd71ca901157836f2fb4a534dd474e2986b7528964d78ca60045b3d710c44e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "1cab68373bf7ecc76b7c5ae5981211c81729126a0c6a59c4e642c1575628edbd"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "27110490d2a8eb719f0b7d171d189a747a1005fac131d6f81f536f1aa2144cc0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "fafc85bc6d3440faa4e5bf1aa4bf181bdad7fcb874f7d5d9013354a53b8ef52c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part005",
+      "bytes": 20971520,
+      "sha256": "eb06af5f719bae433dcfad85a60796ef93efaa9d41f2900bd59fd3898c383a3b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part006",
+      "bytes": 20971520,
+      "sha256": "5d23ab24cfaf2c788b780f878dab87472f1300ad4ea4e2c860042376b44c3921"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part007",
+      "bytes": 20971520,
+      "sha256": "dfbaec544d20312c9d37d24dd8d55d66d5d891d70af7d2fb305365ffe96f34ed"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y124/certificate.zip.part008",
+      "bytes": 6448781,
+      "sha256": "20fe7c4f964b944933adbe7014c9687886534655c1f22d9af6034fe22fb4a783"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y126/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "c9bc970ef1c78035798b024b94b4809c15d1545d7a936fe9a613e3a7f142cdac"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y126/certificate.zip.part002",
+      "bytes": 4215696,
+      "sha256": "0afc847067243641568110fe9f12553bca76dc8efff04bf7ef20169a9829199a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y127/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "78f5da946ca5d05d892bbb4b3259e04f7ea040b05f8e61d89bf085b1be0a7853"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y127/certificate.zip.part002",
+      "bytes": 4013299,
+      "sha256": "ba72755563e742a4c88ae5d97a1d40d0b70b9d7e9e445fcc3bcf177e2dbc3c33"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y129/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "18001f5eb9bd84ffb31c09ba25ec0c768538ab954f2a4405a61194bcace19287"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y129/certificate.zip.part002",
+      "bytes": 4309730,
+      "sha256": "b3d0d9041afe4cc120278c4a78185aa6b5b5cc917af729f3fff5b24151a355e1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y130/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "17164e833cae9d6540e6bbd0160892717ddcd072d49416a9f908bddc1fd19b36"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y130/certificate.zip.part002",
+      "bytes": 959778,
+      "sha256": "fc331411ee94599f33b28e18acf56c2f28896e913f783048ec8485667fd4f610"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y131/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "26f1342ab40d597daec67162c7e08b33e92e45c3bb60fffc90a1ee7f0232d58d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y131/certificate.zip.part002",
+      "bytes": 4186427,
+      "sha256": "dc6380e8f69f6510b1afea9881d847f03470bc9a0c1e0adc5e8d1dc9a24106b1"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y132/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "5a9b82af9253cf6ecab91c28cd78e6a80b211f16d9031675894eff87dc751733"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y132/certificate.zip.part002",
+      "bytes": 2944965,
+      "sha256": "752b22c436538e72d807ee6598b3e3e425e2f4d29f1c672b96212ed7eca000de"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y133/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "38adc565f2877dd9b9de609455bd8c0bcc920957355290ce49810b48028db2ed"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y133/certificate.zip.part002",
+      "bytes": 4365374,
+      "sha256": "afd802800d6c9839bc36f24f11239329e4f2cb066378f16c6daa5d6e6697a555"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y134/certificate.zip",
+      "bytes": 7704,
+      "sha256": "d13091dacd4ba46b9ce3306b57d1edc764dd94909e80dc4fb0673ceae444d299"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y135/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "5709b158b94463f703643f4ba5c381f1e856167f3b47efc7f432de03e83e4724"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y135/certificate.zip.part002",
+      "bytes": 4351383,
+      "sha256": "7925db56f5b791c5d7aaeb2024a33561257575cfd275ac6c902bcbaaca3b9a58"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y136/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "19e30dedaa9c40b8392d57c458cb1112f1b1d9de1e50e2767b4bc1a1a5440540"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y136/certificate.zip.part002",
+      "bytes": 4122797,
+      "sha256": "2428661656dfb491930dbb8e11b4415ecfa8ce715d2c5b5e19de02a48c04984b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y137/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "0b29bfc65fb9966ba9058cdeabf8c0a95bf2206b9484b0218652dc448a9a0801"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y137/certificate.zip.part002",
+      "bytes": 4131280,
+      "sha256": "70015c1bea23a1036f7ffc06263e170d8abfe8fbb6cd41abc5bc553164dad480"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y138/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d95096ea4f51e7a98fda79ef5b936a6e7c754c5eabe9eb96ccccfc21eb19caad"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y138/certificate.zip.part002",
+      "bytes": 4216161,
+      "sha256": "39da9016985c5ee65e2b83fb90f08587fb4e2b4d72994b8b176607d45a7a572b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y139/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "e65ee513ff3fe278097de672233456f2ccc81018fdf2c8b32c65346e4aff81a3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y139/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "633b296e5c283b89ef6e7f71a112ba42f9c3ac7c30866efc14aa42c08456cc62"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y139/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "e50b043d52acc92976573d2527c631e1bcd400d7ec1a68f7ded0c99123d9be5e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y139/certificate.zip.part004",
+      "bytes": 19666488,
+      "sha256": "02e0c78a6ff40e044b1e5a2b458eab3bd4a1a31c8cf35e7c8c566aef9e13a5ef"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y140/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "2e44f8bb264476c157abee21b35ccddf9bc528d505da1d0828c90ce53fe48e44"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y140/certificate.zip.part002",
+      "bytes": 3824136,
+      "sha256": "6ae88d2b60426325601985e308845abc4a353ed8a5d47e9ffb87666477d7d063"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y141/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "8af3f6e29886b7c440e28c723fd3df282f0de7c76b14c4d1a422ff8b97ab9fc5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y141/certificate.zip.part002",
+      "bytes": 4131950,
+      "sha256": "04107c7b7be8e60be28149c0271af6e138d82c4c8463b5a5bd6f57d0d5e4dafd"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y142/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "059263b22959aa6025079757a3dd1d90ec75d91fa7e61cdc3f35f3eb10d912c3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y142/certificate.zip.part002",
+      "bytes": 4139571,
+      "sha256": "7393e20674254905a898cffb4e4a559ab430dba8f55f4445de04ae7f7b2d4359"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y143/certificate.zip",
+      "bytes": 9710,
+      "sha256": "c87402c99a07cab0d8f7a2cd3a66c6e6fe29b44afcafdac0a9c5b70a4db410e9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y144/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "cd8857f6138bcfba357a984fd0c076671920e5d1773106006fd4d4e1b6b50112"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y144/certificate.zip.part002",
+      "bytes": 4317937,
+      "sha256": "63855da4b4b61beb1591be543ddf6dfccf6c06fd4dc709f1972bfbb17aed5f1d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y145/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "80b5cf29c138ff68ad7ed32a48ecf8014c22c1dc381f34e88521858914527429"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y145/certificate.zip.part002",
+      "bytes": 4356179,
+      "sha256": "bff3b83a0f9f3650af8abdc2d6a3eabef0667d663f133b635ae355a5b88705e6"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y146/certificate.zip",
+      "bytes": 279438,
+      "sha256": "825b7616ff3d041efdebba5008fca78871f00b16d0c8e7af329ae993d1dd82ec"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y147/certificate.zip",
+      "bytes": 276683,
+      "sha256": "205db3e7cebf0eec879f52b748b016e6df7f3c73dab2a671172a88223a536392"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y148/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "9d2528b023fb394fb2787a7aec3ad67bfee5fe112b8e258f2d938eb96a412d8e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y148/certificate.zip.part002",
+      "bytes": 4161903,
+      "sha256": "ce536cbd36806c71b8cab17893f04b8882d89d2b2ab627bac1f9736890ea4e15"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y149/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "a37c4c7055dafd540659b426c80ff8f8894c4c8e1bd84ac4d1be26a6dbb830df"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y149/certificate.zip.part002",
+      "bytes": 4080710,
+      "sha256": "427810d0138786999f65401a7a304ccdb2b59ab40d15669fe440c94dcab73b33"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y150/certificate.zip",
+      "bytes": 37018,
+      "sha256": "9826bea19b456c63811b1cc3ba244c612a01323032bfc04e922c19f9552c8c67"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y151/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "16dd07a6883ab14106497d5ed7bdf5b4ca3971ea27e213e21650a13615d87eec"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y151/certificate.zip.part002",
+      "bytes": 4287062,
+      "sha256": "a14e076ce4617898a0687a06e3cf5030af1d218d1ee6b6df9abe4489b78fd59c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y152/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "6ad384b30d0f98cd393e8282d060cddd77f48dbabd0a09e5a8d87d2f24efe7fc"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y152/certificate.zip.part002",
+      "bytes": 4381996,
+      "sha256": "3d801e6d11f339cd8f122a6aab706bb5b8af059af69bf0420f5cfd2e2fd7b60f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y153/certificate.zip",
+      "bytes": 7503,
+      "sha256": "8d6412de5f5cdddcdf1233fce3ea136ecbe72223936f866ba5cea55bc5cfdcea"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y154/certificate.zip",
+      "bytes": 273799,
+      "sha256": "13f185ce3a6a3b051529cd99cb460874dfeff0eda7f1073883c95f37f5fbac82"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y155/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "289a38dfdc9bca70a35ec456f8cf91983707889f85e2105645f4e5bc17dbbb2d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y155/certificate.zip.part002",
+      "bytes": 4305614,
+      "sha256": "2c9a75f095629236e212d34df99e880a0217e788e725a0e51bea2bb9f5fee49d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y156/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d426c36dc62bc75d46fa3cd43132797f10434d8bb124a6ded5ce6b7ced92ee46"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y156/certificate.zip.part002",
+      "bytes": 4311972,
+      "sha256": "89762f4cd311f7f44e41b0fd2477eff9f9dc10951540fda4d9125551c152f3f8"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y157/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "6ec8513a6e77cf1d44abcca2d31b788f82302ebb45c6cd413add4603dc2c0fb0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y157/certificate.zip.part002",
+      "bytes": 3124043,
+      "sha256": "fa3524539b191319c7a08d308fd3db1be8c29f7a01736b3aea04ef07d43644e8"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y158/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1fd3825b1d5ea6a9a145e57839a964fc6ea995948545f0465806bd2601c1a218"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y158/certificate.zip.part002",
+      "bytes": 1471559,
+      "sha256": "f54024bae5a6aa695a4c98c6e0bff8d9f70b29094eaa0425a401e1031c8987c4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y159/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "d2d9d2ea8fba4fa6538d910e3054fd86c47e91c94bd7990b42494daeb223101d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y159/certificate.zip.part002",
+      "bytes": 4135467,
+      "sha256": "d9f36281113b34a27fb170f703bf72cc02ccdfb1d0f54195d33219d43c1807d7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y160/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "360ba2545059281d44ed86f47b7b4c158928293fbd7edca5961e1e0587ef5838"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y160/certificate.zip.part002",
+      "bytes": 4081722,
+      "sha256": "77f2592d87a8b6b1fbdee67bc9cbd4dca47df9a26d4da7298e93efe1515ee521"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y161/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "3f8b042f301e5aedb9bb29402adf4f094fdbc3cd206dac0ec4c3e83bcbbf0cab"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y161/certificate.zip.part002",
+      "bytes": 4396409,
+      "sha256": "1968969efe1980ec0188942d4e4257c048e87cc801737f6244e91399562c065a"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y162/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1652a7bcebcbb8110ddc0372a8c5dbdcb885367e6a378b2314ba2fc5cbab514f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y162/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "5fc5b48f3e1f3fa974e2f2d8271cbc9c6a92c367ab19298181b08a4adbfdb7cf"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y162/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "18c52c467eb4e493fa80b5865df8b7ee344ab221a7621d67751b8d6a78575c10"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y162/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "a5e0fa378279a7adf5e3cd5153ee1cc025c7ff96814223a2319043cc76bc43a5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y162/certificate.zip.part005",
+      "bytes": 4810994,
+      "sha256": "f9fc550eeafb8a1c575adb68e2f379d806ac3620dbd42f24ec4b2314f63540d7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y163/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "616848692a6eea2f4eaaf47b0f2227e96533a5cbff8b172acf54ce32f1371e12"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y163/certificate.zip.part002",
+      "bytes": 4059997,
+      "sha256": "17d84b871bd03814abae984158b12d88c93b23066a3b95e4722dba9d609b9b39"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y164/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "45e6c0f5fae2f529117118e2e0d50d38a2f18fce783de87920138bba7b41b47d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y164/certificate.zip.part002",
+      "bytes": 4281069,
+      "sha256": "7f5f678e267a0e87e8e3adac0241851cdee5b9cdad32a8f2e597a3072a12648e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y165/certificate.zip",
+      "bytes": 7671094,
+      "sha256": "c8827120b5eb865b63a1503284bf6c7577f818cd71529f5e358678fb14178c94"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y166/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "1c1178435b091b3355c0a24e75ab0c8fe548c0ab6b3797c7e0fb7f89f2de69c4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y166/certificate.zip.part002",
+      "bytes": 4421030,
+      "sha256": "fc139b75a41be7f0f992028714526817bbd1df6cf2458d655f1374d34bad0a75"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y167/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "660c8d8d6d4461f77e8a2867543b49a35f405ab61b5528cbd815fae03c1af4c2"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y167/certificate.zip.part002",
+      "bytes": 2283567,
+      "sha256": "ae69116b82dc2f84b5897e840266ae96614ff742c8e15da447fbc31de2836ace"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "187eb0ab792668603470bd506cb6b6d6b4d9bf40afd7d9f96a8b0b33b7e75612"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "087be3c8a2a40aab03109200f0c243a8a0caa1f6d583d08f4ce66f13770c64eb"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "d50386a3fd972963a66c99ac48bc26d5f9972b69b84a031041ae842fe1a28e04"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "0070c032b58fe1c43e8182813f5b5f942561122e09bf2478c608df583a7c8643"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part005",
+      "bytes": 20971520,
+      "sha256": "b9c5a238912d5862d737913cd8fbc19466296c350a0ea9be335ede903c23b501"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part006",
+      "bytes": 20971520,
+      "sha256": "0bac62046e980497ad5e84f92dd9b6cb4698b5f29d77d89423a9c254bfb4875d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part007",
+      "bytes": 20971520,
+      "sha256": "2022e9bd63b736822551bef573325b44e84d7fc59ada81bb14507d98bcc8af58"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part008",
+      "bytes": 20971520,
+      "sha256": "3300e06523f0f7354da1825d81ee13b0660de5a589ebc3510f08e4301c9f2567"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part009",
+      "bytes": 20971520,
+      "sha256": "9a9f29dd27a727a6fd10c5a36cf774e1836225955214455c7bfc7bc07be96ca3"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part010",
+      "bytes": 20971520,
+      "sha256": "00d6d1c73aa56da1890974435934a0b1f92ac3b83e32f51de34e60234c349533"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part011",
+      "bytes": 20971520,
+      "sha256": "3eb9432764f2a2269a57ff63134faedf93158ea74b433224f72578ea6c622cce"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part012",
+      "bytes": 20971520,
+      "sha256": "ee4e4c65747c74c0c2e30e2f1b7e6eff1b00d50c207d53ddc804d59aca9964e9"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part013",
+      "bytes": 20971520,
+      "sha256": "385db2dc405552692f1fb7ba58636bb8f0596e2538ccfa5d65646d3ee3398e8e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part014",
+      "bytes": 20971520,
+      "sha256": "7b60abd578313577ff9c948332cb7973e0352d4503710f83571520decba249a0"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y168/certificate.zip.part015",
+      "bytes": 9717755,
+      "sha256": "0caa93f7ffc52654f13d77a3e977c57d3c6f35cf53bef7233843e373b5a07bdf"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y169/certificate.zip",
+      "bytes": 3089553,
+      "sha256": "47d86d55a49e94368834eb15bdc212578fc86d55c53357e2cdff143adadb194f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y170/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "57379d14e1ef58282fe9741c855ad047e4268358a0d60d241b3e38d0d1e08bf5"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y170/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "d4b8097854beddae0bb8a5869fbe112d1c1a94ccf4d27a3fc0042cfb752f7a2e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y170/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "1e2c1c0d4108400867d759aedac37882e4c3851c48d062860fe61f15e218b88f"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y170/certificate.zip.part004",
+      "bytes": 20971520,
+      "sha256": "57704e0c6e5467454fc82573adef9fd7de5d9c213dc7b5454037a26174abff1d"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y170/certificate.zip.part005",
+      "bytes": 4807476,
+      "sha256": "6b1849555de1498e6d4021d75980e213361b7a8b48f01d7fa0a2161f0332aa99"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y171/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "2e6d7459cb5570bdf2bddbd7327fa6f47c3e523f4478953357a2772ee9d53c26"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y171/certificate.zip.part002",
+      "bytes": 4034140,
+      "sha256": "5190efac85e2183f518a848dbb9590b798b12e7ec12b813aa96686714343a88b"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y172/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "2a632dd42b78502b6851e95aab55413628f1bfefa74c965d413f1985ef32bac4"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y172/certificate.zip.part002",
+      "bytes": 20971520,
+      "sha256": "9dcf392eb15711a4f3f4217aac50eadd2edb3db1043452d163e69fe762e841f7"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y172/certificate.zip.part003",
+      "bytes": 20971520,
+      "sha256": "96ee1a54067faea03a5bf8f188588a78536b835c2830c3004c8edb991a1c5aea"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y172/certificate.zip.part004",
+      "bytes": 11969677,
+      "sha256": "4f77f2dba889c4b956b39250df4d474120a4625a6481ce41bf58915268ab8b0c"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y173/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "512551a017c95c642c16d85eaae2b68f37af49b8599a1ffaad7c978bb9b2b64e"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y173/certificate.zip.part002",
+      "bytes": 4103232,
+      "sha256": "b43d08379554e77dae5e07b7088fb3a84bc98454e0b38af99acb90c651a49b44"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y174/certificate.zip.part001",
+      "bytes": 20971520,
+      "sha256": "7ad6b91d97f625e2abb2094ddf6bd241bbc4c2f80e33bdc0d78d071ebec09eaf"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y174/certificate.zip.part002",
+      "bytes": 4053347,
+      "sha256": "ea9811d169ac193255e47e4713d394057da2b673fb7a011d55064842ae1e1bff"
+    },
+    {
+      "path": "catalogues/york-4422/entries/Y175/certificate.zip",
+      "bytes": 275133,
+      "sha256": "bd0f3e0a9c3a1bb51d96c3620cfec2d670dae6389f2ab893436ebb750e9e07de"
+    },
+    {
+      "path": "catalogues/york-4422/runtime/flint.part001",
+      "bytes": 9646245,
+      "sha256": "7a4752de518774635a8fa7ecd06205cb4028106f8aebe6cf6b1b0b287ef6f727"
+    },
+    {
+      "path": "catalogues/york-4422/runtime/scientific.part001",
+      "bytes": 38028641,
+      "sha256": "5883a26c371ad313c8e6475ed0e0e03b1b02021db1d381f8fa50981b68b34b43"
+    },
+    {
+      "path": "catalogues/york-4422/runtime/verification-runtime.zip.part001",
+      "bytes": 4426611,
+      "sha256": "3a3fcc4252a01150a4905ee67fb4842c37b80a7b6d4b49b218b00ecdaa29f89e"
+    },
+    {
+      "path": "third_party/runtime/sources/MINGW-packages-5d898bcf429d.tar.gz",
+      "bytes": 4290013,
+      "sha256": "85d88b3f8954acedb3eebbe01ff69c014a718d8a698d4bd39b39544f92ebba70"
+    },
+    {
+      "path": "third_party/runtime/sources/flint-3.6.0.tar.gz",
+      "bytes": 9313139,
+      "sha256": "b95e2c7792f5eea4a1c8d2d42c4098434756832e57a094b295eb5dfdc9b4c36b"
+    },
+    {
+      "path": "third_party/runtime/sources/gcc-16.1.0.tar.xz",
+      "bytes": 102456900,
+      "sha256": "50efb4d94c3397aff3b0d61a5abd748b4dd31d9d3f2ab7be05b171d36a510f79"
+    },
+    {
+      "path": "third_party/runtime/sources/gmp-6.3.0.tar.xz",
+      "bytes": 2094196,
+      "sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+    },
+    {
+      "path": "third_party/runtime/sources/mingw-w64-6b5798fd4deb.tar.gz",
+      "bytes": 15776530,
+      "sha256": "36b503559b10bdba15cfee108e6162067d203f875917bd3d27495995e2df87e5"
+    },
+    {
+      "path": "third_party/runtime/sources/mpfr-4.2.2.tar.gz",
+      "bytes": 2251590,
+      "sha256": "826cbb24610bd193f36fde172233fb8c009f3f5c2ad99f644d0dea2e16a20e42"
+    },
+    {
+      "path": "third_party/runtime/sources/mpmath-1.3.0.tar.gz",
+      "bytes": 508106,
+      "sha256": "7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f"
+    },
+    {
+      "path": "third_party/runtime/sources/numpy-2.3.5.tar.gz",
+      "bytes": 20584950,
+      "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0"
+    },
+    {
+      "path": "third_party/runtime/sources/python-flint-0.9.0-git-572c8a213a88.tar.gz",
+      "bytes": 480180,
+      "sha256": "7533f5b2d53dedb8f298a3560291d984aa4e8362bc6bdf9546f3fa014ef44a06"
+    },
+    {
+      "path": "third_party/runtime/sources/python_flint-0.9.0.tar.gz",
+      "bytes": 486670,
+      "sha256": "686b2907eedaf0c0842caefab29a5775d2e633fd5815b81e13b81ca2c6ad0a36"
+    },
+    {
+      "path": "third_party/runtime/sources/scipy-1.18.1.tar.gz",
+      "bytes": 30781235,
+      "sha256": "52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307"
+    },
+    {
+      "path": "third_party/runtime/sources/sympy-1.14.0.tar.gz",
+      "bytes": 7793921,
+      "sha256": "d3d3fe8df1e5a0b42f0e7bdf50541697dbe7d23746e894990c030e2b05e72517"
+    },
+    {
+      "path": "third_party/runtime/sources/threadpoolctl-3.7.0.tar.gz",
+      "bytes": 31961,
+      "sha256": "61348cfb77d53b9242e0017029244b559b810c142ced65b4e21eeca1843959a7"
+    }
+  ],
+  "total_bytes": 4756597424,
+  "note": "Complete-release proof, runtime and corresponding-source assets. Verification never downloads them."
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Constituent catalogue provenance. For this combined edition, use ../../CITATION.cff and cite the original mathematical results credited in the relevant entries."
+title: "Exact Quantum Suprema of the (6,3,2,2) Bell Facets"
+type: software
+version: 1.0.0
+date-released: 2026-11-06
+authors:
+  - given-names: Yang-Guang
+    family-names: Yang
+    email: yangyangguang1991@gmail.com
+    orcid: "https://orcid.org/0000-0001-9236-7544"
+license: MIT

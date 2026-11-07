@@ -1,0 +1,23 @@
+name: supplied-strategies
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -S tools/verify_package.py
+      - run: python -S -O tools/verify_package.py
+      - run: python -S tools/test_negative_controls.py
+      - run: python -S -O tools/test_negative_controls.py
+      - run: python -S tools/test_exact_controls.py
+      - run: python -S -O tools/test_exact_controls.py
+      - run: python -S tools/check_publication.py
+      - run: python -S -O tools/check_publication.py
+      - run: python -S tools/verify_root_selectors.py
+      - run: python -S tools/test_selector_controls.py
+      - run: python -S -O tools/test_selector_controls.py
+      - run: python -S run.py export --all --digits 80
+      - run: python -S run.py manifest

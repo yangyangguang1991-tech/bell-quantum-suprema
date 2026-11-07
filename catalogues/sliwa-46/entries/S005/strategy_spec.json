@@ -1,0 +1,9 @@
+{
+  "kind": "radicals",
+  "q": "-13 + 8*sqrt(5)",
+  "overlaps": [
+    "-2 + sqrt(5)",
+    "-2 + sqrt(5)",
+    "-2 + sqrt(5)"
+  ]
+}

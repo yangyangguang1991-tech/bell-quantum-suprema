@@ -1,0 +1,134 @@
+{
+  "rows": [
+    {
+      "id": 6,
+      "local_bound": 3,
+      "quantum_value": "4*sqrt(2)-1",
+      "literal": "A + B + AB + C + aC - ABC - aBC + bC - AbC + Ac - ac - Bc + aBc + bc - Abc",
+      "overlaps": [
+        "0",
+        "1",
+        "0"
+      ],
+      "q_field_d": 2,
+      "method": "spectral_cube",
+      "elementary_coefficients": {
+        "1": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            true,
+            true,
+            true
+          ],
+          "degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            true,
+            true,
+            true
+          ],
+          "degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            true,
+            true,
+            true
+          ],
+          "degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            false,
+            true
+          ],
+          "degrees": [
+            2,
+            2,
+            1
+          ]
+        },
+        "5": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            false,
+            true
+          ],
+          "degrees": [
+            2,
+            2,
+            1
+          ]
+        },
+        "6": {
+          "leaves": [
+            ""
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            false,
+            true
+          ],
+          "degrees": [
+            2,
+            2,
+            1
+          ]
+        },
+        "7": {
+          "leaves": [
+            "00",
+            "0110",
+            "0111"
+          ],
+          "failed": [],
+          "parity": [
+            false,
+            false,
+            true
+          ],
+          "degrees": [
+            2,
+            2,
+            1
+          ]
+        }
+      },
+      "identity_determinant": 6
+    }
+  ]
+}

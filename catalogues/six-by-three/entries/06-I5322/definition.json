@@ -1,0 +1,58 @@
+{
+  "label": "I5322",
+  "active_table": [
+    [
+      0,
+      -1,
+      -1,
+      0
+    ],
+    [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      0,
+      1,
+      1
+    ],
+    [
+      -1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      1,
+      -1
+    ]
+  ],
+  "exact_quadratic": [
+    "-3/2",
+    "3/4",
+    7
+  ],
+  "scenario": [
+    6,
+    3,
+    2,
+    2
+  ],
+  "classical_bound": 0,
+  "convention": "The top-left entry is the constant; the first column contains Alice marginals, the first row Bob marginals, and the remaining entries joint positive-outcome coefficients. Effects are (I+R)/2. Append zero rows or columns for unused settings.",
+  "active_settings": [
+    5,
+    3
+  ]
+}

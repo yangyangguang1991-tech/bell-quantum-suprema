@@ -1,0 +1,11 @@
+{
+  "id": 46,
+  "engine": "individual",
+  "characteristic_file": "charpoly_46_full.txt",
+  "commands": [
+    "verify_46_plus.py",
+    "verify_46_reduced.py",
+    "verify_boundary.py",
+    "verify_sliwa46_bernstein_independent.py"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": 45,
+  "label": "S45",
+  "local_bound": 8,
+  "expression": "3A + a + 2AB - 2aB + Ab - ab + 2AC - 2aC - 2BC + 2ABC + 2aBC - 2bC + 2AbC + 2abC + Ac - ac - 2Bc + 2ABc + 2aBc + 2bc - 3Abc - abc",
+  "convention": "A,a; B,b; C,c are the two +/-1 observables of the three parties; raw correlator value"
+}

@@ -1,0 +1,20 @@
+{
+  "entry": "02-I3322",
+  "label": "I3322",
+  "command": [
+    "python",
+    "-B",
+    "verify.py"
+  ],
+  "model": "All finite-dimensional tensor-product, spatial tensor-product and commuting-operator suprema have the displayed value.",
+  "upper_bound_method": "Jacobi path variational characterization",
+  "reverse_inequality": "Explicit convergent finite-dimensional path family",
+  "materials": [
+    "definition.json",
+    "PROOF.md",
+    "verify.py",
+    "example.json",
+    "sequence.py",
+    "REFERENCES.md"
+  ]
+}

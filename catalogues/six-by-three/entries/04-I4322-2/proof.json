@@ -1,0 +1,19 @@
+{
+  "entry": "04-I4322-2",
+  "label": "I4322^(2)",
+  "command": [
+    "python",
+    "-B",
+    "verify.py"
+  ],
+  "model": "All finite-dimensional tensor-product, spatial tensor-product and commuting-operator suprema have the displayed value.",
+  "upper_bound_method": "exact noncommutative Gram identity",
+  "reverse_inequality": "Explicit attaining two-qubit strategy",
+  "materials": [
+    "definition.json",
+    "PROOF.md",
+    "verify.py",
+    "strategy.json",
+    "gram.json"
+  ]
+}

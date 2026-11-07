@@ -1,0 +1,30 @@
+{
+  "format": "zip",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004",
+    "certificate.zip.part005",
+    "certificate.zip.part006",
+    "certificate.zip.part007",
+    "certificate.zip.part008",
+    "certificate.zip.part009",
+    "certificate.zip.part010",
+    "certificate.zip.part011",
+    "certificate.zip.part012",
+    "certificate.zip.part013",
+    "certificate.zip.part014",
+    "certificate.zip.part015"
+  ],
+  "sha256": "2aebcc0c2765e4a207f19b3bfd923ac9723480221c7a5de4684bcd27cf299252",
+  "commands": [
+    "high_run_acceptance.py"
+  ],
+  "table_binding": {
+    "file": "root/original_york_4422_CG.json",
+    "path": [
+      0
+    ]
+  }
+}
